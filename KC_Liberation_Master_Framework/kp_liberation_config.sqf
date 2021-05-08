@@ -58,6 +58,7 @@ KP_liberation_medical_vehicles = [
 KP_liberation_medical_facilities = [
     "Land_Medevac_house_V1_F",
     "Land_Medevac_HQ_V1_F",
+    "Land_MedicalTent_01_NATO_generic_open_F",
     "LAND_uns_army_med",
     "LAND_uns_tent3mash",
     "uns_mash_main",
