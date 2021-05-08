@@ -783,8 +783,6 @@ private _whitelist = [
     "ToolKit",                                                      // Toolkit
     "U_B_HeliPilotCoveralls",                                       // Heli Pilot Coveralls [NATO]
     "U_B_PilotCoveralls",                                           // Pilot Coveralls [NATO]
-    "U_B_Wetsuit",                                                  // Wetsuit [NATO]
-    "V_RebreatherB",                                                // Rebreather [NATO]
     "Binocular",
 
     // cTab Items
