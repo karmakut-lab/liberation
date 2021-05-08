@@ -354,7 +354,6 @@ private _whitelist = [
     "rhs_Booniehat_ucp",                                            // Booniehat UCP
     "rhs_booniehat2_marpatd",                                       // Booniehat MARPAT-D
     "rhs_booniehat2_marpatwd",                                      // Booniehat MARPAT-WD
-    "RHS_jetpilot_usaf",                                            // Jet Pilot Helmet
     "rhsusf_ach_bare_des_ess",                                      // ACH (Desert/ESS)
     "rhsusf_ach_bare_des_headset_ess",                              // ACH (Desert/Headset/ESS)
     "rhsusf_ach_bare_des_headset",                                  // ACH (Desert/Headset)
@@ -419,7 +418,6 @@ private _whitelist = [
     "rhsusf_hgu56p_mask",                                           // HGU-56/P (Olive/Mask)
     "rhsusf_hgu56p_saf",                                            // HGU-56/P (SAF)
     "rhsusf_hgu56p_tan",                                            // HGU-56/P (Tan)
-    "rhsusf_hgu56p_usa",                                            // HGU-56/P (USA)
     "rhsusf_hgu56p_visor_black",                                    // HGU-56/P (Black/Visor)
     "rhsusf_hgu56p_visor_green",                                    // HGU-56/P (Green/Visor)
     "rhsusf_hgu56p_visor_mask_black_skull",                         // HGU-56/P (Black/Visor/Mask/Skull)
@@ -434,7 +432,6 @@ private _whitelist = [
     "rhsusf_hgu56p_visor_mask",                                     // HGU-56/P (Olive/Visor/Mask)
     "rhsusf_hgu56p_visor_saf",                                      // HGU-56/P (SAF/Visor)
     "rhsusf_hgu56p_visor_tan",                                      // HGU-56/P (Tan/Visor)
-    "rhsusf_hgu56p_visor_usa",                                      // HGU-56/P (USA/Visor)
     "rhsusf_hgu56p_visor_white",                                    // HGU-56/P (White/Visor)
     "rhsusf_hgu56p_visor",                                          // HGU-56/P (Olive/Visor)
     "rhsusf_hgu56p_white",                                          // HGU-56/P (White)
