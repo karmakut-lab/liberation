@@ -23,9 +23,11 @@ if (KPPLM_CBA && KP_liberation_playermenu) then {
 };
 
 [] call compileFinal preprocessFileLineNumbers "scripts\shared\init_shared.sqf";
+[] call compileFinal preprocessFileLineNumbers "karmakut\init_shared.sqf";
 
 if (isServer) then {
     [] call compileFinal preprocessFileLineNumbers "scripts\server\init_server.sqf";
+    [] call compileFinal preprocessFileLineNumbers "karmakut\init_server.sqf";
 };
 
 if (!isDedicated && !hasInterface && isMultiplayer) then {
@@ -46,6 +48,7 @@ if (!isDedicated && hasInterface) then {
     waitUntil {alive player};
     if (debug_source != name player) then {debug_source = name player};
     [] call compileFinal preprocessFileLineNumbers "scripts\client\init_client.sqf";
+    [] call compileFinal preprocessFileLineNumbers "karmakut\init_client.sqf";
 } else {
     setViewDistance 1600;
 };
