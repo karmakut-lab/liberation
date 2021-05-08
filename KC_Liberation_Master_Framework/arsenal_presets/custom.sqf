@@ -659,7 +659,6 @@ private _whitelist = [
     "rhsusf_acc_ACOG2",                                             // M150 RCO (ARD)
     "rhsusf_acc_ACOG3_USMC",                                        // AN/PVQ-31A (ARD/Lens Cover)
     "rhsusf_acc_ACOG3",                                             // M150 RCO (ARD/Lens Cover)
-    "rhsusf_acc_anpas13gv1",                                        // AN/PAS-13G(V)1
     "rhsusf_acc_anpeq15_bk_light",                                  // AN/PEQ-15/M952V Black (Light)
     "rhsusf_acc_anpeq15_bk_top",                                    // AN/PEQ-15 Black (Top)
     "rhsusf_acc_anpeq15_bk",                                        // AN/PEQ-15/M952V Black (Laser)
