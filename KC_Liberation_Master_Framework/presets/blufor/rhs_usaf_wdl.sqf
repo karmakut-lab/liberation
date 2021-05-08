@@ -140,6 +140,7 @@ buildings = [
     ["Flag_FD_Orange_F",0,0,0],
     ["Land_Medevac_house_V1_F",200,0,0],
     ["Land_Medevac_HQ_V1_F",200,0,0],
+    ["TFAR_Land_Communication_F",500,0,0],
     ["CamoNet_BLUFOR_F",0,0,0],
     ["CamoNet_BLUFOR_open_F",0,0,0],
     ["CamoNet_BLUFOR_big_F",0,0,0],
