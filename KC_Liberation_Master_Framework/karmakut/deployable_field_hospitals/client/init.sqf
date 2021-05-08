@@ -1,4 +1,6 @@
 karma_deployableFieldHospitals_client_currentDeployedFieldHospital = objNull;
+karma_deployableFieldHospitals_client_isPerformingAction = false;
+karma_deployableFieldHospitals_client_actionAnimation = "Acts_TreatingWounded05";
 
 // Give the player an action to deploy a medical tent.
 player addAction [
@@ -10,15 +12,25 @@ player addAction [
     true,
     "",
     "
+        !karma_deployableFieldHospitals_client_isPerformingAction &&
+        alive player &&
         vehicle player == player &&
-        player getVariable ['ace_medical_medicclass', 0] == 2 &&
-        isNull karma_deployableFieldHospitals_client_currentDeployedFieldHospital;
+        isNull karma_deployableFieldHospitals_client_currentDeployedFieldHospital &&
+        (getPosATL player select 2) < 0.1 &&
+        player getVariable ['ace_medical_medicclass', 0] == 2;
     "
 ];
 
 // Handle field hospital deployment:
 karma_deployableFieldHospitals_client_deployFieldHospital = {
-    [player] remoteExecCall ["karma_deployableFieldHospitals_server_deployFieldHospital", 2];
+    [] spawn {
+        karma_deployableFieldHospitals_client_isPerformingAction = true;
+        player playMoveNow karma_deployableFieldHospitals_client_actionAnimation;
+        sleep 15;
+        [player] remoteExecCall ["karma_deployableFieldHospitals_server_deployFieldHospital", 2];
+        player playActionNow "Stand";
+        karma_deployableFieldHospitals_client_isPerformingAction = false;
+    };
 };
 
 karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse = {
@@ -43,6 +55,8 @@ karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse = {
             true,
             "",
             "
+                !karma_deployableFieldHospitals_client_isPerformingAction &&
+                alive player &&
                 vehicle player == player &&
                 player getVariable ['ace_medical_medicclass', 0] == 2 &&
                 getPlayerUID player == (_target getVariable ['karma_ownerUID', '']);
@@ -53,7 +67,14 @@ karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse = {
 
 // Handle field hospital repacking:
 karma_deployableFieldHospitals_client_repackFieldHospital = {
-    [player] remoteExecCall ["karma_deployableFieldHospitals_server_repackFieldHospital", 2];
+    [] spawn {
+        karma_deployableFieldHospitals_client_isPerformingAction = true;
+        player playMoveNow karma_deployableFieldHospitals_client_actionAnimation;
+        sleep 15;
+        [player] remoteExecCall ["karma_deployableFieldHospitals_server_repackFieldHospital", 2];
+        player playActionNow "Stand";
+        karma_deployableFieldHospitals_client_isPerformingAction = false;
+    };
 };
 
 karma_deployableFieldHospitals_client_handleFieldHospitalRepackResponse = {
