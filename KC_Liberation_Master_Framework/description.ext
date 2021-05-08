@@ -37,7 +37,7 @@ briefingName = $STR_MISSION_TITLE;
 
 // Path to image which will be displayed when the mission is highlighted on the mission selection screen.
 // Image should be .paa format and in 2:1 aspect ratio – ideally 1024x512 (Arma 3).
-overviewPicture = "res\KarmaLoading.png";
+overviewPicture = "res\KarmaLoading.paa";
 
 // Text to be displayed below the overviewPicture on the mission selection screen
 overviewText = "karmakut.com";
@@ -53,7 +53,7 @@ onLoadName = $STR_MISSION_TITLE;
 
 // You can define a picture to be shown while the mission is loaded.
 // The path is relative to the mission folder.
-loadScreen = "res\KarmaLoading.png";
+loadScreen = "res\KarmaLoading.paa";
 
 // Displays a message while the mission is loading below the loadScreen picture.
 onLoadMission = "karmakut.com";
