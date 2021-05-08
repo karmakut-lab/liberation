@@ -225,6 +225,7 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Smoke",0,25,0],
     ["ACE_Box_82mm_Mo_Illum",0,25,0],
     ["Box_NATO_Ammo_F",0,5,0],
+    ["Box_Syndicate_WpsLaunch_F",0,25,0],
     ["Box_NATO_wpsLaunch_F",0,50,0],
     ["Box_IND_WpsLaunch_F",0,50,0],
     ["Box_EAF_WpsLaunch_F",0,200,0],

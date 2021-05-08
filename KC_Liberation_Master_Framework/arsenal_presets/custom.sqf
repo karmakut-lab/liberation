@@ -14,8 +14,8 @@ private _whitelist = [
     "rhs_weap_hk416d145_wd_2",                                      // HK416 D14.5 (Woodland Net)
     "rhs_weap_hk416d145_wd",                                        // HK416 D14.5 (Woodland Grass)
     "rhs_weap_hk416d145",                                           // HK416 D14.5
-    "rhs_weap_M136_hedp",                                           // M136 (HEDP)
     "rhs_mag_M433_HEDP",
+    "rhs_weap_m72a7",
     "ACE_40mm_Flare_white",
     "ACE_40mm_Flare_green",
     "ACE_40mm_Flare_red",
@@ -24,8 +24,6 @@ private _whitelist = [
     "rhs_mag_m713_Green",
     "UGL_FlareGreen_F",
     "UGL_FlareRed_F",
-    "rhs_weap_M136_hp",                                             // M136 (HP)
-    "rhs_weap_M136",                                                // M136 (HEAT)
     "rhs_weap_m14ebrri",                                            // M14 EBR-RI
     "rhs_weap_m16a4_carryhandle_M203",                              // M16A4 (Carryhandle/M203)
     "rhs_weap_m16a4_carryhandle",                                   // M16A4 (Carryhandle)
@@ -90,7 +88,6 @@ private _whitelist = [
     "rhs_weap_m4a1",                                                // M4A1 PIP
     "rhs_weap_M590_5RD",                                            // M590A1 (Short)
     "rhs_weap_M590_8RD",                                            // M590A1 (Long)
-    "rhs_weap_m72a7",                                               // M72A7
     "rhs_weap_mk17_CQC",                                            // Mk 17 Mod 0 (CQC)
     "rhs_weap_mk17_LB",                                             // Mk 17 Mod 0 (LB)
     "rhs_weap_mk17_STD",                                            // Mk 17 Mod 0 (STD)

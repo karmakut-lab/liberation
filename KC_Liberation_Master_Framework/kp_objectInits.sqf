@@ -157,6 +157,11 @@ KPLIB_objectInits = [
     [
         ["Box_NATO_Ammo_F"],
         {[_this] execVM "scripts\ammoboxes\USAFammo.sqf";}
+    ],
+
+    [
+        ["Box_Syndicate_WpsLaunch_F"],
+        {[_this] execVM "scripts\ammoboxes\USAFm136.sqf";}
     ]
 
 ];

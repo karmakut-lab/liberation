@@ -58,6 +58,9 @@ militia_squad = [
 militia_vehicles = [
     "rhs_btr80_msv",
     "rhsgref_BRDM2_msv",
+    "rhs_btr80_msv",             
+    "rhs_btr80_msv",       
+    "rhs_btr80a_msv",    
     "rhs_tigr_sts_msv"                                                  // GAZ-233014 (Armed)
 ];
 
@@ -68,8 +71,6 @@ opfor_vehicles = [
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
 	"rhsgref_BRDM2_msv",
-	"rhsgref_BRDM2_msv",
-    "rhsgref_BRDM2_msv",
 	"rhsgref_BRDM2_msv",
     "rhs_btr80_msv",   
     "rhs_btr80_msv",             
@@ -94,17 +95,16 @@ opfor_vehicles = [
 opfor_vehicles_low_intensity = [
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhsgref_BRDM2_msv",
+	"rhsgref_BRDM2_msv",
     "rhs_btr80_msv",                                                    // BTR-80
-	"rhsgref_BRDM2_msv",
-	"rhsgref_BRDM2_msv",
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv"                                                    // BTR-80A
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80_msv",                                                    // BTR-80
@@ -131,28 +131,10 @@ opfor_battlegroup_vehicles = [
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    "rhs_tigr_msv",                                                     // GAZ-233011
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
-    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
     "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
     "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
     "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "rhsgref_BRDM2_msv",
-	"rhsgref_BRDM2_msv",
-    "rhsgref_BRDM2_msv",
-	"rhsgref_BRDM2_msv",
+    "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80_msv",                                                    // BTR-80
