@@ -8,10 +8,12 @@ karma_deployableFieldHospitals_server_deployFieldHospital = {
     if (isNull _player) exitWith {};
 
     private _playerUID = getPlayerUID _player;
-    if (!isNull (karma_deployableFieldHospitals_server_fieldHospitalsByPlayerUID getOrDefault [_playerUID, objNull])) exitWith {
+    private _existingFieldHospital = karma_deployableFieldHospitals_server_fieldHospitalsByPlayerUID getOrDefault [_playerUID, objNull];
+    if (!isNull _existingFieldHospital) exitWith {
         [
             karma_deployableFieldHospitals_shared_statusCodes_fieldHospitalAlreadyDeployed,
-            _playerUID
+            _playerUID,
+            _existingFieldHospital
         ] remoteExecCall ["karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse"];
     };
 
