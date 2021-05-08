@@ -214,7 +214,7 @@ GRLIB_sector_size = 1000;                                               // Range
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
-GRLIB_vulnerability_timer = 600;                                       // Time in seconds how long a captured sector is vulnerable to enemy troops.
+GRLIB_vulnerability_timer = 900;                                       // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
 GRLIB_surrender_chance = 80;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
 
@@ -287,6 +287,12 @@ KPLIB_radioTowerClassnames = [
 Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.
 REMEMBER: All static turret and UAV bags should be defined here, to stop players from exploiting free resources via the virtual arsenal.    */
 blacklisted_from_arsenal = [
+    "rhs_mag_100Rnd_556x45_M855_cmag",
+    "rhs_mag_100Rnd_556x45_M855_cmag_mixed",
+    "rhs_mag_100Rnd_556x45_M855A1_cmag",
+    "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed",
+    "rhs_mag_100Rnd_556x45_Mk262_cmag",
+    "rhs_mag_100Rnd_556x45_Mk318_cmag",
     "B_AA_01_weapon_F",
     "B_AT_01_weapon_F",
     "B_GMG_01_A_weapon_F",
@@ -431,6 +437,15 @@ blacklisted_from_arsenal = [
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
 KP_liberation_allowed_items_extension = [
+    "SmokeShellBlue",
+    "Ace_Chemlight_Higreen",
+    "Ace_Chemlight_Hired",
+    "SmokeShellRed",
+    "SmokeShellGreen",
+    "Binocular",
+    "ugl_flaregreen_f",
+    "ugl_flarered_f",
+    "ace_40mm_flare_white",
     "ACE_Chemlight_Shield_Blue",
     "ACE_Chemlight_Shield_Green",
     "ACE_Chemlight_Shield_Orange",
@@ -677,8 +692,8 @@ KPLIB_transportConfigs = [
     ["rhsusf_M1083A1P2_D_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
     ["rhsusf_M1083A1P2_WD_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
     ["rhsusf_M1083A1P2_WD_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-    ["rhsusf_M977A4_BKIT_M2_usarmy_d", -6.5, [0.3,0,.5], [-.3,.0,.5], [.3,-1,.5], [-.3,-1,.5], [.3,-2,.5], [-.3,-2,.5], [.3,-3,.5], [-.3,-3,.5]],
-    ["rhsusf_M977A4_BKIT_M2_usarmy_wd", -6.5, [0.3,0,.5], [-.3,.0,.5], [.3,-1,.5], [-.3,-1,.5], [.3,-2,.5], [-.3,-2,.5], [.3,-3,.5], [-.3,-3,.5]],
+    ["rhsusf_M977A4_BKIT_M2_usarmy_d", -6.5, [0.3,.5,.2], [-.3,.5,.2], [.3,-.8,.2], [-.3,-.8,.2], [.3,-2.1,.2], [-.3,-2.1,.2], [.3,-3.4,.2], [-.3,-3.4,.2]],
+    ["rhsusf_M977A4_BKIT_M2_usarmy_wd", -6.5, [0.3,.5,.2], [-.3,.5,.2], [.3,-.8,.2], [-.3,-.8,.2], [.3,-2.1,.2], [-.3,-2.1,.2], [.3,-3.4,.2], [-.3,-3.4,.2]],
     ["rhsusf_M977A4_BKIT_usarmy_d", -6.5, [0.3,0,.5], [-.3,.0,.5], [.3,-1,.5], [-.3,-1,.5], [.3,-2,.5], [-.3,-2,.5], [.3,-3,.5], [-.3,-3,.5]],
     ["rhsusf_M977A4_BKIT_usarmy_wd", -6.5, [0.3,0,.5], [-.3,.0,.5], [.3,-1,.5], [-.3,-1,.5], [.3,-2,.5], [-.3,-2,.5], [.3,-3,.5], [-.3,-3,.5]],
     ["rhsusf_M977A4_usarmy_d", -6.5, [0.3,0,.5], [-.3,.0,.5], [.3,-1,.5], [-.3,-1,.5], [.3,-2,.5], [-.3,-2,.5], [.3,-3,.5], [-.3,-3,.5]],

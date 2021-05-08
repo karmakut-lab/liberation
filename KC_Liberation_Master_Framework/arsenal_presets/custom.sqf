@@ -48,7 +48,6 @@ private _whitelist = [
     "rhs_weap_m24sws",                                              // M24 SWS
     "rhs_weap_m27iar_grip",                                         // M27 IAR (KAC Grip)
     "rhs_weap_m27iar",                                              // M27 IAR
-    "rhs_weap_m32",                                                 // M32 MGL
     "rhs_weap_M320",                                                // M320 GLM
     "rhs_weap_m4_carryhandle_m203",                                 // M4 (Carryhandle/M203)
     "rhs_weap_m4_carryhandle_m203S",                                // M4 (Carryhandle/M203S)
@@ -123,12 +122,6 @@ private _whitelist = [
     "rhsusf_weap_MP7A2",                                            // MP7A2
     "rhs_fgm172a_magazine_AT",                                      // FGM172A SRAW
     "rhs_fgm172b_magazine_MPV",                                     // FGM172B SRAW-MPV
-    "launch_MRAWS_green_rail_F",
-	"launch_MRAWS_olive_rail_F",
-	"launch_MRAWS_sand_rail_F",
-	"launch_MRAWS_green_F",
-	"launch_MRAWS_olive_F",
-	"launch_MRAWS_sand_F",
     "rhs_LaserFCSMag",                                              // Designator Batteries
     "rhs_LaserMag_ai",                                              // Designator Batteries
     "rhs_LaserMag",                                                 // Designator Batteries
@@ -325,7 +318,7 @@ private _whitelist = [
     "IEDUrbanBig_Remote_Mag",                                       // Large IED (Urban)
     "IEDUrbanSmall_Remote_Mag",                                     // Small IED (Urban)
     "SatchelCharge_Remote_Mag",                                     // Explosive Satchel
-    "SLAMDirectionalMine_Wire_Mag",                                  // M6 SLAM Mine
+    "SLAMDirectionalMine_Wire_Mag",                                 // M6 SLAM Mine
 
 	// Uniforms
     "rhs_uniform_abu",                                              // Airman Battle Uniform
@@ -347,7 +340,6 @@ private _whitelist = [
     "rhs_uniform_FROG01_d",                                         // FROG MARPAT-D
     "rhs_uniform_FROG01_wd",                                        // FROG MARPAT-WD
     "rhs_uniform_g3_aor2",                                          // G3 Uniform (AOR2)
-    "rhs_uniform_g3_blk",                                           // G3 Uniform (Black)
     "rhs_uniform_g3_m81",                                           // G3 Uniform (M81)
     "rhs_uniform_g3_mc",                                            // G3 Uniform (Multicam)
     "rhs_uniform_g3_rgr",                                           // G3 Uniform (Ranger Green)
@@ -361,7 +353,6 @@ private _whitelist = [
     "rhs_Booniehat_ucp",                                            // Booniehat UCP
     "rhs_booniehat2_marpatd",                                       // Booniehat MARPAT-D
     "rhs_booniehat2_marpatwd",                                      // Booniehat MARPAT-WD
-    "RHS_jetpilot_usaf",                                            // Jet Pilot Helmet
     "rhsusf_ach_bare_des_ess",                                      // ACH (Desert/ESS)
     "rhsusf_ach_bare_des_headset_ess",                              // ACH (Desert/Headset/ESS)
     "rhsusf_ach_bare_des_headset",                                  // ACH (Desert/Headset)
@@ -426,7 +417,6 @@ private _whitelist = [
     "rhsusf_hgu56p_mask",                                           // HGU-56/P (Olive/Mask)
     "rhsusf_hgu56p_saf",                                            // HGU-56/P (SAF)
     "rhsusf_hgu56p_tan",                                            // HGU-56/P (Tan)
-    "rhsusf_hgu56p_usa",                                            // HGU-56/P (USA)
     "rhsusf_hgu56p_visor_black",                                    // HGU-56/P (Black/Visor)
     "rhsusf_hgu56p_visor_green",                                    // HGU-56/P (Green/Visor)
     "rhsusf_hgu56p_visor_mask_black_skull",                         // HGU-56/P (Black/Visor/Mask/Skull)
@@ -441,7 +431,6 @@ private _whitelist = [
     "rhsusf_hgu56p_visor_mask",                                     // HGU-56/P (Olive/Visor/Mask)
     "rhsusf_hgu56p_visor_saf",                                      // HGU-56/P (SAF/Visor)
     "rhsusf_hgu56p_visor_tan",                                      // HGU-56/P (Tan/Visor)
-    "rhsusf_hgu56p_visor_usa",                                      // HGU-56/P (USA/Visor)
     "rhsusf_hgu56p_visor_white",                                    // HGU-56/P (White/Visor)
     "rhsusf_hgu56p_visor",                                          // HGU-56/P (Olive/Visor)
     "rhsusf_hgu56p_white",                                          // HGU-56/P (White)
@@ -511,8 +500,6 @@ private _whitelist = [
     "rhsusf_opscore_aor2_pelt_nsw",                                 // FAST Ballistic (AOR2/Headset/NSW)
     "rhsusf_opscore_aor2_pelt",                                     // FAST Ballistic (AOR2/Headset)
     "rhsusf_opscore_aor2",                                          // FAST Ballistic (AOR2)
-    "rhsusf_opscore_bk_pelt",                                       // FAST Ballistic (Black/Headset)
-    "rhsusf_opscore_bk",                                            // FAST Ballistic (Black)
     "rhsusf_opscore_coy_cover_pelt",                                // FAST Ballistic (Coyote Cover/Headset/NSW)
     "rhsusf_opscore_coy_cover",                                     // FAST Ballistic (Coyote Cover)
     "rhsusf_opscore_fg_pelt_cam",                                   // FAST Ballistic (Foliage Green/Headset/Cam)
@@ -662,7 +649,6 @@ private _whitelist = [
     "rhsusf_acc_ACOG2",                                             // M150 RCO (ARD)
     "rhsusf_acc_ACOG3_USMC",                                        // AN/PVQ-31A (ARD/Lens Cover)
     "rhsusf_acc_ACOG3",                                             // M150 RCO (ARD/Lens Cover)
-    "rhsusf_acc_anpas13gv1",                                        // AN/PAS-13G(V)1
     "rhsusf_acc_anpeq15_bk_light",                                  // AN/PEQ-15/M952V Black (Light)
     "rhsusf_acc_anpeq15_bk_top",                                    // AN/PEQ-15 Black (Top)
     "rhsusf_acc_anpeq15_bk",                                        // AN/PEQ-15/M952V Black (Laser)
@@ -769,9 +755,6 @@ private _whitelist = [
     "rhsusf_acc_T1_high",                                           // SU-278/PVS LT660
     "rhsusf_acc_T1_low_fwd",                                        // SU-278/PVS LT661 (Forward)
     "rhsusf_acc_T1_low",                                            // SU-278/PVS LT661
-    "rhsusf_acc_tacsac_blk",                                        // Tac-Sac Grip (Black)
-    "rhsusf_acc_tacsac_blue",                                       // Tac-Sac Grip (Blue)
-    "rhsusf_acc_tacsac_tan",                                        // Tac-Sac Grip (Tan)
     "rhsusf_acc_tdstubby_blk",                                      // TD Stubby Grip (Black)
     "rhsusf_acc_tdstubby_tan",                                      // TD Stubby Grip (Tan)
     "rhsusf_acc_wmx_bk",                                            // WMX Flashlight (Black)
@@ -899,7 +882,6 @@ private _whitelist = [
     // TFAR Items
    	"TFAR_anprc152",
 	"TFAR_rt1523g_big",
-	"TFAR_rt1523g_black",
 	"TFAR_rt1523g_fabric",
 	"TFAR_rt1523g_green",
 	"TFAR_rt1523g_rhs",
@@ -920,7 +902,6 @@ private _whitelist = [
     "B_Carryall_khk",                                               // Carryall Backpack (Khaki)
     "B_Carryall_oli",                                               // Carryall Backpack (Olive)
     "B_AssaultPack_cbr",                                            // Assault Pack (Coyote)
-    "B_AssaultPack_blk",                                            // Assault Pack (Black)
     "B_FieldPack_cbr",                                              // Field Pack (Coyote)
     "B_FieldPack_khk",                                              // Field Pack (Khaki)
     "B_FieldPack_oli",                                              // Field Pack (Olive)
@@ -930,8 +911,6 @@ private _whitelist = [
     "B_Parachute",                                                  // Steerable Parachute
 
     // ACE Backpacks
-    "ace_gunbag_Tan",                                               // Gunbag (Tan)
-    "ace_gunbag",                                                   // Gunbag
     "ACE_TacticalLadder_Pack"                                      // Telescopic Ladder
 
 ];
