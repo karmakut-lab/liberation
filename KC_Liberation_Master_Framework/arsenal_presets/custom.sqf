@@ -912,8 +912,6 @@ private _whitelist = [
     "B_Parachute",                                                  // Steerable Parachute
 
     // ACE Backpacks
-    "ace_gunbag_Tan",                                               // Gunbag (Tan)
-    "ace_gunbag",                                                   // Gunbag
     "ACE_TacticalLadder_Pack"                                      // Telescopic Ladder
 
 ];

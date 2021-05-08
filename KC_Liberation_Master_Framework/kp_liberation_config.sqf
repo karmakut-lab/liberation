@@ -287,6 +287,12 @@ KPLIB_radioTowerClassnames = [
 Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.
 REMEMBER: All static turret and UAV bags should be defined here, to stop players from exploiting free resources via the virtual arsenal.    */
 blacklisted_from_arsenal = [
+    "rhs_mag_100Rnd_556x45_M855_cmag",
+    "rhs_mag_100Rnd_556x45_M855_cmag_mixed",
+    "rhs_mag_100Rnd_556x45_M855A1_cmag",
+    "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed",
+    "rhs_mag_100Rnd_556x45_Mk262_cmag",
+    "rhs_mag_100Rnd_556x45_Mk318_cmag",
     "B_AA_01_weapon_F",
     "B_AT_01_weapon_F",
     "B_GMG_01_A_weapon_F",
@@ -431,6 +437,15 @@ blacklisted_from_arsenal = [
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
 KP_liberation_allowed_items_extension = [
+    "SmokeShellBlue",
+    "Ace_Chemlight_Higreen",
+    "Ace_Chemlight_Hired",
+    "SmokeShellRed",
+    "SmokeShellGreen",
+    "Binocular",
+    "ugl_flaregreen_f",
+    "ugl_flarered_f",
+    "ace_40mm_flare_white",
     "ACE_Chemlight_Shield_Blue",
     "ACE_Chemlight_Shield_Green",
     "ACE_Chemlight_Shield_Orange",
