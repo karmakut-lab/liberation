@@ -18,3 +18,11 @@ other way:
 ##how to edit it? 
 
 LEARN TO USE GIT!
+
+pull origin from master backup! 
+
+create new branch accordingly to map!
+
+edit it, make magic with it
+
+push it under it own branch! and push pbo to main branch!
