@@ -131,12 +131,15 @@ opfor_battlegroup_vehicles = [
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "rhsgref_BRDM2_msv",
+	"rhsgref_BRDM2_msv",
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
@@ -144,9 +147,10 @@ opfor_battlegroup_vehicles_low_intensity = [
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
-    "UK3CB_O_2S6M_Tunguska_VPV",
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
+    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
+    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi8mt_Cargo_vvsc"                                              // Mi-8MT (Cargo)
 ];
 
