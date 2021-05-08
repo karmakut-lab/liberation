@@ -48,7 +48,6 @@ private _whitelist = [
     "rhs_weap_m24sws",                                              // M24 SWS
     "rhs_weap_m27iar_grip",                                         // M27 IAR (KAC Grip)
     "rhs_weap_m27iar",                                              // M27 IAR
-    "rhs_weap_m32",                                                 // M32 MGL
     "rhs_weap_M320",                                                // M320 GLM
     "rhs_weap_m4_carryhandle_m203",                                 // M4 (Carryhandle/M203)
     "rhs_weap_m4_carryhandle_m203S",                                // M4 (Carryhandle/M203S)
@@ -319,7 +318,7 @@ private _whitelist = [
     "IEDUrbanBig_Remote_Mag",                                       // Large IED (Urban)
     "IEDUrbanSmall_Remote_Mag",                                     // Small IED (Urban)
     "SatchelCharge_Remote_Mag",                                     // Explosive Satchel
-    "SLAMDirectionalMine_Wire_Mag",                                  // M6 SLAM Mine
+    "SLAMDirectionalMine_Wire_Mag",                                 // M6 SLAM Mine
 
 	// Uniforms
     "rhs_uniform_abu",                                              // Airman Battle Uniform

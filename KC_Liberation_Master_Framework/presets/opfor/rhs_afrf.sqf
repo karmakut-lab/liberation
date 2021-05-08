@@ -65,11 +65,18 @@ militia_vehicles = [
 opfor_vehicles = [
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
 	"rhsgref_BRDM2_msv",
+	"rhsgref_BRDM2_msv",
+    "rhsgref_BRDM2_msv",
 	"rhsgref_BRDM2_msv",
     "rhs_btr80_msv",   
     "rhs_btr80_msv",             
+    "rhs_btr80_msv",           
+    "rhs_btr80_msv",   
     "rhs_btr80_msv",             
+    "rhs_btr80_msv",       
     "rhs_btr80a_msv",                 
     "rhs_btr80a_msv",          
     "rhs_bmp2d_msv",                                                    // BMP-2D
@@ -98,8 +105,12 @@ opfor_battlegroup_vehicles = [
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80a_msv",                                                   // BTR-80A
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_bmp2d_msv",                                                    // BMP-2D
@@ -123,9 +134,27 @@ opfor_battlegroup_vehicles_low_intensity = [
     "rhs_tigr_msv",                                                     // GAZ-233011
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
+    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
+    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
+    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
+    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
+    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
+    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
+    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
+    "rhsgref_BRDM2_msv",
+	"rhsgref_BRDM2_msv",
+    "rhsgref_BRDM2_msv",
+	"rhsgref_BRDM2_msv",
     "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80a_msv",                                                   // BTR-80A
+    "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
@@ -147,6 +176,9 @@ opfor_troup_transports = [
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_bmp2d_msv",                                                    // BMP-2D
+    "rhs_bmp2k_msv",                                                    // BMP-2K
+    "rhs_bmp2d_msv",                                                    // BMP-2D
+    "rhs_bmp2k_msv",                                                    // BMP-2K
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc"                                                 // Mi-24V (AT)
@@ -163,6 +195,5 @@ opfor_choppers = [
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
     "RHS_Su25SM_vvsc",                                                  // Su-25
-    "rhs_mig29sm_vvsc",
     "RHS_Su25SM_KH29_vvsc"                                              // Su-25 (KH29)
 ];
