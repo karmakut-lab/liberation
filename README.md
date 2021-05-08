@@ -7,7 +7,7 @@ Chad way: git it!
 
 other way:
 
-1.Navigate to PBO file folder: 
+1.Navigate to PBO file folder in main branch: 
 
 2.Click on the PBO you need.
 
