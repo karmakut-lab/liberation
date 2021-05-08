@@ -19,6 +19,8 @@ other way:
 
 LEARN TO USE GIT!
 
+fetch origin before you do anything!
+
 pull origin from master backup! 
 
 create new branch accordingly to map!
