@@ -279,7 +279,7 @@ KP_liberation_suppMod_whitelist = [
 /* Array of radio tower classnames to place at radio tower sectors.
 If more than one is added, it'll be selected random for each sector on campaign start. */
 KPLIB_radioTowerClassnames = [
-    "TFAR_Land_Communication_F"
+    "Land_Communication_F"
 ];
 
 /* - Default arsenal blacklist method.
