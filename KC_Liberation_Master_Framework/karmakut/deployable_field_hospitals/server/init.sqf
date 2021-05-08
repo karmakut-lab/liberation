@@ -25,9 +25,8 @@ karma_deployableFieldHospitals_server_deployFieldHospital = {
         ] remoteExecCall ["karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse"];
     };
 
-    private _playerPosition = position player;
+    private _playerPosition = position _player;
     private _playerDirection = direction _player;
-    private _fieldHospitalSize = sizeOf karma_deployableFieldHospitals_shared_fieldHospitalClassname;
     private _fieldHospital = karma_deployableFieldHospitals_shared_fieldHospitalClassname createVehicle _playerPosition;
     _fieldHospital setDir _playerDirection;
     _fieldHospital setPos _playerPosition;
