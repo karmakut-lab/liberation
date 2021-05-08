@@ -123,12 +123,6 @@ private _whitelist = [
     "rhsusf_weap_MP7A2",                                            // MP7A2
     "rhs_fgm172a_magazine_AT",                                      // FGM172A SRAW
     "rhs_fgm172b_magazine_MPV",                                     // FGM172B SRAW-MPV
-    "launch_MRAWS_green_rail_F",
-	"launch_MRAWS_olive_rail_F",
-	"launch_MRAWS_sand_rail_F",
-	"launch_MRAWS_green_F",
-	"launch_MRAWS_olive_F",
-	"launch_MRAWS_sand_F",
     "rhs_LaserFCSMag",                                              // Designator Batteries
     "rhs_LaserMag_ai",                                              // Designator Batteries
     "rhs_LaserMag",                                                 // Designator Batteries
