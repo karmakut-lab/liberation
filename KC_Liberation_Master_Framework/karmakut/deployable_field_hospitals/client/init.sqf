@@ -1,37 +1,43 @@
 karma_deployableFieldHospitals_client_currentDeployedFieldHospital = objNull;
 karma_deployableFieldHospitals_client_isPerformingAction = false;
 karma_deployableFieldHospitals_client_actionAnimation = "Acts_TreatingWounded05";
+karma_deployableFieldHospitals_client_actionDurationInSeconds = 15; // This can't be longer than 24 seconds (limitation of the BIS_fnc_holdActionAdd function).
 
 // Give the player an action to deploy a medical tent.
-player addAction [
-    ["<t color='#FFFF00'>", localize "STR_KARMA_DEPLOY_FIELD_HOSPITAL", "</t><img size='2' image='res\ui_build.paa'/>"] joinString "",
-    { [] call karma_deployableFieldHospitals_client_deployFieldHospital; },
-    nil,
-    -750,
-    false,
-    true,
-    "",
+[
+    player, // target
+    ["<t color='#FFFF00'>", localize "STR_KARMA_DEPLOY_FIELD_HOSPITAL", "</t>"] joinString "", // title
+    "res\ui_build.paa", // idleIcon
+    "res\ui_build.paa", // progressIcon
     "
-        !karma_deployableFieldHospitals_client_isPerformingAction &&
         alive player &&
         vehicle player == player &&
         isNull karma_deployableFieldHospitals_client_currentDeployedFieldHospital &&
         (getPosATL player select 2) < 0.1 &&
         player getVariable ['ace_medical_medicclass', 0] == 2;
-    "
-];
-
-// Handle field hospital deployment:
-karma_deployableFieldHospitals_client_deployFieldHospital = {
-    [] spawn {
+    ", // conditionShow
+    "true", // conditionProgress
+    {
         karma_deployableFieldHospitals_client_isPerformingAction = true;
         player playMoveNow karma_deployableFieldHospitals_client_actionAnimation;
-        sleep 15;
+    }, // codeStart
+    {}, // codeProgress
+    {
         [player] remoteExecCall ["karma_deployableFieldHospitals_server_deployFieldHospital", 2];
         player playActionNow "Stand";
         karma_deployableFieldHospitals_client_isPerformingAction = false;
-    };
-};
+    }, // codeCompleted
+    {
+        player playActionNow "Stand";
+        karma_deployableFieldHospitals_client_isPerformingAction = false;
+    }, // codeInterrupted
+    [], // arguments
+    karma_deployableFieldHospitals_client_actionDurationInSeconds, // duration
+    100, // priority
+    false, // removeCompleted
+    false, // showUnconscious
+    false // showWindow
+] call BIS_fnc_holdActionAdd;
 
 karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse = {
     params [
@@ -46,34 +52,40 @@ karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse = {
     };
 
     if (!isNull _fieldHospital) then {
-        _fieldHospital addAction [
-            ["<t color='#FFFF00'>", localize "STR_KARMA_REPACK_FIELD_HOSPITAL", "</t>"] joinString "",
-            { [] call karma_deployableFieldHospitals_client_repackFieldHospital; },
-            nil,
-            -750,
-            false,
-            true,
-            "",
+        // Add the repack action to the field hospital.
+        [
+            _fieldHospital, // target
+            ["<t color='#FFFF00'>", localize "STR_KARMA_REPACK_FIELD_HOSPITAL", "</t>"] joinString "", // title
+            "res\ui_build.paa", // idleIcon
+            "res\ui_build.paa", // progressIcon
             "
-                !karma_deployableFieldHospitals_client_isPerformingAction &&
                 alive player &&
                 vehicle player == player &&
                 player getVariable ['ace_medical_medicclass', 0] == 2 &&
                 getPlayerUID player == (_target getVariable ['karma_ownerUID', '']);
-            "
-        ];
-    };
-};
-
-// Handle field hospital repacking:
-karma_deployableFieldHospitals_client_repackFieldHospital = {
-    [] spawn {
-        karma_deployableFieldHospitals_client_isPerformingAction = true;
-        player playMoveNow karma_deployableFieldHospitals_client_actionAnimation;
-        sleep 15;
-        [player] remoteExecCall ["karma_deployableFieldHospitals_server_repackFieldHospital", 2];
-        player playActionNow "Stand";
-        karma_deployableFieldHospitals_client_isPerformingAction = false;
+            ", // conditionShow
+            "true", // conditionProgress
+            {
+                karma_deployableFieldHospitals_client_isPerformingAction = true;
+                player playMoveNow karma_deployableFieldHospitals_client_actionAnimation;
+            }, // codeStart
+            {}, // codeProgress
+            {
+                [player] remoteExecCall ["karma_deployableFieldHospitals_server_repackFieldHospital", 2];
+                player playActionNow "Stand";
+                karma_deployableFieldHospitals_client_isPerformingAction = false;
+            }, // codeCompleted
+            {
+                player playActionNow "Stand";
+                karma_deployableFieldHospitals_client_isPerformingAction = false;
+            }, // codeInterrupted
+            [], // arguments
+            karma_deployableFieldHospitals_client_actionDurationInSeconds, // duration
+            100, // priority
+            false, // removeCompleted
+            false, // showUnconscious
+            false // showWindow
+        ] call BIS_fnc_holdActionAdd;
     };
 };
 
