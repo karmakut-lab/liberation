@@ -347,7 +347,6 @@ private _whitelist = [
     "rhs_uniform_FROG01_d",                                         // FROG MARPAT-D
     "rhs_uniform_FROG01_wd",                                        // FROG MARPAT-WD
     "rhs_uniform_g3_aor2",                                          // G3 Uniform (AOR2)
-    "rhs_uniform_g3_blk",                                           // G3 Uniform (Black)
     "rhs_uniform_g3_m81",                                           // G3 Uniform (M81)
     "rhs_uniform_g3_mc",                                            // G3 Uniform (Multicam)
     "rhs_uniform_g3_rgr",                                           // G3 Uniform (Ranger Green)
@@ -511,8 +510,6 @@ private _whitelist = [
     "rhsusf_opscore_aor2_pelt_nsw",                                 // FAST Ballistic (AOR2/Headset/NSW)
     "rhsusf_opscore_aor2_pelt",                                     // FAST Ballistic (AOR2/Headset)
     "rhsusf_opscore_aor2",                                          // FAST Ballistic (AOR2)
-    "rhsusf_opscore_bk_pelt",                                       // FAST Ballistic (Black/Headset)
-    "rhsusf_opscore_bk",                                            // FAST Ballistic (Black)
     "rhsusf_opscore_coy_cover_pelt",                                // FAST Ballistic (Coyote Cover/Headset/NSW)
     "rhsusf_opscore_coy_cover",                                     // FAST Ballistic (Coyote Cover)
     "rhsusf_opscore_fg_pelt_cam",                                   // FAST Ballistic (Foliage Green/Headset/Cam)
@@ -769,9 +766,6 @@ private _whitelist = [
     "rhsusf_acc_T1_high",                                           // SU-278/PVS LT660
     "rhsusf_acc_T1_low_fwd",                                        // SU-278/PVS LT661 (Forward)
     "rhsusf_acc_T1_low",                                            // SU-278/PVS LT661
-    "rhsusf_acc_tacsac_blk",                                        // Tac-Sac Grip (Black)
-    "rhsusf_acc_tacsac_blue",                                       // Tac-Sac Grip (Blue)
-    "rhsusf_acc_tacsac_tan",                                        // Tac-Sac Grip (Tan)
     "rhsusf_acc_tdstubby_blk",                                      // TD Stubby Grip (Black)
     "rhsusf_acc_tdstubby_tan",                                      // TD Stubby Grip (Tan)
     "rhsusf_acc_wmx_bk",                                            // WMX Flashlight (Black)
@@ -899,7 +893,6 @@ private _whitelist = [
     // TFAR Items
    	"TFAR_anprc152",
 	"TFAR_rt1523g_big",
-	"TFAR_rt1523g_black",
 	"TFAR_rt1523g_fabric",
 	"TFAR_rt1523g_green",
 	"TFAR_rt1523g_rhs",
@@ -920,7 +913,6 @@ private _whitelist = [
     "B_Carryall_khk",                                               // Carryall Backpack (Khaki)
     "B_Carryall_oli",                                               // Carryall Backpack (Olive)
     "B_AssaultPack_cbr",                                            // Assault Pack (Coyote)
-    "B_AssaultPack_blk",                                            // Assault Pack (Black)
     "B_FieldPack_cbr",                                              // Field Pack (Coyote)
     "B_FieldPack_khk",                                              // Field Pack (Khaki)
     "B_FieldPack_oli",                                              // Field Pack (Olive)
