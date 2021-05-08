@@ -1,5 +1,5 @@
 // Field hospital metadata:
-karma_deployableFieldHospitals_shared_fieldHospitalClassname = "Land_MedicalTent_01_NATO_generic_open_F";
+karma_deployableFieldHospitals_shared_fieldHospitalClassname = "Land_MedicalTent_01_white_generic_outer_F"; // make sure to keep this in-sync with the associated entry in `KP_liberation_medical_facilities`.
 
 // Statuses and messaging:
 karma_deployableFieldHospitals_shared_statusCodes_fieldHospitalDeployed = 0;
@@ -27,6 +27,6 @@ karma_deployableFieldHospitals_shared_messagesByStatusCode = createHashMapFromAr
 ];
 
 karma_deployableFieldHospitals_shared_getMessageForStatusCode = {
-    params ["_status_code"];
-    karma_deployableFieldHospitals_shared_messagesByStatusCode getOrDefault [_status_code, "UNKNOWN STATUS"];
+    params ["_statusCode"];
+    karma_deployableFieldHospitals_shared_messagesByStatusCode getOrDefault [_statusCode, "UNKNOWN STATUS"];
 };
