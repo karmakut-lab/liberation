@@ -37,7 +37,7 @@ briefingName = $STR_MISSION_TITLE;
 
 // Path to image which will be displayed when the mission is highlighted on the mission selection screen.
 // Image should be .paa format and in 2:1 aspect ratio – ideally 1024x512 (Arma 3).
-overviewPicture = "res\KarmaLoading.png";
+overviewPicture = "res\KarmaLoading.paa";
 
 // Text to be displayed below the overviewPicture on the mission selection screen
 overviewText = "karmakut.com";
@@ -53,7 +53,7 @@ onLoadName = $STR_MISSION_TITLE;
 
 // You can define a picture to be shown while the mission is loaded.
 // The path is relative to the mission folder.
-loadScreen = "res\KarmaLoading.png";
+loadScreen = "res\KarmaLoading.paa";
 
 // Displays a message while the mission is loading below the loadScreen picture.
 onLoadMission = "karmakut.com";
@@ -153,7 +153,7 @@ allowFunctionsRecompile = "[0, 1] select (is3DENMultiplayer || is3DEN)";
 // Disable specific channels for voice and text communication.
 // MOTD and admin say have exception and will show in global.
 // 0 Global, 1 Side, 2 Command, 3 Group, 4 Vehicle, 5 Direct, 6 System
-disableChannels[] = {0};
+disableChannels[] = {0, 6, 2};
 
 // Multiplayer setting that removes all playable units which do not have a human player.
 // When AI is disabled, a player logging out will not have AI take control of his character.
@@ -166,7 +166,7 @@ disableRandomization[] = {};
 // 0 - Default behavior, available only in editor
 // 1 - Available in SP and for hosts / logged in admins
 // 2 - Available for everyone
-enableDebugConsole = 1;
+enableDebugConsole[] = {"76561198009578451", "76561198029603889", "76561198128972595", "76561198035901368", "76561198010961319", "76561197966129199", "76561198874160679", "76561198372265841", "76561198066834077" };
 
 // Force enable or disable RotorLib flight model.
 // 0 - based on player's options
