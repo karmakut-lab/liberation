@@ -148,7 +148,6 @@ opfor_battlegroup_vehicles_low_intensity = [
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
-    "UK3CB_O_2S6M_Tunguska_VPV",
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
