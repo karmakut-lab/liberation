@@ -8,10 +8,12 @@ karma_deployableFieldHospitals_server_deployFieldHospital = {
     if (isNull _player) exitWith {};
 
     private _playerUID = getPlayerUID _player;
-    if (!isNull (karma_deployableFieldHospitals_server_fieldHospitalsByPlayerUID getOrDefault [_playerUID, objNull])) exitWith {
+    private _existingFieldHospital = karma_deployableFieldHospitals_server_fieldHospitalsByPlayerUID getOrDefault [_playerUID, objNull];
+    if (!isNull _existingFieldHospital) exitWith {
         [
             karma_deployableFieldHospitals_shared_statusCodes_fieldHospitalAlreadyDeployed,
-            _playerUID
+            _playerUID,
+            _existingFieldHospital
         ] remoteExecCall ["karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse"];
     };
 
@@ -23,9 +25,8 @@ karma_deployableFieldHospitals_server_deployFieldHospital = {
         ] remoteExecCall ["karma_deployableFieldHospitals_client_handleFieldHospitalDeploymentResponse"];
     };
 
-    private _playerPosition = position player;
+    private _playerPosition = position _player;
     private _playerDirection = direction _player;
-    private _fieldHospitalSize = sizeOf karma_deployableFieldHospitals_shared_fieldHospitalClassname;
     private _fieldHospital = karma_deployableFieldHospitals_shared_fieldHospitalClassname createVehicle _playerPosition;
     _fieldHospital setDir _playerDirection;
     _fieldHospital setPos _playerPosition;

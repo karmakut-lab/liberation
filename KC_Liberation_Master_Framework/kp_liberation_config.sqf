@@ -58,7 +58,7 @@ KP_liberation_medical_vehicles = [
 KP_liberation_medical_facilities = [
     "Land_Medevac_house_V1_F",
     "Land_Medevac_HQ_V1_F",
-    "Land_MedicalTent_01_NATO_generic_open_F",
+    "Land_MedicalTent_01_white_generic_outer_F", // make this entry match the Field Hospital classname specified by `karma_deployableFieldHospitals_shared_fieldHospitalClassname`
     "LAND_uns_army_med",
     "LAND_uns_tent3mash",
     "uns_mash_main",
