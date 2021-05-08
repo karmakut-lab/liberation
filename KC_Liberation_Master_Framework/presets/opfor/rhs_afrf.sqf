@@ -131,16 +131,15 @@ opfor_battlegroup_vehicles = [
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
-    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
     "rhsgref_BRDM2_msv",
 	"rhsgref_BRDM2_msv",
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
