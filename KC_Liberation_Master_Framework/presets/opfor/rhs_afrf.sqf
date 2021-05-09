@@ -106,8 +106,6 @@ opfor_vehicles_low_intensity = [
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
     "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
@@ -125,6 +123,7 @@ opfor_battlegroup_vehicles = [
     "rhs_t90a_tv",                                                      // T90A
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
+    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Ka52_vvsc"                                                     // Ka-52
 ];
