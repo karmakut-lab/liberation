@@ -28,6 +28,7 @@ karma_deployableFieldHospitals_server_deployFieldHospital = {
     private _playerPosition = position _player;
     private _playerDirection = direction _player;
     private _fieldHospital = karma_deployableFieldHospitals_shared_fieldHospitalClassname createVehicle _playerPosition;
+    _fieldHospital allowDamage false;
     _fieldHospital setDir _playerDirection;
     _fieldHospital setPos _playerPosition;
     [_fieldHospital] call KPLIB_fnc_addObjectInit;
