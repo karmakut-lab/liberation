@@ -1,4 +1,4 @@
-// Add an event handler to the player to 
+// Add an event handler to the player to queue dropped items for processing.
 player addEventHandler ["InventoryClosed", {
     params [
         ["_unit", objNull],
