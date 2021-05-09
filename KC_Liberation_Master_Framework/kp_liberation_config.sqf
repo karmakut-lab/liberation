@@ -230,7 +230,7 @@ KP_liberation_cr_kill_penalty = 25;                                      // Civi
 KP_liberation_cr_building_penalty = 25;                                  // Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 2;                                   // Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 3;                                // Civil Reputation penalty for killing a friendly resistance soldier.
-KP_liberation_cr_sector_gain = 10;                                       // Civil Reputation gain for liberate a sector.
+KP_liberation_cr_sector_gain = 5;                                       // Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 35;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
 KP_liberation_cr_wounded_gain = 5;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
