@@ -1,7 +1,7 @@
 waitUntil {!isNil "save_is_loaded" && {save_is_loaded}};
 
 while {true} do {
-    if ((count blufor_sectors) >= ((count sectors_allSectors) * 0.9)) then {
+    if ((count blufor_sectors) >= ((count sectors_allSectors) * 0.3)) then {
         if (combat_readiness > 0) then {
             combat_readiness = combat_readiness - 0.25;
         };
