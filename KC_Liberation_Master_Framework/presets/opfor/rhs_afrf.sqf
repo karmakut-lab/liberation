@@ -114,6 +114,11 @@ opfor_battlegroup_vehicles = [
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_brm1k_msv",                                                    // BRM-1K
+    "rhs_bmp2d_msv",                                                    // BMP-2D
+    "rhs_bmp2k_msv",                                                    // BMP-2K
+    "rhs_bmp2d_msv",                                                    // BMP-2D
+    "rhs_bmp2k_msv",                                                    // BMP-2K
+    "rhs_brm1k_msv",                                                    // BRM-1K
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "UK3CB_O_2S6M_Tunguska_VPV",
@@ -121,8 +126,16 @@ opfor_battlegroup_vehicles = [
     "rhs_t80",                                                          // T80
     "rhs_t90a_tv",                                                      // T90A
     "rhs_t90a_tv",                                                      // T90A
+    "rhs_t90a_tv",                                                      // T90A
+    "rhs_t90a_tv",                                                      // T90A
+    "rhs_t80",                                                          // T80
+    "rhs_t80",                                                          // T80
+    "rhs_t90a_tv",                                                      // T90A
+    "rhs_t90a_tv",                                                      // T90A
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
+    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
+    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Ka52_vvsc"                                                     // Ka-52
@@ -146,7 +159,6 @@ opfor_battlegroup_vehicles_low_intensity = [
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
-    "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
