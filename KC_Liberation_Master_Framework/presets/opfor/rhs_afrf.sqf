@@ -122,6 +122,7 @@ opfor_battlegroup_vehicles = [
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "UK3CB_O_2S6M_Tunguska_VPV",
+    "UK3CB_O_2S6M_Tunguska_VPV",
     "rhs_t80",                                                          // T80
     "rhs_t80",                                                          // T80
     "rhs_t90a_tv",                                                      // T90A
@@ -156,6 +157,9 @@ opfor_battlegroup_vehicles_low_intensity = [
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
+    "rhs_bmp2d_msv",                                                    // BMP-2D
+    "rhs_bmp2k_msv",                                                    // BMP-2K
+    "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
