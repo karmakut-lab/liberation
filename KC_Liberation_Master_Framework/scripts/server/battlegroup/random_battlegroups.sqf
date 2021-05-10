@@ -1,4 +1,4 @@
-sleep (600 / GRLIB_csat_aggressivity);
+sleep (900 / GRLIB_csat_aggressivity);
 private _sleeptime = 0;
 while {GRLIB_csat_aggressivity > 0.9 && GRLIB_endgame == 0} do {
     _sleeptime =  (1800 + (random 1800)) / (([] call KPLIB_fnc_getOpforFactor) * GRLIB_csat_aggressivity);
