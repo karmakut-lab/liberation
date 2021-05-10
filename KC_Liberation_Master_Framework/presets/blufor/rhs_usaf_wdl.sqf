@@ -49,13 +49,13 @@ infantry_units = [
 ];
 
 light_vehicles = [
-    ["B_Quadbike_01_F",0,0,0],                                          // Quad Bike
     ["rhsusf_mrzr4_w",0,0,0],                                           // MRZR 4
     ["rhsusf_m1025_w",0,0,0],                                           // M1025A2
     ["rhsusf_m1025_w_m2",100,50,50],                                    // M1025A2 (M2)
     ["rhsusf_m1025_w_mk19",100,75,50],                                  // M1025A2 (Mk19)
     ["rhsusf_m998_w_2dr_fulltop",0,0,0],                                // M1097A2 (2D)
     ["rhsusf_m998_w_2dr_halftop",0,0,0],                                // M1097A2 (2D / open back)
+    ["rhsusf_M1083A1P2_B_WD_fmtv_usarmy",0,0,0],
     ["rhsusf_M1220_usarmy_wd",200,0,100],                                // M1220
     ["rhsusf_M1220_M2_usarmy_wd",200,50,100],                            // M1220 (M2)
     ["rhsusf_M1220_MK19_usarmy_wd",200,75,100],                          // M1220 (Mk19)
