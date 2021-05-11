@@ -1,6 +1,12 @@
-params [
-	"_ammoBox"
-];
+params ["_ammoBox"];
+
+clearMagazineCargoGlobal _ammoBox;  
+clearItemCargoGlobal _ammoBox;  
+clearBackpackCargoGlobal _ammoBox;  
+clearWeaponCargoGlobal _ammoBox;  
+
+
+
 
 private _whitelist = [
     "rhs_weap_hk416d10_LMT_d",                                      // HK416 D10 (SOPMOD Stock/Desert)
