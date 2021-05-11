@@ -50,6 +50,9 @@ militia_squad = [
     "LOP_AM_OPF_Infantry_Rifleman_5",                                   // Rifleman (AKM-74)
     "LOP_AM_OPF_Infantry_Rifleman_5",                                   // Rifleman (AKM-74)
     "LOP_AM_OPF_Infantry_AT",                                           // Rifleman (RPG-7)
+    "LOP_AM_OPF_Infantry_AT",                                           // Rifleman (RPG-7)
+    "LOP_AM_OPF_Infantry_AT",                                           // Rifleman (RPG-7)
+    "LOP_AM_OPF_Infantry_AT",                                           // Rifleman (RPG-7)
     "LOP_AM_OPF_Infantry_AR",                                           // Autorifleman (PKM)
     "LOP_AM_OPF_Infantry_Rifleman_3",                                   // Marksman (Lee Enfield)
     "LOP_AM_OPF_Infantry_Corpsman",                                     // Medic (Bonesetter)
@@ -58,18 +61,27 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
-    "LOP_AM_OPF_UAZ_DshKM"                                              // UAZ-3151 (DShKM)
+    "LOP_AM_OPF_UAZ_DshKM",                                              // UAZ-3151 (DShKM)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_Mk19",                                        // M1025A2 (Mk19)
+    "LOP_ISTS_OPF_Landrover_SPG9"                                      // Land Rover (SPG)
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-    "LOP_ISTS_OPF_Landrover_M2",                                        // Land Rover (M2)
-    "LOP_ISTS_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
-    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
-    "LOP_ISTS_OPF_M1025_W_Mk19",                                        // M1025A2 (Mk19)
-    "LOP_ISTS_OPF_Offroad_M2",                                          // Offroad (M2)
     "LOP_ISTS_OPF_BMP2",                                                // BMP-2
+    "LOP_ISTS_OPF_BMP2",                                                // BMP-2
+    "LOP_ISTS_OPF_BMP2",                                                // BMP-2
+    "LOP_ISTS_OPF_BMP2",                                                // BMP-2
+    "LOP_ISTS_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
+    "LOP_ISTS_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
+    "LOP_ISTS_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
     "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
+    "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
+    "LOP_ISTS_OPF_T34",                                                 // T-34-85M
+    "LOP_ISTS_OPF_T55",                                                 // T55A
+    "LOP_ISTS_OPF_T55",                                                 // T55A
     "LOP_ISTS_OPF_T34",                                                 // T-34-85M
     "LOP_ISTS_OPF_T55",                                                 // T55A
     "LOP_ISTS_OPF_T55",                                                 // T55A
@@ -82,6 +94,12 @@ opfor_vehicles = [
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
     "LOP_ISTS_OPF_Landrover_M2",                                        // Land Rover (M2)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_Mk19",                                        // M1025A2 (Mk19)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_Mk19",                                        // M1025A2 (Mk19)
     "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
     "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
     "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
@@ -93,16 +111,20 @@ opfor_vehicles_low_intensity = [
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "LOP_ISTS_OPF_Landrover_M2",                                        // Land Rover (M2)
     "LOP_ISTS_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
-    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
-    "LOP_ISTS_OPF_M1025_W_Mk19",                                        // M1025A2 (Mk19)
-    "LOP_ISTS_OPF_Offroad_M2",                                          // Offroad (M2)
+    "LOP_ISTS_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
+    "LOP_ISTS_OPF_Landrover_SPG9",                                      // Land Rover (SPG)
     "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
     "LOP_ISTS_OPF_Truck",                                               // Truck (Cargo)
     "LOP_ISTS_OPF_BMP2",                                                // BMP-2
+    "LOP_ISTS_OPF_BMP2",                                                // BMP-2
+    "LOP_ISTS_OPF_BMP2",                                                // BMP-2
     "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
     "LOP_ISTS_OPF_T34",                                                 // T-34-85M
+    "LOP_ISTS_OPF_T55",                                                 // T55A
+    "LOP_ISTS_OPF_T55",                                                 // T55A
+    "LOP_ISTS_OPF_T72BA",                                               // T72B
+    "LOP_ISTS_OPF_T72BA",                                               // T72B
     "LOP_ISTS_OPF_T55",                                                 // T55A
     "LOP_ISTS_OPF_T55",                                                 // T55A
     "LOP_ISTS_OPF_T72BA",                                               // T72B
@@ -112,12 +134,23 @@ opfor_battlegroup_vehicles = [
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
     "LOP_TKA_Mi24V_FAB",                                                // Mi-24V (FAB)
+    "LOP_TKA_Mi24V_AT",                                                 // Mi-24V (AT)
+    "LOP_TKA_Mi24V_FAB",                                                // Mi-24V (FAB)
+    "LOP_TKA_Mi24V_UPK23",                                               // Mi-24V (UPK)
     "LOP_TKA_Mi24V_UPK23"                                               // Mi-24V (UPK)
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
     "LOP_ISTS_OPF_Landrover_M2",                                        // Land Rover (M2)
+    "LOP_ISTS_OPF_Landrover_M2",                                        // Land Rover (M2)
+    "LOP_ISTS_OPF_Landrover_M2",                                        // Land Rover (M2)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_Mk19",                                        // M1025A2 (Mk19)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_M2",                                          // M10252 (M2)
+    "LOP_ISTS_OPF_M1025_W_Mk19",                                        // M1025A2 (Mk19)
     "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
     "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
     "LOP_ISTS_OPF_Nissan_PKM",                                          // Nissan (PKM)
@@ -127,6 +160,8 @@ opfor_battlegroup_vehicles_low_intensity = [
     "LOP_ISTS_OPF_BMP1",                                                // BMP-1
     "LOP_ISTS_OPF_BMP2",                                                // BMP-2
     "LOP_ISTS_OPF_BTR60",                                               // BTR-60PB
+    "LOP_ISTS_OPF_T34",                                                 // T-34-85M
+    "LOP_ISTS_OPF_T34",                                                 // T-34-85M
     "LOP_ISTS_OPF_T34",                                                 // T-34-85M
     "LOP_ISTS_OPF_ZSU234",                                              // ZSU-23-4V
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
