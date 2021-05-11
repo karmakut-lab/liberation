@@ -1,13 +1,13 @@
-if (isNil "infantry_weight") then {infantry_weight = 40;};
-if (isNil "armor_weight") then {armor_weight = 35;};
-if (isNil "air_weight") then {air_weight = 25;};
+if (isNil "infantry_weight") then {infantry_weight = 30;};
+if (isNil "armor_weight") then {armor_weight = 40;};
+if (isNil "air_weight") then {air_weight = 30;};
 
 sleep 1200;
 private _sleeptime = 0;
 private _target_player = objNull;
 private _target_pos = "";
 while {GRLIB_csat_aggressivity >= 0.9 && GRLIB_endgame == 0} do {
-    _sleeptime = (1800 + (random 1800)) / (([] call KPLIB_fnc_getOpforFactor) * GRLIB_csat_aggressivity);
+    _sleeptime = (1200 + (random 1200)) / (([] call KPLIB_fnc_getOpforFactor) * GRLIB_csat_aggressivity);
 
     if (combat_readiness >= 80) then {_sleeptime = _sleeptime * 0.75;};
     if (combat_readiness >= 90) then {_sleeptime = _sleeptime * 0.75;};
