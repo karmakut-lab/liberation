@@ -140,28 +140,33 @@ KPLIB_objectInits = [
     // Custom Missile/Ammo createSimpleObject
 
     [
-        ["Box_IND_WpsLaunch_F"],
-        {[_this] execVM "scripts\ammoboxes\USAFmaaws.sqf";}
+        ["VirtualReammoBox_camonet_F"],
+        {[_this] execVM "scripts\ammoboxes\USAFlaunchers.sqf";}
     ],
 
-    [
-        ["Box_NATO_wpsLaunch_F"],
-        {[_this] execVM "scripts\ammoboxes\USAFstinger.sqf";}
-    ],
+    //[
+    //    ["Box_IND_WpsLaunch_F"],
+    //    {[_this] execVM "scripts\ammoboxes\USAFmaaws.sqf";}
+    //],
 
-    [
-        ["Box_EAF_WpsLaunch_F"],
-        {[_this] execVM "scripts\ammoboxes\USAFjavelin.sqf";}
-    ],
+    //[
+    //    ["Box_NATO_wpsLaunch_F"],
+    //    {[_this] execVM "scripts\ammoboxes\USAFstinger.sqf";}
+    //],
+
+    //[
+    //    ["Box_EAF_WpsLaunch_F"],
+    //    {[_this] execVM "scripts\ammoboxes\USAFjavelin.sqf";}
+    //],
 
     [
         ["Box_NATO_Ammo_F"],
         {[_this] execVM "scripts\ammoboxes\USAFammo.sqf";}
-    ],
-
-    [
-        ["Box_Syndicate_WpsLaunch_F"],
-        {[_this] execVM "scripts\ammoboxes\USAFm136.sqf";}
     ]
+
+    //[
+    //    ["Box_Syndicate_WpsLaunch_F"],
+    //    {[_this] execVM "scripts\ammoboxes\USAFm136.sqf";}
+    //]
 
 ];
