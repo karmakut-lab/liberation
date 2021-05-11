@@ -140,7 +140,7 @@ KPLIB_objectInits = [
     // Custom Missile/Ammo createSimpleObject
 
     [
-        ["Box_NATO_Equip_F"],
+        ["VirtualReammoBox_camonet_F"],
         {[_this] execVM "scripts\ammoboxes\USAFlaunchers.sqf";}
     ],
 
