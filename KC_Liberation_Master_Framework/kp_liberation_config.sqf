@@ -134,7 +134,7 @@ KP_liberation_preset_blufor = 7;
 18 = CUP Chernarus Defense Force
 19 = CUP British Armed Forces (Desert)
 20 = CUP British Armed Forces (Woodland) */
-KP_liberation_preset_opfor = 2;
+KP_liberation_preset_opfor = 3;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
@@ -146,7 +146,7 @@ KP_liberation_preset_opfor = 2;
 6  = Unsung
 7  = CUP Takistani Locals
 8  = CUP National Party of Chernarus */
-KP_liberation_preset_resistance = 2;
+KP_liberation_preset_resistance = 3;
 
 /* Civilians preset:
 0  = Custom (default vanilla)
@@ -157,7 +157,7 @@ KP_liberation_preset_resistance = 2;
 5  = Unsung
 6  = CUP Takistani Civilians
 7  = CUP Chernarussian Civilians */
-KP_liberation_preset_civilians = 1;
+KP_liberation_preset_civilians = 2;
 
 /* Which arsenal preset should be used?
 0  = Use the default blacklist method (defined below)
@@ -226,11 +226,11 @@ GRLIB_sector_cap = 180;                                                 // Cap f
 GRLIB_battlegroup_cap = 150;                                            // Cap for enemy battlegroups.
 GRLIB_patrol_cap = 150;                                                 // Cap for enemy patrols.
 
-KP_liberation_cr_kill_penalty = 25;                                      // Civil Reputation penalty for killing a civilian.
-KP_liberation_cr_building_penalty = 25;                                  // Civil Reputation penalty for destroying/damaging a building.
+KP_liberation_cr_kill_penalty = 30;                                      // Civil Reputation penalty for killing a civilian.
+KP_liberation_cr_building_penalty = 30;                                  // Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 5;                                   // Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 5;                                // Civil Reputation penalty for killing a friendly resistance soldier.
-KP_liberation_cr_sector_gain = 10;                                       // Civil Reputation gain for liberate a sector.
+KP_liberation_cr_sector_gain = 20;                                       // Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 50;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
 KP_liberation_cr_wounded_gain = 5;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
