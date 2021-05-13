@@ -890,7 +890,6 @@ private _whitelist = [
 
     // Backpacks
 
-	"B_rhsusf_B_BACKPACK",                                          // Eagle A-III OCP (Raven)
     "rhsusf_assault_eagleaiii_coy",                                 // Eagle A-III Coyote
     "rhsusf_assault_eagleaiii_ocp",                                 // Eagle A-III OEF-CP
     "rhsusf_assault_eagleaiii_ucp",                                 // Eagle A-III UCP
