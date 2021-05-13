@@ -21,13 +21,13 @@ class Params {
         title = $STR_PARAMS_UNITCAP;
         values[] = {0, 1, 2, 3, 4, 5};
         texts[] = {$STR_PARAMS_UNITCAP1, $STR_PARAMS_UNITCAP2, $STR_PARAMS_UNITCAP3, $STR_PARAMS_UNITCAP4, $STR_PARAMS_UNITCAP5, $STR_PARAMS_UNITCAP6};
-        default = 2;
+        default = 3;
     };
     class Difficulty {
         title = $STR_PARAMS_DIFFICULTY;
         values[] = {0, 1, 2, 3, 4, 5, 6, 7};
         texts[] = {$STR_PARAMS_DIFFICULTY1, $STR_PARAMS_DIFFICULTY2, $STR_PARAMS_DIFFICULTY3, $STR_PARAMS_DIFFICULTY4, $STR_PARAMS_DIFFICULTY5, $STR_PARAMS_DIFFICULTY6, $STR_PARAMS_DIFFICULTY7, $STR_PARAMS_DIFFICULTY8};
-        default = 5;
+        default = 6;
     };
     class Aggressivity {
         title = $STR_AGGRESSIVITY_PARAM;
@@ -45,7 +45,7 @@ class Params {
         title = $STR_PARAMS_CIVILIANS;
         values[] = {0, 1, 2, 3};
         texts[] = {$STR_PARAMS_CIVILIANS1, $STR_PARAMS_CIVILIANS2, $STR_PARAMS_CIVILIANS3, $STR_PARAMS_CIVILIANS4};
-        default = 1;
+        default = 2;
     };
     class FirstFob {
         title = $STR_PARAMS_FIRSTFOB;
