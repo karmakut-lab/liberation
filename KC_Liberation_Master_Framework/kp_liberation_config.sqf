@@ -213,7 +213,7 @@ KP_liberation_production_interval = 60;                                 // Time 
 GRLIB_sector_size = 1000;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
-GRLIB_battlegroup_size = 7;                                             // Size of enemy battlegroups.
+GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 900;                                        // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
 GRLIB_surrender_chance = 80;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
@@ -232,7 +232,7 @@ KP_liberation_cr_vehicle_penalty = 5;                                   // Civil
 KP_liberation_cr_resistance_penalty = 5;                                // Civil Reputation penalty for killing a friendly resistance soldier.
 KP_liberation_cr_sector_gain = 25;                                       // Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 50;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
-KP_liberation_cr_wounded_gain = 5;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
+KP_liberation_cr_wounded_gain = 10;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
 KP_liberation_civinfo_min = 5400;                                       // Civil Informant minimum spawn time. (seconds)
 KP_liberation_civinfo_max = 10800;                                      // Civil Informant maximum spawn time. (seconds)
@@ -289,6 +289,7 @@ KPLIB_radioTowerClassnames = [
 Useless if you're using anything other than "kp_liberation_arsenal = 0;" above. A whitelisted arsenal is always more performance friendly then a blacklisted arsenal.
 REMEMBER: All static turret and UAV bags should be defined here, to stop players from exploiting free resources via the virtual arsenal.    */
 blacklisted_from_arsenal = [
+    "rhsusf_acc_ACOG_anpvs27",                                      // M150 RCO + AN/PVS-27
     "rhs_mag_100Rnd_556x45_M855_cmag",
     "rhs_mag_100Rnd_556x45_M855_cmag_mixed",
     "rhs_mag_100Rnd_556x45_M855A1_cmag",

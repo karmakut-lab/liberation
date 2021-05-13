@@ -54,6 +54,8 @@ militia_squad = [
     "LOP_TKA_Infantry_Marksman",                                        // Marksman
     "LOP_TKA_Infantry_Corpsman",                                        // Medic
     "LOP_TKA_Infantry_AA",
+    "LOP_TKA_Infantry_AA",
+    "LOP_TKA_Infantry_AT",
     "LOP_TKA_Infantry_Engineer"                                         // Engineer
 ];
 
@@ -72,7 +74,7 @@ opfor_vehicles = [
     "LOP_TKA_BMP2",                                                     // BMP-2
     "LOP_TKA_BMP2D",                                                    // BMP-2D
     "LOP_TKA_BTR70",                                                    // BTR-70
-    "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
+    "UK3CB_O_2S6M_Tunguska_VPV",
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "LOP_TKA_T55",                                                      // T-55A
     "LOP_TKA_T72BB",                                                    // T-72B
@@ -99,7 +101,6 @@ opfor_battlegroup_vehicles = [
     "LOP_TKA_BMP2",                                                     // BMP-2
     "LOP_TKA_BMP2D",                                                    // BMP-2D
     "LOP_TKA_BTR70",                                                    // BTR-70
-    "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "LOP_TKA_BMP2",                                                     // BMP-2
     "LOP_TKA_BMP2D",                                                    // BMP-2D
     "LOP_TKA_BTR70",                                                    // BTR-70
@@ -108,6 +109,8 @@ opfor_battlegroup_vehicles = [
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
+    "UK3CB_O_2S6M_Tunguska_VPV",
+    "UK3CB_O_2S6M_Tunguska_VPV",
     "LOP_TKA_T55",                                                      // T-55A
     "LOP_TKA_T72BB",                                                    // T-72B
     "LOP_TKA_T72BB",                                                    // T-72B
@@ -143,6 +146,7 @@ opfor_battlegroup_vehicles_low_intensity = [
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60",                                                    // BTR-60PB
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
+    "UK3CB_O_2S6M_Tunguska_VPV",
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24P (AT)
     "LOP_TKA_Mi8MT_Cargo",                                               // Mi-8MT (Cargo)
     "LOP_TKA_Mi8MT_Cargo",                                               // Mi-8MT (Cargo)
@@ -156,7 +160,9 @@ opfor_troup_transports = [
     "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BMP1D",                                                    // BMP-1D
+    "LOP_TKA_BMP2",                                                     // BMP-2
     "LOP_TKA_BMP2D",                                                    // BMP-2D
+    "LOP_TKA_BTR60",                                                    // BTR-60PB
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24P (AT)
     "LOP_TKA_Mi24V_UPK23"                                               // Mi-24V (UPK)

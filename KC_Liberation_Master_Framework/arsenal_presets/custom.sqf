@@ -641,7 +641,6 @@ private _whitelist = [
     "rhsusf_acc_aac_762sd_silencer",                                // AAC 762-SD
     "rhsusf_acc_aac_762sdn6_silencer",                              // AAC 762-SDN-6
     "rhsusf_acc_aac_scarh_silencer",                                // AAC SCAR-H SD
-    "rhsusf_acc_ACOG_anpvs27",                                      // M150 RCO + AN/PVS-27
     "rhsusf_acc_ACOG_d",                                            // TA31RCO (Desert)
     "rhsusf_acc_ACOG_MDO",                                          // SU-260/P (MOD)
     "rhsusf_acc_ACOG_RMR",                                          // TA31RCO-RMR
