@@ -213,8 +213,8 @@ KP_liberation_production_interval = 60;                                 // Time 
 GRLIB_sector_size = 1000;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.4;                                  // Multiplier for defenders in buildings.
-GRLIB_battlegroup_size = 8;                                             // Size of enemy battlegroups.
-GRLIB_vulnerability_timer = 600;                                        // Time in seconds how long a captured sector is vulnerable to enemy troops.
+GRLIB_battlegroup_size = 7;                                             // Size of enemy battlegroups.
+GRLIB_vulnerability_timer = 900;                                        // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
 GRLIB_surrender_chance = 80;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
 
@@ -226,11 +226,11 @@ GRLIB_sector_cap = 180;                                                 // Cap f
 GRLIB_battlegroup_cap = 150;                                            // Cap for enemy battlegroups.
 GRLIB_patrol_cap = 150;                                                 // Cap for enemy patrols.
 
-KP_liberation_cr_kill_penalty = 30;                                      // Civil Reputation penalty for killing a civilian.
-KP_liberation_cr_building_penalty = 30;                                  // Civil Reputation penalty for destroying/damaging a building.
+KP_liberation_cr_kill_penalty = 25;                                      // Civil Reputation penalty for killing a civilian.
+KP_liberation_cr_building_penalty = 25;                                  // Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 5;                                   // Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 5;                                // Civil Reputation penalty for killing a friendly resistance soldier.
-KP_liberation_cr_sector_gain = 20;                                       // Civil Reputation gain for liberate a sector.
+KP_liberation_cr_sector_gain = 25;                                       // Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 50;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
 KP_liberation_cr_wounded_gain = 5;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
