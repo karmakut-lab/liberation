@@ -3,6 +3,7 @@
     - RHS USAF
     - RHS AFRF
     - Project OPFOR
+    - 3CB Factions
 
     Optional Mods:
     - None
@@ -63,6 +64,7 @@ militia_squad = [
 militia_vehicles = [
     "LOP_TKA_UAZ_AGS",                                                  // UAZ-3151 (AGS-30)
     "LOP_TKA_UAZ_SPG",                                                  // UAZ-3151 (SPG-9)
+    "UK3CB_TKA_O_Ural_ZU23",
     "LOP_TKA_UAZ_DshKM"                                                 // UAZ-3151 (DShKM)
 ];
 
@@ -88,6 +90,8 @@ opfor_vehicles_low_intensity = [
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BTR70",                                                    // BTR-70
+    "UK3CB_TKA_O_Ural_ZU23",
+    "UK3CB_TKA_O_MTLB_ZU23",
     "LOP_TKA_BMP1",                                                     // BMP-1
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60"                                                     // BTR-60PB
@@ -178,6 +182,7 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "RHS_Su25SM_vvsc",                                                  // Su-25
-    "RHS_Su25SM_KH29_vvsc"                                              // Su-25 (KH29)
+    "UK3CB_TKA_O_L39_PYLON",
+    "UK3CB_TKA_O_L39_AA",
+    "UK3CB_TKA_O_L39_CAS"
 ];

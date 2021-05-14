@@ -46513,7 +46513,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -46729,7 +46729,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -46926,7 +46926,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -47142,7 +47142,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -47339,7 +47339,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -47370,8 +47370,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={14489.047,8.131196,5891.9902};
-						angles[]={0.2229002,1.5323118,6.0114136};
+						position[]={14489.047,8.1313,5891.9897};
+						angles[]={0.22289599,1.5323118,6.0114198};
 					};
 					side="West";
 					flags=4;
@@ -49678,7 +49678,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=2;
 								};
 							};
 						};
@@ -49875,7 +49875,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=2;
 								};
 							};
 						};
@@ -50071,7 +50071,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=2;
 								};
 							};
 						};
@@ -50286,7 +50286,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=2;
 								};
 							};
 						};
@@ -50483,7 +50483,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=2;
 								};
 							};
 						};
@@ -50680,7 +50680,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1;
+									value=2;
 								};
 							};
 						};
