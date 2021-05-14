@@ -91,7 +91,6 @@ opfor_vehicles_low_intensity = [
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BTR70",                                                    // BTR-70
     "UK3CB_TKA_O_Ural_ZU23",
-    "UK3CB_TKA_O_MTLB_ZU23",
     "LOP_TKA_BMP1",                                                     // BMP-1
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60"                                                     // BTR-60PB
@@ -182,7 +181,5 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "UK3CB_TKA_O_L39_PYLON",
-    "UK3CB_TKA_O_L39_AA",
-    "UK3CB_TKA_O_L39_CAS"
+    "UK3CB_TKA_O_L39_PYLON"
 ];

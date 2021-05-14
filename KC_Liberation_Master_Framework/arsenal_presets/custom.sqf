@@ -193,6 +193,9 @@ private _whitelist = [
     "rhs_mag_M397_HET",                                             // M397 HET Grenade Round
     "rhs_mag_M433_HEDP",                                            // M433 HEDP Grenade Round
     "rhs_mag_M441_HE",                                              // M441 HE Grenade Round
+    "rhs_mag_M583A1_white",
+    "ACE_40mm_Flare_ir",
+    "UGL_FlareCIR_F",
     "rhs_mag_m576",                                                 // M576 Buckshot Round
     "rhs_mag_M585_white",                                           // M585 White Flare Round
     "rhs_mag_m661_green",                                           // M661 Green Flare Round
@@ -666,7 +669,6 @@ private _whitelist = [
     "rhsusf_acc_anpeq16a_light",                                    // AN/PEQ-16A (Light)
     "rhsusf_acc_anpeq16a_top",                                      // AN/PEQ-16A (Top/Laser)
     "rhsusf_acc_anpeq16a",                                          // AN/PEQ-16A (Laser)
-    "rhsusf_acc_anpvs27",                                           // AN/PVS-27
     "rhsusf_acc_ARDEC_M240",                                        // ARDEC 4-Prong
     "rhsusf_acc_compm4",                                            // M68 CCO
     "rhsusf_acc_ELCAN_ard",                                         // M145 MGO (ARD)
@@ -721,7 +723,6 @@ private _whitelist = [
     "rhsusf_acc_nt4_black",                                         // NT4 QDSS (Black)
     "rhsusf_acc_nt4_tan",                                           // NT4 QDSS (Tan)
     "rhsusf_acc_omega9k",                                           // SILENCERCO OMEGA 9K
-    "rhsusf_acc_premier_anpvs27",                                   // M8541A + AN/PVS-27
     "rhsusf_acc_premier_low",                                       // M8541A (low mount)
     "rhsusf_acc_premier_mrds",                                      // M8541A SSDS (MRDS)
     "rhsusf_acc_premier",                                           // M8541A SSDS
@@ -859,7 +860,6 @@ private _whitelist = [
     "ACE_SpraypaintRed",                                            // Spray Paint (Red)
     "ACE_surgicalKit",                                              // Surgical Kit
     "ACE_tourniquet",                                               // Tourniquet (CAT)
-    "ACE_Tripod",                                                   // SSWT Kit
     "ACE_UAVBattery",                                               // UAV Battery
     "ACE_Vector",                                                   // Vector 21 Nite
     "ACE_VectorDay",                                                // Vector 21
