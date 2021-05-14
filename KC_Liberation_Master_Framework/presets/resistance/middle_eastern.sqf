@@ -3,6 +3,7 @@
     - RHS USAF
     - RHS AFRF
     - Project OPFOR
+    - 3CB Factions
 
     Optional Mods:
     - None
@@ -23,7 +24,12 @@ KP_liberation_guerilla_units = [
 
 // Armed vehicles
 KP_liberation_guerilla_vehicles = [
-    "LOP_AM_UAZ_DshKM"
+    "LOP_AM_UAZ_DshKM",
+    "UK3CB_TKM_O_Hilux_Zu23",
+    "UK3CB_TKM_O_UAZ_SPG9",
+    "UK3CB_TKM_O_Hilux_Rocket",
+    "UK3CB_TKM_O_Datsun_Pkm"
+
 ];
 
 /* Guerilla Equipment
