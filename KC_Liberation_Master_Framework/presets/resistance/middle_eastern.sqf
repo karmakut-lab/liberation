@@ -27,8 +27,7 @@ KP_liberation_guerilla_vehicles = [
     "LOP_AM_UAZ_DshKM",
     "UK3CB_TKM_O_Hilux_Zu23",
     "UK3CB_TKM_O_UAZ_SPG9",
-    "UK3CB_TKM_O_Hilux_Rocket",
-    "UK3CB_TKM_O_Datsun_Pkm"
+    "UK3CB_TKM_O_Hilux_Rocket"
 
 ];
 
@@ -59,6 +58,7 @@ KP_liberation_guerilla_weapons_3 = [
     ["rhs_weap_ak105","rhs_30rnd_545x39_AK",4,"rhs_acc_ekp1",""],
     ["rhs_weap_pkm","rhs_100Rnd_762x54mmR",2,"",""],
     ["rhs_weap_aks74un","rhs_30rnd_545x39_AK",4,"rhs_acc_ekp8_02",""],
+    ["rhs_weap_igla","rhs_mag_9k38_rocket",1,"",""],
     ["LOP_Weap_LeeEnfield_railed","LOP_10rnd_77mm_mag",3,"optic_MRCO",""]
 ];
 

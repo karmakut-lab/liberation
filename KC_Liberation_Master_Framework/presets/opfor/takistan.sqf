@@ -55,7 +55,6 @@ militia_squad = [
     "LOP_TKA_Infantry_Marksman",                                        // Marksman
     "LOP_TKA_Infantry_Corpsman",                                        // Medic
     "LOP_TKA_Infantry_AA",
-    "LOP_TKA_Infantry_AA",
     "LOP_TKA_Infantry_AT",
     "LOP_TKA_Infantry_Engineer"                                         // Engineer
 ];
@@ -90,7 +89,7 @@ opfor_vehicles_low_intensity = [
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BTR70",                                                    // BTR-70
-    "UK3CB_TKA_O_Ural_ZU23",
+    "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "LOP_TKA_BMP1",                                                     // BMP-1
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60"                                                     // BTR-60PB
@@ -149,6 +148,7 @@ opfor_battlegroup_vehicles_low_intensity = [
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60",                                                    // BTR-60PB
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
+    "UK3CB_O_2S6M_Tunguska_VPV",
     "UK3CB_O_2S6M_Tunguska_VPV",
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24P (AT)
     "LOP_TKA_Mi8MT_Cargo",                                               // Mi-8MT (Cargo)
