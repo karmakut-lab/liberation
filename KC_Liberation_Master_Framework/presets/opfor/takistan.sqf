@@ -55,7 +55,6 @@ militia_squad = [
     "LOP_TKA_Infantry_Marksman",                                        // Marksman
     "LOP_TKA_Infantry_Corpsman",                                        // Medic
     "LOP_TKA_Infantry_AA",
-    "LOP_TKA_Infantry_AA",
     "LOP_TKA_Infantry_AT",
     "LOP_TKA_Infantry_Engineer"                                         // Engineer
 ];
@@ -90,8 +89,7 @@ opfor_vehicles_low_intensity = [
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BTR70",                                                    // BTR-70
-    "UK3CB_TKA_O_Ural_ZU23",
-    "UK3CB_TKA_O_MTLB_ZU23",
+    "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "LOP_TKA_BMP1",                                                     // BMP-1
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60"                                                     // BTR-60PB
@@ -111,6 +109,8 @@ opfor_battlegroup_vehicles = [
     "LOP_TKA_BMP2",                                                     // BMP-2
     "LOP_TKA_BMP2D",                                                    // BMP-2D
     "LOP_TKA_BTR70",                                                    // BTR-70
+    "LOP_TKA_Ural_open",                                                // Ural-4320 Transport
+    "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "UK3CB_O_2S6M_Tunguska_VPV",
@@ -138,6 +138,10 @@ opfor_battlegroup_vehicles_low_intensity = [
     "LOP_TKA_UAZ_AGS",                                                  // UAZ-3151 (AGS-30)
     "LOP_TKA_UAZ_AGS",                                                  // UAZ-3151 (AGS-30)
     "LOP_TKA_UAZ_SPG",                                                  // UAZ-3151 (SPG-9)
+    "LOP_TKA_Ural_open",                                                // Ural-4320 Transport
+    "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
+    "LOP_TKA_Ural_open",                                                // Ural-4320 Transport
+    "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
     "LOP_TKA_BMP1",                                                     // BMP-1
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60",                                                    // BTR-60PB
@@ -150,6 +154,7 @@ opfor_battlegroup_vehicles_low_intensity = [
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60",                                                    // BTR-60PB
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
+    "UK3CB_O_2S6M_Tunguska_VPV",
     "UK3CB_O_2S6M_Tunguska_VPV",
     "LOP_TKA_Mi24V_AT",                                                 // Mi-24P (AT)
     "LOP_TKA_Mi8MT_Cargo",                                               // Mi-8MT (Cargo)
@@ -164,7 +169,6 @@ opfor_troup_transports = [
     "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BMP1D",                                                    // BMP-1D
-    "LOP_TKA_BMP2",                                                     // BMP-2
     "LOP_TKA_BMP2D",                                                    // BMP-2D
     "LOP_TKA_BTR60",                                                    // BTR-60PB
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
@@ -182,7 +186,5 @@ opfor_choppers = [
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-    "UK3CB_TKA_O_L39_PYLON",
-    "UK3CB_TKA_O_L39_AA",
-    "UK3CB_TKA_O_L39_CAS"
+    "UK3CB_TKA_O_L39_PYLON"
 ];
