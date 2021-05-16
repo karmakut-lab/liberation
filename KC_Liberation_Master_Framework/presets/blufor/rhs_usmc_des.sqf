@@ -84,19 +84,18 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
-    ["UK3CB_B_AAV_US_DES",400,100,200],                           // AAV-7A1
-    ["UK3CB_B_LAV25_US_DES",500,300,300],                         // LAV25
+    ["UK3CB_B_AAV_US_DES",300,100,150],                           // AAV-7A1
+    ["UK3CB_B_LAV25_US_DES",400,200,200],                         // LAV25
     ["rhsusf_m1a1aimd_usarmy",1000,1000,500],                     // M1A1 AIM 
     ["rhsusf_m1a2sep1d_usarmy",1250,1000,500],                    // M1A2 SEP v1 (Operations)
-	["rhsusf_m1a2sep1tuskiid_usarmy",1500,1250,750],              // Tusk
-    ["rhsusf_M142_usarmy_D",750,2000,300]                          // M142 HIMARS
+	["rhsusf_m1a2sep1tuskiid_usarmy",1500,1250,750]              // Tusk
 ];
 
 air_vehicles = [
     ["RHS_AH1Z",750,750,300],                                        // AH-1Z Viper
     ["RHS_UH1Y_UNARMED_d",300,0,300],                                            // UH-1Y (Unarmed)
     ["RHS_UH1Y_FFAR_d",300,150,300],                                          // UH-1Y (Rockets)
-	["RHS_UH1Y_d",300,150,300],                                          // UH-1Y (MG)
+	["RHS_UH1Y_d",300,200,300],                                          // UH-1Y (MG)
     ["RHS_UH60M_MEV2",300,0,300],                                        // UH-60M MEV2
     ["rhsusf_CH53E_USMC_D",400,100,400],                                     	 // CH-53E Super Stallion
     ["rhsusf_CH53E_USMC_GAU21_D",400,100,400],                                     	 // CH-53E Super Stallion (GAU21)
@@ -270,7 +269,6 @@ elite_vehicles = [
     "rhsusf_m1a1aimd_usarmy",                                                 // M1A1 Aim
     "rhsusf_m1a2sep1d_usarmy",                                          // M1A2 SEP v1
 	"rhsusf_CH53E_USMC_GAU21_D"                                         // CH53E GAU21
-    "rhsusf_M142_usarmy_D",                                              // M142 HIMARS
     "RHS_AH1Z",                                                        // AH1Z Viper
     "USAF_A10",                                     	                // A-10
 	"USAF_AC130U",
