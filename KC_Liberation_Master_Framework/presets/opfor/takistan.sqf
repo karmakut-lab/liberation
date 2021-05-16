@@ -109,6 +109,8 @@ opfor_battlegroup_vehicles = [
     "LOP_TKA_BMP2",                                                     // BMP-2
     "LOP_TKA_BMP2D",                                                    // BMP-2D
     "LOP_TKA_BTR70",                                                    // BTR-70
+    "LOP_TKA_Ural_open",                                                // Ural-4320 Transport
+    "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "LOP_TKA_ZSU234",                                                   // ZSU-23-4V
     "UK3CB_O_2S6M_Tunguska_VPV",
@@ -136,6 +138,10 @@ opfor_battlegroup_vehicles_low_intensity = [
     "LOP_TKA_UAZ_AGS",                                                  // UAZ-3151 (AGS-30)
     "LOP_TKA_UAZ_AGS",                                                  // UAZ-3151 (AGS-30)
     "LOP_TKA_UAZ_SPG",                                                  // UAZ-3151 (SPG-9)
+    "LOP_TKA_Ural_open",                                                // Ural-4320 Transport
+    "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
+    "LOP_TKA_Ural_open",                                                // Ural-4320 Transport
+    "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
     "LOP_TKA_BMP1",                                                     // BMP-1
     "LOP_TKA_BMP1D",                                                    // BMP-1D
     "LOP_TKA_BTR60",                                                    // BTR-60PB
@@ -163,7 +169,6 @@ opfor_troup_transports = [
     "LOP_TKA_Ural",                                                     // Ural-4320 Transport (Covered)
     "LOP_TKA_BTR70",                                                    // BTR-70
     "LOP_TKA_BMP1D",                                                    // BMP-1D
-    "LOP_TKA_BMP2",                                                     // BMP-2
     "LOP_TKA_BMP2D",                                                    // BMP-2D
     "LOP_TKA_BTR60",                                                    // BTR-60PB
     "LOP_TKA_Mi8MT_Cargo",                                              // Mi-8MT (Cargo)
