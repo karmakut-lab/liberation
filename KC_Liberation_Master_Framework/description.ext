@@ -248,7 +248,7 @@ class CfgTaskDescriptions {
 #include "KP\KPGUI\KPGUI_defines.hpp"
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
 
-//ORBAT HERE
+//ORBAT start HERE 
 class CfgORBAT
 {
     class KarmaHQ
