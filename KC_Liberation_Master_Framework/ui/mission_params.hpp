@@ -129,7 +129,7 @@ class Params {
         title = $STR_PARAMS_PLAYERMENU;
         values[] = {0, 1};
         texts[] = {$STR_PARAMS_PLAYERMENU_GREUH, $STR_PARAMS_PLAYERMENU_KP};
-        default = 1;
+        default = 0;
     };
     class VictoryCondition {
         title = $STR_PARAMS_VICTORYCONDITION;

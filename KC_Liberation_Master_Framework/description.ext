@@ -304,7 +304,7 @@ class CfgORBAT
                         commanderRank = "Sergeant";
                         text = "Assassin 1 - 1st Infantry Squad";
                         textShort = "Assassin 1-1";
-                        description = "110SR";
+                        description = "Standard Infantry Squad 110SR";
                     };
                 class 12
                     {
@@ -317,7 +317,7 @@ class CfgORBAT
                         commanderRank = "Sergeant";
                         text = "Assassin 1 - 2nd Infantry Squad";
                         textShort = "Assassin 1-2";
-                        description = "120SR";
+                        description = "Standard Infantry Squad 120SR";
                     };
                 class 13
                     {
@@ -330,7 +330,7 @@ class CfgORBAT
                         commanderRank = "Sergeant";
                         text = "Assassin 1 - 3rd Infantry Squad";
                         textShort = "Assassin 1-3";
-                        description = "130SR";
+                        description = "Standard Infantry Squad 130SR";
                     };
                 class 14
                     {
@@ -343,7 +343,7 @@ class CfgORBAT
                         commanderRank = "Sergeant";
                         text = "Assassin 1 - Weapons Squad";
                         textShort = "Assassin 1-4";
-                        description = "140SR";
+                        description = "Infantry Weapons Squad (AA/AT Specialists) 140SR";
                     };
             };
 
@@ -371,7 +371,7 @@ class CfgORBAT
                         commanderRank = "Sergeant";
                         text = "Assassin 2 - 1st Infantry Squad";
                         textShort = "Assassin 2-1";
-                        description = "210SR";
+                        description = "Standard Infantry Squad 210SR";
                     };
                 class 12
                     {
@@ -384,7 +384,7 @@ class CfgORBAT
                         commanderRank = "Sergeant";
                         text = "Assassin 2 - 2nd Infantry Squad";
                         textShort = "Assassin 2-2";
-                        description = "220SR";
+                        description = "Standard Infantry Squad 220SR";
                     };
                 class 13
                     {
@@ -397,7 +397,7 @@ class CfgORBAT
                         commanderRank = "Sergeant";
                         text = "Assassin 2 - Weapons Squad";
                         textShort = "Assassin 2-3";
-                        description = "230SR";
+                        description = "Infantry Weapons Squad (AA/AT Specialists) 230SR";
                     };
             };
 
@@ -415,6 +415,20 @@ class CfgORBAT
                 textShort = "Phantom 1";
                 description = "Long Range Recon and Forward Observation";
             };
+
+            class Orge
+            {
+            id = 0;
+	    	idType = 0;
+	    	side = "West";
+    		size = "Squad";
+    		type = "Cavalry";
+    		commanderRank = "Corporal";
+    		text = "Company Engineers";
+    		textShort = "Orge";
+    		description = "Ground Logistics, Transport, and EOD SR330";
+            };
+
         };
 
         class hha
@@ -425,7 +439,7 @@ class CfgORBAT
     		size = "Squad";
     		type = "Armored";
     		commanderRank = "Captain";
-    		text = "Hellhound 1 Command Element";
+    		text = "Hellhound Command Element";
     		textShort = "Hellhound 3-6";
     		description = "3rd Armored Platoon Command Element";
 
@@ -439,7 +453,7 @@ class CfgORBAT
                 commanderRank = "Captain";
                 text = "Hellhound 3 - 1st Squad";
                 textShort = "Hellhound 3-1";
-                description = "SR310";
+                description = "Armored Squad SR310";
             };
             class hh2
             {
@@ -451,7 +465,7 @@ class CfgORBAT
                 commanderRank = "Captain";
                 text = "Hellhound 3 - 2nd Squad";
                 textShort = "Hellhound 3-2";
-                description = "SR320";
+                description = "Armored Squad SR320";
             };
         };
 
@@ -463,7 +477,7 @@ class CfgORBAT
     		size = "Troop";
     		type = "Recon";
     		commanderRank = "Captain";
-    		text = "JTAC/FO";
+    		text = "JTAC";
     		textShort = "Joint Terminal Attack Controller";
     		description = "Company JTAC";
             
@@ -533,18 +547,6 @@ class CfgORBAT
             };
         };
 
-        class Orge
-        {
-            id = 0;
-	    	idType = 0;
-	    	side = "West";
-    		size = "Squad";
-    		type = "Cavalry";
-    		commanderRank = "Corporal";
-    		text = "Company Engineers";
-    		textShort = "Orge";
-    		description = "SR330";
-        };
     };
 };
 //ORBAT END

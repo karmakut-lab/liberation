@@ -103,7 +103,7 @@ heavy_vehicles = [
 air_vehicles = [
     ["RHS_MELB_MH6M",250,0,250],                                         // MH-6M Little Bird
     ["RHS_MELB_AH6M",250,300,250],                                       // AH-6M Pawnee
-    ["RHS_AH64D_wd",750,750,300],                                        // AH-64D (Multi-Role)
+    ["UK3CB_CW_US_B_LATE_AH64",750,750,300],                                        // AH-64D (Multi-Role)
     ["RHS_UH60M2",300,0,300],                                            // UH-60M (Unarmed)
     ["RHS_UH60M",300,150,300],                                            // UH-60M
     ["RHS_UH60M_MEV2",350,0,300],                                        // UH-60M MEV2
@@ -277,7 +277,7 @@ elite_vehicles = [
     "rhsusf_m1a1aimwd_usarmy",                                                // M1A1 AIM
     "rhsusf_m1a2sep1wd_usarmy",                                         // M1A2 SEP v1
     "rhsusf_m109_usarmy",                                               // M109A6
-    "RHS_AH64D_wd",                                                     // AH-64D (Multi-Role)
+    "UK3CB_CW_US_B_LATE_AH64",                                                     // AH-64D (Multi-Role)
     "RHS_M6_wd",                                                        // M6
     "RHS_UH60M_MEV2",                                                   // UH-60M MEV 2
     "USAF_A10",                                     	                // A-10

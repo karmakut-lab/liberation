@@ -8,22 +8,22 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=4091;
+		nextID=4092;
 	};
 	class LayerIndexProvider
 	{
-		nextID=69;
+		nextID=79;
 	};
 	class Camera
 	{
-		pos[]={81.504234,191.46483,63.777382};
-		dir[]={0.38360769,-0.83921546,0.3854382};
-		up[]={0.59200078,0.54379904,0.59482574};
-		aside[]={0.70878792,0,-0.70542169};
+		pos[]={4151.9365,383.37488,841.22925};
+		dir[]={0.48384362,-0.58730334,-0.64883232};
+		up[]={0.35109273,0.80936104,-0.47081435};
+		aside[]={-0.80165184,-5.8207661e-009,-0.59780341};
 	};
 };
 binarizationWanted=0;
-sourceName="1243";
+sourceName="kc_liberation";
 addons[]=
 {
 	"Jbad_afghan_houses_old",
@@ -114,7 +114,6 @@ addons[]=
 	"A3_Structures_F_Civ_Accessories",
 	"A3_Signs_F",
 	"A3_Weapons_F_Ammoboxes",
-	"rhs_c_weapons",
 	"rhsusf_c_Caiman",
 	"A3_Modules_F_Multiplayer",
 	"A3_Structures_F_Civ_InfoBoards",
@@ -129,7 +128,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=56;
+		items=55;
 		class Item0
 		{
 			className="Jbad_afghan_houses_old";
@@ -452,33 +451,26 @@ class AddonsMetaData
 		};
 		class Item51
 		{
-			className="rhs_c_weapons";
-			name="AFRF Weapons Pack";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item52
-		{
 			className="rhsusf_c_Caiman";
 			name="Caiman MRAP";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item53
+		class Item52
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item54
+		class Item53
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item55
+		class Item54
 		{
 			className="Desert";
 			name="Desert";
@@ -51409,7 +51401,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2067;
+		items=2066;
 		class Item0
 		{
 			dataType="Object";
@@ -52711,6 +52703,7 @@ class Mission
 			position[]={4161.9219,0,865.55701};
 			name="huronmarker";
 			type="b_air";
+			alpha=0;
 			id=255;
 			atlOffset=-358.47534;
 		};
@@ -81865,22 +81858,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4169.4844,358.98648,816.92108};
-				angles[]={0.0024657,0,0.0084502539};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=3621;
-			type="rhs_weapon_crate";
-		};
-		class Item2034
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={4094.9053,360.27219,843.95105};
 				angles[]={0.0017263351,0,0.010036568};
 			};
@@ -81893,7 +81870,7 @@ class Mission
 			type="rhsusf_M1220_usarmy_d";
 			atlOffset=-0.37631226;
 		};
-		class Item2035
+		class Item2034
 		{
 			dataType="Object";
 			class PositionInfo
@@ -81910,7 +81887,7 @@ class Mission
 			type="rhsusf_M1220_usarmy_d";
 			atlOffset=-0.039764404;
 		};
-		class Item2036
+		class Item2035
 		{
 			dataType="Object";
 			class PositionInfo
@@ -81926,7 +81903,7 @@ class Mission
 			id=3624;
 			type="rhsusf_M1220_M2_usarmy_d";
 		};
-		class Item2037
+		class Item2036
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -82130,7 +82107,7 @@ class Mission
 				nAttributes=10;
 			};
 		};
-		class Item2038
+		class Item2037
 		{
 			dataType="Object";
 			class PositionInfo
@@ -82189,7 +82166,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item2039
+		class Item2038
 		{
 			dataType="Object";
 			class PositionInfo
@@ -82249,7 +82226,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item2040
+		class Item2039
 		{
 			dataType="Object";
 			class PositionInfo
@@ -82290,7 +82267,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2041
+		class Item2040
 		{
 			dataType="Object";
 			class PositionInfo
@@ -82330,7 +82307,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2042
+		class Item2041
 		{
 			dataType="Object";
 			class PositionInfo
@@ -82389,14 +82366,14 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item2043
+		class Item2042
 		{
 			dataType="Layer";
 			name="Karma Company";
 			id=4015;
 			atlOffset=-140.66;
 		};
-		class Item2044
+		class Item2043
 		{
 			dataType="Group";
 			side="West";
@@ -83238,7 +83215,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item2045
+		class Item2044
 		{
 			dataType="Group";
 			side="West";
@@ -85160,7 +85137,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2046
+		class Item2045
 		{
 			dataType="Group";
 			side="West";
@@ -87007,7 +86984,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2047
+		class Item2046
 		{
 			dataType="Group";
 			side="West";
@@ -88867,7 +88844,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2048
+		class Item2047
 		{
 			dataType="Group";
 			side="West";
@@ -90706,7 +90683,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2049
+		class Item2048
 		{
 			dataType="Group";
 			side="West";
@@ -91547,7 +91524,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item2050
+		class Item2049
 		{
 			dataType="Group";
 			side="West";
@@ -93386,7 +93363,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2051
+		class Item2050
 		{
 			dataType="Group";
 			side="West";
@@ -95226,7 +95203,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2052
+		class Item2051
 		{
 			dataType="Group";
 			side="West";
@@ -97094,7 +97071,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2053
+		class Item2052
 		{
 			dataType="Group";
 			side="West";
@@ -97917,7 +97894,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2054
+		class Item2053
 		{
 			dataType="Group";
 			side="West";
@@ -99167,7 +99144,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2055
+		class Item2054
 		{
 			dataType="Group";
 			side="West";
@@ -100417,7 +100394,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2056
+		class Item2055
 		{
 			dataType="Group";
 			side="West";
@@ -101086,7 +101063,7 @@ class Mission
 			id=3968;
 			atlOffset=1.5258789e-005;
 		};
-		class Item2057
+		class Item2056
 		{
 			dataType="Group";
 			side="West";
@@ -102362,7 +102339,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2058
+		class Item2057
 		{
 			dataType="Group";
 			side="West";
@@ -103051,7 +103028,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2059
+		class Item2058
 		{
 			dataType="Group";
 			side="West";
@@ -103740,7 +103717,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2060
+		class Item2059
 		{
 			dataType="Group";
 			side="West";
@@ -104383,7 +104360,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2061
+		class Item2060
 		{
 			dataType="Group";
 			side="West";
@@ -105615,7 +105592,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2062
+		class Item2061
 		{
 			dataType="Group";
 			side="West";
@@ -106001,7 +105978,7 @@ class Mission
 			};
 			id=4001;
 		};
-		class Item2063
+		class Item2062
 		{
 			dataType="Group";
 			side="West";
@@ -107865,14 +107842,14 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2064
+		class Item2063
 		{
 			dataType="Layer";
 			name="Karma Company";
 			id=3861;
 			atlOffset=-140.66;
 		};
-		class Item2065
+		class Item2064
 		{
 			dataType="Layer";
 			name="Zeus Modules";
@@ -110404,7 +110381,7 @@ class Mission
 			id=4087;
 			atlOffset=0.23840332;
 		};
-		class Item2066
+		class Item2065
 		{
 			dataType="Logic";
 			class PositionInfo
