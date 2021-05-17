@@ -248,3 +248,316 @@ class CfgTaskDescriptions {
 #include "KP\KPGUI\KPGUI_defines.hpp"
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
 
+//ORBAT HERE
+class CfgORBAT
+{
+    class KarmaHQ
+    {
+	    id = 0;
+	    idType = 3;
+	    side = "West";
+        size = "Company";
+        //type = "HQ";
+	    commander = "Karmakut";
+	    commanderRank = "Colonel";
+	    text = "Karma Company [LR30]";
+	    textShort = "%1 %3";
+        texture = __EVAL(getMissionPath "res\Klogobg.paa");
+        insignia = __EVAL(getMissionPath "res\KarmaLoading.paa");
+        colorInsignia[] = {1,1,1,1};
+        color[] = {1,1,1,1};
+	    description = "Karmakut Company Order of combat! Long range Radio Always 030";
+
+        class actualPlat
+	    {
+	    	id = 3;
+	    	idType = 0;
+	    	side = "West";
+    		size = "Squad";
+    		type = "Infantry";
+    		commanderRank = "Major";
+    		text = "Commanding Squad";
+    		textShort = "Assassin 6";
+    		description = "036SR";
+    	
+            class 1stPlat
+            {
+                id = 1;
+                idType = 0;
+                type = "Infantry";
+                side = "West";
+                size = "Platoon";
+                //commander = "Ray";
+                commanderRank = "Lieutenant";
+                text = "Assasin 1 Actual ";
+                textShort = "Assassin 1";
+                description = "100SR";
+
+                class 11
+                    {
+                        id = 1;
+                        idType = 0;
+                        type = "Infantry";
+                        side = "West";
+                        size = "Squad";
+                        //commander = "Ray";
+                        commanderRank = "Sergeant";
+                        text = "Assasin 1 first squad";
+                        textShort = "Assassin 1-1";
+                        description = "110SR";
+                    };
+                class 12
+                    {
+                        id = 2;
+                        idType = 0;
+                        type = "Infantry";
+                        side = "West";
+                        size = "Squad";
+                        //commander = "Ray";
+                        commanderRank = "Sergeant";
+                        text = "Assasin 1 second squad";
+                        textShort = "Assassin 1-2";
+                        description = "120SR";
+                    };
+                class 13
+                    {
+                        id = 3;
+                        idType = 0;
+                        type = "Infantry";
+                        side = "West";
+                        size = "Squad";
+                        //commander = "Ray";
+                        commanderRank = "Sergeant";
+                        text = "Assasin 1 third squad";
+                        textShort = "Assassin 1-3";
+                        description = "130SR";
+                    };
+                class 14
+                    {
+                        id = 4;
+                        idType = 0;
+                        type = "Infantry";
+                        side = "West";
+                        size = "Squad";
+                        //commander = "Ray";
+                        commanderRank = "Sergeant";
+                        text = "Assasin 1 fourth squad";
+                        textShort = "Assassin 1-4";
+                        description = "140SR";
+                    };
+            };
+
+            class 2ndPlat
+            {   
+                id = 2;
+                idType = 0;
+                side = "West";
+                size = "Platoon";
+                type = "Infantry";
+                //commander = "Dixon";
+                commanderRank = "Lieutenant";
+                text = "Assasin 2 Actual";
+                textShort = "Assassin 2";
+                description = "200SR";
+
+                class 11
+                    {
+                        id = 1;
+                        idType = 0;
+                        type = "Infantry";
+                        side = "West";
+                        size = "Squad";
+                        //commander = "Ray";
+                        commanderRank = "Sergeant";
+                        text = "Assasin 2 first squad";
+                        textShort = "Assassin 2-1";
+                        description = "210SR";
+                    };
+                class 12
+                    {
+                        id = 2;
+                        idType = 0;
+                        type = "Infantry";
+                        side = "West";
+                        size = "Squad";
+                        //commander = "Ray";
+                        commanderRank = "Sergeant";
+                        text = "Assasin 2 second squad";
+                        textShort = "Assassin 2-2";
+                        description = "220SR";
+                    };
+                class 13
+                    {
+                        id = 3;
+                        idType = 0;
+                        type = "Infantry";
+                        side = "West";
+                        size = "Squad";
+                        //commander = "Ray";
+                        commanderRank = "Sergeant";
+                        text = "Assasin 2 third squad";
+                        textShort = "Assassin 2-3";
+                        description = "230SR";
+                    };
+                class 14
+                    {
+                        id = 4;
+                        idType = 0;
+                        type = "Infantry";
+                        side = "West";
+                        size = "Squad";
+                        //commander = "Ray";
+                        commanderRank = "Sergeant";
+                        text = "Assasin 2 fourth squad";
+                        textShort = "Assassin 2-4";
+                        description = "240SR";
+                    };
+            };
+
+
+            class Phantom
+            {
+                id = 4;
+                idType = 0;
+                side = "West";
+                size = "Squad";
+                type = "Infantry";
+                //commander = "Nichols";
+                commanderRank = "Sergeant";
+                text = "Phantom recon";
+                textShort = "Phantom 1";
+                description = "400SR";
+            };
+        };
+
+        class hha
+        {
+            id = 0;
+	    	idType = 0;
+	    	side = "West";
+    		size = "Squad";
+    		type = "Armored";
+    		commanderRank = "Captain";
+    		text = "HellHound (Armored)";
+    		textShort = "Hell Hound armored section";
+    		description = "Armored Section";
+
+            class hh1
+            {
+                id = 1;
+	    	    idType = 0;
+                side = "West";
+                size = "Squadron";
+                type = "Armored";
+                commanderRank = "Captain";
+                text = "HellHound (Armored)";
+                textShort = "HellHound 1";
+                description = "SR310";
+            };
+            class hh2
+            {
+                id = 2;
+	    	    idType = 0;
+                side = "West";
+                size = "Squadron";
+                type = "Armored";
+                commanderRank = "Captain";
+                text = "HellHound (Armored)";
+                textShort = "HellHound 2";
+                description = "SR320";
+            };
+        };
+
+        class airsup
+        {
+            id = 0;
+	    	idType = 0;
+	    	side = "West";
+    		size = "Troop";
+    		type = "Recon";
+    		commanderRank = "Captain";
+    		text = "JTAC/FO";
+    		textShort = "Joint Terminal Attack Controller/Fire Observer";
+    		description = "LR70/30";
+            
+            class Stalker
+            {
+                id = 0;
+                idType = 0;
+                side = "West";
+                size = "Squadron";
+                type = "Helicopter";
+                commanderRank = "Captain";
+                text = "Stalker (rotary Transport)";
+                textShort = "Stalker";
+                description = "LR70";
+            };
+
+            class banshee
+            {
+                id = 0;
+                idType = 0;
+                side = "West";
+                size = "Squadron";
+                type = "Helicopter";
+                commanderRank = "Captain";
+                text = "CASEVAC";
+                textShort = "Banshee";
+                description = "LR70 / EMR:80";
+            };
+
+            class Demon
+            {
+                id = 0;
+                idType = 0;
+                side = "West";
+                size = "Squadron";
+                type = "Helicopter";
+                commanderRank = "Captain";
+                text = "Rotary CAS";
+                textShort = "Demon";
+                description = "LR70";
+            };
+
+            class Reaper
+            {
+                id = 0;
+                idType = 0;
+                side = "West";
+                size = "Squadron";
+                type = "Fighter";
+                commanderRank = "Lieutenant";
+                text = "FixWing CAS/Fighter";
+                textShort = "Reaper";
+                description = "LR70";
+            };
+
+            class Savage
+            {
+                id = 0;
+                idType = 0;
+                side = "West";
+                size = "Squadron";
+                type = "Artillery";
+                commanderRank = "Sergeant";
+                text = "Arty/Indirect fire";
+                textShort = "Savage";
+                description = "LR40";
+            };
+        };
+
+        class Orge
+        {
+            id = 0;
+	    	idType = 0;
+	    	side = "West";
+    		size = "Squad";
+    		type = "Cavalry";
+    		commanderRank = "Corporal";
+    		text = "Logistics Squad";
+    		textShort = "Orge";
+    		description = "SR330";
+        };
+    };
+};
+//ORBAT END
