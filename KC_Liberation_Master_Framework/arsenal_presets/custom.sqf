@@ -30,7 +30,6 @@ private _whitelist = [
     "rhs_mag_m713_Green",
     "UGL_FlareGreen_F",
     "UGL_FlareRed_F",
-    "rhs_weap_m14ebrri",                                            // M14 EBR-RI
     "rhs_weap_m16a4_carryhandle_M203",                              // M16A4 (Carryhandle/M203)
     "rhs_weap_m16a4_carryhandle",                                   // M16A4 (Carryhandle)
     "rhs_weap_m16a4_imod_M203",                                     // M16A4 (IMOD Stock/M203)
@@ -62,9 +61,6 @@ private _whitelist = [
     "rhs_weap_m4_m320",                                             // M4 (M320)
     "rhs_weap_m4_mstock",                                           // M4 (Magpull Stock)
     "rhs_weap_m4",                                                  // M4
-    "rhs_weap_m40a5_d",                                             // M40A5 (Desert)
-    "rhs_weap_m40a5_wd",                                            // M40A5 (Woodland)
-    "rhs_weap_m40a5",                                               // M40A5
     "rhs_weap_m4a1_blockII_bk",                                     // M4A1 Block II (Black Rail)
     "rhs_weap_m4a1_blockII_d",                                      // M4A1 Block II (Desert)
     "rhs_weap_m4a1_blockII_KAC_bk",                                 // M4A1 Block II (Black Rail/SOPMOD Stock)
@@ -106,16 +102,6 @@ private _whitelist = [
     "rhs_weap_mk18_m320",                                           // Mk 18 Mod 1 (M320)
     "rhs_weap_mk18_wd",                                             // Mk 18 Mod 1 (Woodland)
     "rhs_weap_mk18",                                                // Mk 18 Mod 1
-    "rhs_weap_sr25_d",                                              // Mk 11 Mod 0 (Desert)
-    "rhs_weap_sr25_ec_d",                                           // Mk 11 Mod 0 (EC/Desert)
-    "rhs_weap_sr25_ec_wd",                                          // Mk 11 Mod 0 (EC/Woodland)
-    "rhs_weap_sr25_ec",                                             // Mk 11 Mod 0 (EC)
-    "rhs_weap_sr25_wd",                                             // Mk 11 Mod 0 (Woodland)
-    "rhs_weap_sr25",                                                // Mk 11 Mod 0
-    "rhs_weap_XM2010_d",                                            // M2010 ESR (Desert)
-    "rhs_weap_XM2010_sa",                                           // M2010 ESR (Semi-arid)
-    "rhs_weap_XM2010_wd",                                           // M2010 ESR (Camo)
-    "rhs_weap_XM2010",                                              // M2010 ESR
     "rhsusf_weap_glock17g4",                                        // Glock 17
     "rhsusf_weap_m1911a1",                                          // M1911A1
     "rhsusf_weap_m9",                                               // M9 Beretta
