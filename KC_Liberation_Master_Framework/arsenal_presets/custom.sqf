@@ -241,6 +241,9 @@ private _whitelist = [
     "rhsusf_200Rnd_556x45_soft_pouch_coyote",                       // 200rnd M249 Softpack M855A1
     "rhsusf_200Rnd_556x45_soft_pouch_ucp",                          // 200rnd M249 Softpack M855A1
     "rhsusf_200Rnd_556x45_soft_pouch",                              // 200rnd M249 Softpack M855A1
+    "rhsusf_20Rnd_762x51_m118_special_Mag",                         // 20rnd M14 M118
+    "rhsusf_20Rnd_762x51_m62_Mag",                                  // 20rnd M14 M62 (Tracer)
+    "rhsusf_20Rnd_762x51_m993_Mag",                                 // 20rnd M14 M993AP
     "rhsusf_20Rnd_762x51_SR25_m118_special_Mag",                    // 20rnd SR-25 M118
     "rhsusf_20Rnd_762x51_SR25_m62_Mag",                             // 20rnd SR-25 M62 (Tracer)
     "rhsusf_20Rnd_762x51_SR25_m993_Mag",                            // 20rnd SR-25 M993 AP
