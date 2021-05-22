@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=79;
+		nextID=84;
 	};
 	class Camera
 	{
-		pos[]={4151.9365,383.37488,841.22925};
-		dir[]={0.48384362,-0.58730334,-0.64883232};
-		up[]={0.35109273,0.80936104,-0.47081435};
-		aside[]={-0.80165184,-5.8207661e-009,-0.59780341};
+		pos[]={4074.7112,572.57593,1037.9587};
+		dir[]={0.015480135,-0.61649001,-0.7872225};
+		up[]={0.012120456,0.78735572,-0.6163761};
+		aside[]={-0.99981499,1.0638178e-007,-0.019660901};
 	};
 };
 binarizationWanted=0;
@@ -51401,7 +51401,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2066;
+		items=2064;
 		class Item0
 		{
 			dataType="Object";
@@ -82368,13 +82368,6 @@ class Mission
 		};
 		class Item2042
 		{
-			dataType="Layer";
-			name="Karma Company";
-			id=4015;
-			atlOffset=-140.66;
-		};
-		class Item2043
-		{
 			dataType="Group";
 			side="West";
 			class Entities
@@ -83215,7 +83208,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item2044
+		class Item2043
 		{
 			dataType="Group";
 			side="West";
@@ -85137,7 +85130,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2045
+		class Item2044
 		{
 			dataType="Group";
 			side="West";
@@ -86984,7 +86977,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2046
+		class Item2045
 		{
 			dataType="Group";
 			side="West";
@@ -88844,7 +88837,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2047
+		class Item2046
 		{
 			dataType="Group";
 			side="West";
@@ -90683,7 +90676,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2048
+		class Item2047
 		{
 			dataType="Group";
 			side="West";
@@ -91524,7 +91517,7 @@ class Mission
 				nAttributes=2;
 			};
 		};
-		class Item2049
+		class Item2048
 		{
 			dataType="Group";
 			side="West";
@@ -93363,7 +93356,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2050
+		class Item2049
 		{
 			dataType="Group";
 			side="West";
@@ -95203,7 +95196,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2051
+		class Item2050
 		{
 			dataType="Group";
 			side="West";
@@ -97071,7 +97064,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2052
+		class Item2051
 		{
 			dataType="Group";
 			side="West";
@@ -97673,8 +97666,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={117.0282,141.85081,113.72754};
-						angles[]={0.0019834081,1.5869756,6.2741885};
+						position[]={117.028,141.85081,113.728};
+						angles[]={0.0019896752,1.5869756,6.2741795};
 					};
 					side="West";
 					flags=4;
@@ -97839,7 +97832,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=2;
+									value=1;
 								};
 							};
 						};
@@ -97894,7 +97887,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2053
+		class Item2052
 		{
 			dataType="Group";
 			side="West";
@@ -99144,7 +99137,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2054
+		class Item2053
 		{
 			dataType="Group";
 			side="West";
@@ -100394,7 +100387,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2055
+		class Item2054
 		{
 			dataType="Group";
 			side="West";
@@ -101063,7 +101056,7 @@ class Mission
 			id=3968;
 			atlOffset=1.5258789e-005;
 		};
-		class Item2056
+		class Item2055
 		{
 			dataType="Group";
 			side="West";
@@ -102339,7 +102332,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2057
+		class Item2056
 		{
 			dataType="Group";
 			side="West";
@@ -103028,7 +103021,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2058
+		class Item2057
 		{
 			dataType="Group";
 			side="West";
@@ -103717,7 +103710,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2059
+		class Item2058
 		{
 			dataType="Group";
 			side="West";
@@ -104360,7 +104353,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2060
+		class Item2059
 		{
 			dataType="Group";
 			side="West";
@@ -105592,7 +105585,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2061
+		class Item2060
 		{
 			dataType="Group";
 			side="West";
@@ -105978,7 +105971,7 @@ class Mission
 			};
 			id=4001;
 		};
-		class Item2062
+		class Item2061
 		{
 			dataType="Group";
 			side="West";
@@ -107842,14 +107835,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item2063
-		{
-			dataType="Layer";
-			name="Karma Company";
-			id=3861;
-			atlOffset=-140.66;
-		};
-		class Item2064
+		class Item2062
 		{
 			dataType="Layer";
 			name="Zeus Modules";
@@ -110381,7 +110367,7 @@ class Mission
 			id=4087;
 			atlOffset=0.23840332;
 		};
-		class Item2065
+		class Item2063
 		{
 			dataType="Logic";
 			class PositionInfo
