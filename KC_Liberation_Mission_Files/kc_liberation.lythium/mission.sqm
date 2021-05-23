@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=4102;
+		nextID=4103;
 	};
 	class LayerIndexProvider
 	{
-		nextID=89;
+		nextID=94;
 	};
 	class Camera
 	{
-		pos[]={115.15285,174.31038,46.823982};
-		dir[]={0.17450437,-0.90832597,0.380137};
-		up[]={0.37895209,0.41825706,0.82550108};
-		aside[]={0.90882075,5.3422991e-007,-0.4172006};
+		pos[]={94.434517,174.31038,50.116047};
+		dir[]={0.35799035,-0.82179254,0.44329974};
+		up[]={0.51631415,0.56977516,0.63935137};
+		aside[]={0.77799666,3.6758138e-007,-0.62827837};
 	};
 };
 binarizationWanted=0;
@@ -102486,7 +102486,7 @@ class Mission
 			name="Zeus Modules";
 			class Entities
 			{
-				items=30;
+				items=31;
 				class Item0
 				{
 					dataType="Logic";
@@ -105824,9 +105824,100 @@ class Mission
 						nAttributes=4;
 					};
 				};
+				class Item30
+				{
+					dataType="Logic";
+					class PositionInfo
+					{
+						position[]={118.391,141.20738,76.302002};
+						angles[]={6.2442122,0,6.2821555};
+					};
+					id=4102;
+					type="ModuleCurator_F";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ModuleCurator_F_Owner";
+							expression="_this setVariable ['Owner',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="76561197960548388";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ModuleCurator_F_Forced";
+							expression="_this setVariable ['Forced',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ModuleCurator_F_Name";
+							expression="_this setVariable ['Name',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="GimliTron";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ModuleCurator_F_Addons";
+							expression="_this setVariable ['Addons',_value,true];";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=2;
+								};
+							};
+						};
+						nAttributes=4;
+					};
+				};
 			};
 			id=4087;
-			atlOffset=0.0082397461;
+			atlOffset=0.004119873;
 		};
 		class Item2065
 		{
@@ -105924,11 +106015,11 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=106;
+			nextID=111;
 		};
 		class Links
 		{
-			items=106;
+			items=111;
 			class Item0
 			{
 				linkID=0;
@@ -106984,6 +107075,56 @@ class Mission
 				linkID=105;
 				item0=4083;
 				item1=4101;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item106
+			{
+				linkID=106;
+				item0=4039;
+				item1=4102;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item107
+			{
+				linkID=107;
+				item0=4050;
+				item1=4102;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item108
+			{
+				linkID=108;
+				item0=4061;
+				item1=4102;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item109
+			{
+				linkID=109;
+				item0=4072;
+				item1=4102;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item110
+			{
+				linkID=110;
+				item0=4083;
+				item1=4102;
 				class CustomData
 				{
 					type="Sync";
