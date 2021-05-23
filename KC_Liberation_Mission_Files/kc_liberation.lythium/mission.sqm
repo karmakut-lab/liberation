@@ -12,18 +12,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=94;
+		nextID=99;
 	};
 	class Camera
 	{
-		pos[]={104.58968,227.10988,-13.921778};
-		dir[]={0.27188751,-0.56601137,0.77829629};
-		up[]={0.18667731,0.82437676,0.53437805};
-		aside[]={0.94407064,7.9511665e-008,-0.32979822};
+		pos[]={95.676933,181.14354,41.23317};
+		dir[]={0.58346295,-0.67522979,0.45130974};
+		up[]={0.53412324,0.7375806,0.41314617};
+		aside[]={0.61184412,-1.0989606e-007,-0.79100645};
 	};
 };
 binarizationWanted=0;
-sourceName="kc_liberation";
+sourceName="1243";
 addons[]=
 {
 	"Jbad_afghan_houses_old",
@@ -109274,12 +109274,11 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={130.11858,140.9725,72.858185};
-						angles[]={6.245204,0,0.11647047};
+						position[]={130.119,140.97253,72.858002};
+						angles[]={6.2452068,0,0.11646581};
 					};
 					id=4109;
 					type="ModuleCurator_F";
-					atlOffset=1.5258789e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -109297,7 +109296,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="76561197960287930";
+									value="76561198870892912";
 								};
 							};
 						};
