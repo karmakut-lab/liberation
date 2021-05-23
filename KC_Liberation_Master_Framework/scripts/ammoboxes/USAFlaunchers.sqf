@@ -15,5 +15,5 @@ while {alive _crate} do {
     _crate addMagazineCargoGlobal ["rhs_fim92_mag", 6];
     _crate addWeaponCargoGlobal ["rhs_weap_fim92", 2];
 
-    sleep 5400;
+    sleep 3600;
 };
