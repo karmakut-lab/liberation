@@ -137,7 +137,13 @@ KPLIB_objectInits = [
     ],
 
 
-    // Custom Missile/Ammo createSimpleObject
+    // Custom Karmakut Scripts createSimpleObject
+
+    [
+        ["USAF_A10"],
+        {[_this] execVM "scripts\pylons\a10pylons.sqf";}
+    ],
+
 
     [
         ["VirtualReammoBox_camonet_F"],

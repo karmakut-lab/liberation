@@ -110,8 +110,7 @@ air_vehicles = [
     ["RHS_CH_47F",400,100,400],                                     	 // CH-47F Chinook
 	["USAF_C130J",1000,0,1000],
     ["USAF_C17",2000,0,2000],                                             // C-17 Globemaster III
-    ["USAF_A10",1500,1500,750],                                     	 // A-10C Thunderbolt II
-	["USAF_AC130U",3000,3000,1500]
+    ["USAF_A10",1500,1500,750]                                     	 // A-10C Thunderbolt II
 ];
 
 static_vehicles = [
@@ -220,7 +219,7 @@ support_vehicles = [
     [KP_liberation_air_vehicle_building,1000,0,0],
     [KP_liberation_heli_slot_building,250,0,0],
     [KP_liberation_plane_slot_building,500,0,0],
-    ["ACE_medicalSupplyCrate_advanced",25,0,0],
+    ["ACE_medicalSupplyCrate_advanced",5,0,0],
     ["ACE_Box_82mm_Mo_HE",0,50,0],
     ["ACE_Box_82mm_Mo_Smoke",0,25,0],
     ["ACE_Box_82mm_Mo_Illum",0,25,0],
@@ -283,6 +282,5 @@ elite_vehicles = [
     "RHS_UH60M_MEV2",                                                   // UH-60M MEV 2
     "USAF_A10",                                     	                // A-10
 	"RHS_M2A3_BUSKIII",
-	"USAF_AC130U",
 	"rhsusf_m1a2sep1tuskiid_usarmy"                                     
 ];

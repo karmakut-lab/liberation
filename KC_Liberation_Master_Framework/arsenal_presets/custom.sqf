@@ -46,9 +46,6 @@ private _whitelist = [
     "rhs_weap_m249_pip_S",                                          // M249 PIP (Short/Savit)
     "rhs_weap_m249_pip",                                            // M249 PIP
     "rhs_weap_m249",                                                // M249
-    "rhs_weap_m24sws_d",                                            // M24 SWS (Desert)
-    "rhs_weap_m24sws_wd",                                           // M24 SWS (Woodland)
-    "rhs_weap_m24sws",                                              // M24 SWS
     "rhs_weap_m27iar_grip",                                         // M27 IAR (KAC Grip)
     "rhs_weap_m27iar",                                              // M27 IAR
     "rhs_weap_M320",                                                // M320 GLM
@@ -893,10 +890,9 @@ private _whitelist = [
     "B_Kitbag_cbr",                                                 // Kitbag (Coyote)
     "B_Kitbag_rgr",                                                 // Kitbag (Green)
     "B_Kitbag_tan",                                                 // Kitbag (Tan)
-    "B_Parachute",                                                  // Steerable Parachute
+    "B_Parachute"                                                  // Steerable Parachute
 
     // ACE Backpacks
-    "ACE_TacticalLadder_Pack"                                      // Telescopic Ladder
 
 ];
 
