@@ -108,4 +108,4 @@ if (player isEqualTo ([] call KPLIB_fnc_getCommander)) then {
     };
 };
 
-["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups; //NoAce Squad Manager Client Initialize
+//["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups; //NoAce Squad Manager Client Initialize
