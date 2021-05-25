@@ -173,7 +173,7 @@ class GREUH_Menu {
 	"GREUH_ButtonName_Rename","GREUH_ButtonName_Abort","GREUH_Squad_TextField","GREUH_LabelVD","GREUH_ButtonLeader",
 	"GREUH_SliderVeh","GREUH_LabelVDVeh","GREUH_SliderVDVeh","GREUH_SliderObj","GREUH_LabelVDObj","GREUH_SliderVDObj",
 	"GREUH_Leader_OuterBG", "GREUH_Leader_InnerBG", "GREUH_Leader_OuterBG_F", "GREUH_Leader_InnerBG_F",
-	"GREUH_ButtonLeader_Choose", "GREUH_ButtonLeader_Abort", "GREUH_Squad_Combo", "GREUH_VehSound", "GREUH_SliderVehSound",
+	"GREUH_ButtonLeader_Choose", "GREUH_ButtonLeader_Abort", "GREUH_Squad_Combo", "GREUH_ButtonLock", "GREUH_VehSound", "GREUH_SliderVehSound",
 	"GREUH_LabelVehSound","GREUH_LabelNametags","GREUH_NametagsActive","GREUH_NametagsYes","GREUH_NametagsNo",
 	"GREUH_FPSLabel","GREUH_FPSEdit"};
 	objects[] = {};
@@ -330,8 +330,8 @@ class GREUH_Menu {
 	};
 	class GREUH_ButtonNew : GREUH_ButtonSquad {
 		idc = 512;
-		text = $STR_GREUH_CREATE;
-		action = "squadaction = 'create';";
+		text = "Leave";
+		action = "squadaction = 'leave';";
 		y = ((BASE_Y + 0.15) * safezoneH) + safezoneY;
 	};
 	class GREUH_ButtonRename : GREUH_ButtonSquad {
@@ -345,6 +345,12 @@ class GREUH_Menu {
 		text = $STR_GREUH_LEADER;
 		action = "squadaction = 'leader';";
 		y = ((BASE_Y + 0.23) * safezoneH) + safezoneY;
+	};
+	class GREUH_ButtonLock : GREUH_ButtonSquad {
+		idc = 516;
+		text = "Lock";
+		action = "squadaction = 'lock';";
+		y = ((BASE_Y + 0.27) * safezoneH) + safezoneY;
 	};
 	class GREUH_Squad_OuterBG : GREUH_OuterBG {
 		idc = 521;
