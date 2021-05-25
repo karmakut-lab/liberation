@@ -3,6 +3,9 @@ params ["_unit", "_killer"];
 if (isServer) then {
 
     if (KP_liberation_kill_debug > 0) then {[format ["Kill Manager executed - _unit: %1 (%2) - _killer: %3 (%4)", typeOf _unit, _unit, typeOf _killer, _killer], "KILL"] call KPLIB_fnc_log;};
+    private _civCasualtiesPerPlayer = createHashMap;
+    private _friendlyCasualtiesPerPlayer = createHashMap;
+
 
     // Get Killer, when ACE enabled, via lastDamageSource
     if (KP_liberation_ace) then {
@@ -92,6 +95,18 @@ if (isServer) then {
             // Killed by BLUFOR
             if (side _killer == GRLIB_side_friendly) then {
                 stats_blufor_teamkills = stats_blufor_teamkills + 1;
+
+                // griefing checks
+                if (name _killer in _friendlyCasualtiesPerPlayer) then {
+                   private _friendlyCasualtiesPerPlayer = _friendlyCasualtiesPerPlayer get name _killer;
+                   _friendlyCasualtiesPerPlayer set [name _killer, _friendlyCasualtiesPerPlayer + 1];
+                };
+                else {
+                   _friendlyCasualtiesPerPlayer set [name _killer, 1];
+                };
+                if (_friendlyCasualtiesPerPlayer get name _killer >= 5) then {
+                   systemChat format ["%1 civilians/friendly guerillas killed by: %2", _friendlyCasualtiesPerPlayer get name _killer,  name _killer];
+                };
             };
         };
 
@@ -109,11 +124,25 @@ if (isServer) then {
                     [3, [(name _unit)]] remoteExec ["KPLIB_fnc_crGlobalMsg"];
                     stats_resistance_teamkills = stats_resistance_teamkills + 1;
                     [KP_liberation_cr_resistance_penalty, true] spawn F_cr_changeCR;
+
+
                 };
 
                 // Killed by a player
                 if (isplayer _killer) then {
                     stats_resistance_teamkills_by_players = stats_resistance_teamkills_by_players + 1;
+                };
+
+                // griefing checks
+                if (name _killer in _civCasualtiesPerPlayer) then {
+                    private _currentKillCountForPlayer = (_civCasualtiesPerPlayer get name _killer);
+                    _civCasualtiesPerPlayer set [name _killer, _currentKillCountForPlayer + 1];
+                };
+                else {
+                   _civCasualtiesPerPlayer set [name _killer, 1];
+                };
+                if (_currentKillCountForPlayer get name _killer >= 5) then {
+                   systemChat format ["%1 civilians/friendly guerillas killed by: %2", _currentKillCountForPlayer get name _killer,  name _killer];
                 };
             };
         };
@@ -132,6 +161,18 @@ if (isServer) then {
             // Killed by a player
             if (isPlayer _killer) then {
                 stats_civilians_killed_by_players = stats_civilians_killed_by_players + 1;
+
+                // check for griefing
+                if (name _killer in _civCasualtiesPerPlayer) then {
+                   private _currentKillCountForPlayer = (_civCasualtiesPerPlayer get name _killer);
+                   _civCasualtiesPerPlayer set [name _killer, _currentKillCountForPlayer + 1];
+                };
+                else {
+                   _civCasualtiesPerPlayer set [name _killer, 1];
+                };
+                if (_currentKillCountForPlayer get name _killer >= 5) then {
+                    systemChat format ["%1 civilians/friendly guerillas killed by: %2", _currentKillCountForPlayer get name _killer,  name _killer];
+                };
             };
         };
     } else {
