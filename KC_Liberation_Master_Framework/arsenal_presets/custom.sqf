@@ -30,7 +30,6 @@ private _whitelist = [
     "rhs_mag_m713_Green",
     "UGL_FlareGreen_F",
     "UGL_FlareRed_F",
-    "rhs_weap_m14ebrri",                                            // M14 EBR-RI
     "rhs_weap_m16a4_carryhandle_M203",                              // M16A4 (Carryhandle/M203)
     "rhs_weap_m16a4_carryhandle",                                   // M16A4 (Carryhandle)
     "rhs_weap_m16a4_imod_M203",                                     // M16A4 (IMOD Stock/M203)
@@ -47,9 +46,6 @@ private _whitelist = [
     "rhs_weap_m249_pip_S",                                          // M249 PIP (Short/Savit)
     "rhs_weap_m249_pip",                                            // M249 PIP
     "rhs_weap_m249",                                                // M249
-    "rhs_weap_m24sws_d",                                            // M24 SWS (Desert)
-    "rhs_weap_m24sws_wd",                                           // M24 SWS (Woodland)
-    "rhs_weap_m24sws",                                              // M24 SWS
     "rhs_weap_m27iar_grip",                                         // M27 IAR (KAC Grip)
     "rhs_weap_m27iar",                                              // M27 IAR
     "rhs_weap_M320",                                                // M320 GLM
@@ -62,9 +58,6 @@ private _whitelist = [
     "rhs_weap_m4_m320",                                             // M4 (M320)
     "rhs_weap_m4_mstock",                                           // M4 (Magpull Stock)
     "rhs_weap_m4",                                                  // M4
-    "rhs_weap_m40a5_d",                                             // M40A5 (Desert)
-    "rhs_weap_m40a5_wd",                                            // M40A5 (Woodland)
-    "rhs_weap_m40a5",                                               // M40A5
     "rhs_weap_m4a1_blockII_bk",                                     // M4A1 Block II (Black Rail)
     "rhs_weap_m4a1_blockII_d",                                      // M4A1 Block II (Desert)
     "rhs_weap_m4a1_blockII_KAC_bk",                                 // M4A1 Block II (Black Rail/SOPMOD Stock)
@@ -106,16 +99,6 @@ private _whitelist = [
     "rhs_weap_mk18_m320",                                           // Mk 18 Mod 1 (M320)
     "rhs_weap_mk18_wd",                                             // Mk 18 Mod 1 (Woodland)
     "rhs_weap_mk18",                                                // Mk 18 Mod 1
-    "rhs_weap_sr25_d",                                              // Mk 11 Mod 0 (Desert)
-    "rhs_weap_sr25_ec_d",                                           // Mk 11 Mod 0 (EC/Desert)
-    "rhs_weap_sr25_ec_wd",                                          // Mk 11 Mod 0 (EC/Woodland)
-    "rhs_weap_sr25_ec",                                             // Mk 11 Mod 0 (EC)
-    "rhs_weap_sr25_wd",                                             // Mk 11 Mod 0 (Woodland)
-    "rhs_weap_sr25",                                                // Mk 11 Mod 0
-    "rhs_weap_XM2010_d",                                            // M2010 ESR (Desert)
-    "rhs_weap_XM2010_sa",                                           // M2010 ESR (Semi-arid)
-    "rhs_weap_XM2010_wd",                                           // M2010 ESR (Camo)
-    "rhs_weap_XM2010",                                              // M2010 ESR
     "rhsusf_weap_glock17g4",                                        // Glock 17
     "rhsusf_weap_m1911a1",                                          // M1911A1
     "rhsusf_weap_m9",                                               // M9 Beretta
@@ -693,9 +676,6 @@ private _whitelist = [
     "rhsusf_acc_harris_swivel",                                     // Harris Bipod
     "rhsusf_acc_kac_grip_saw_bipod",                                // KAC Grip & SAW Bipod
     "rhsusf_acc_kac_grip",                                          // KAC Vertical Grip
-    "rhsusf_acc_LEUPOLDMK4_2_d",                                    // Mk. 4 M5 (Desert)
-    "rhsusf_acc_LEUPOLDMK4_2_mrds",                                 // Mk. 4 M5 (MRDS)
-    "rhsusf_acc_LEUPOLDMK4_2",                                      // Mk. 4 ER/T 6.5-20x M5
     "rhsusf_acc_LEUPOLDMK4_d",                                      // Mk. 4 M3 (Desert)
     "rhsusf_acc_LEUPOLDMK4_wd",                                     // Mk. 4 M3 (Woodland)
     "rhsusf_acc_LEUPOLDMK4",                                        // Mk. 4 ER/T 3.5-10x M3
@@ -710,11 +690,6 @@ private _whitelist = [
     "rhsusf_acc_m24_silencer_d",                                    // M24 Suppressor (Desert)
     "rhsusf_acc_m24_silencer_wd",                                   // M24 Suppressor (Woodland)
     "rhsusf_acc_M2A1",                                              // M2A1 GL Sight
-    "rhsusf_acc_M8541_low_d",                                       // M8541 (low mount/Desert)
-    "rhsusf_acc_M8541_low_wd",                                      // M8541 (low mount/Woodland)
-    "rhsusf_acc_M8541_low",                                         // M8541 (low mount)
-    "rhsusf_acc_M8541_mrds",                                        // M8541 (MRDS)
-    "rhsusf_acc_M8541",                                             // M8541
     "rhsusf_acc_M952V",                                             // M952V
     "rhsusf_acc_mrds_c",                                            // MRDS Coyote
     "rhsusf_acc_mrds_fwd_c",                                        // MRDS Coyote (Forward)
@@ -907,10 +882,9 @@ private _whitelist = [
     "B_Kitbag_cbr",                                                 // Kitbag (Coyote)
     "B_Kitbag_rgr",                                                 // Kitbag (Green)
     "B_Kitbag_tan",                                                 // Kitbag (Tan)
-    "B_Parachute",                                                  // Steerable Parachute
+    "B_Parachute"                                                  // Steerable Parachute
 
     // ACE Backpacks
-    "ACE_TacticalLadder_Pack"                                      // Telescopic Ladder
 
 ];
 

@@ -74,7 +74,7 @@ if !(_spawn_marker isEqualTo "") then {
 
     sleep 3;
 
-    combat_readiness = (combat_readiness - (round ((count _bg_groups) + (random (count _bg_groups))))) max 0;
+    combat_readiness = (combat_readiness - ((random (count _bg_groups)))) max 0;
     stats_hostile_battlegroups = stats_hostile_battlegroups + 1;
 
     {

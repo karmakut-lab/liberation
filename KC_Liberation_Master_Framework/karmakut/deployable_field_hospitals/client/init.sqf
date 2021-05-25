@@ -1,7 +1,7 @@
 karma_deployableFieldHospitals_client_currentDeployedFieldHospital = objNull;
 karma_deployableFieldHospitals_client_isPerformingAction = false;
 karma_deployableFieldHospitals_client_actionAnimation = "Acts_TreatingWounded05";
-karma_deployableFieldHospitals_client_actionDurationInSeconds = 15; // This can't be longer than 24 seconds (limitation of the BIS_fnc_holdActionAdd function).
+karma_deployableFieldHospitals_client_actionDurationInSeconds = 24; // This can't be longer than 24 seconds (limitation of the BIS_fnc_holdActionAdd function).
 
 karma_deployableFieldHospitals_client_initializePlayer = {
     private _deployActionId = [
