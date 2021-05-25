@@ -42,7 +42,6 @@ kp_vehicle_permissions = compileFinal preprocessFileLineNumbers "scripts\client\
 execVM "scripts\client\actions\intel_manager.sqf";
 execVM "scripts\client\actions\recycle_manager.sqf";
 execVM "scripts\client\actions\unflip_manager.sqf";
-execVM "scripts\client\actions\squad_manager.sqf"; //NoAce Squad Manager
 execVM "scripts\client\ammoboxes\ammobox_action_manager.sqf";
 execVM "scripts\client\build\build_overlay.sqf";
 execVM "scripts\client\build\do_build.sqf";
@@ -89,7 +88,9 @@ if (!KPLIB_sway) then {
 
 execVM "scripts\client\ui\intro.sqf";
 
-[player] joinSilent (createGroup [GRLIB_side_friendly, true]);
+((units player) - [player]) joinSilent grpNull;
+my_group = group player;
+[my_group, "add"] remoteExec ["addel_group_remote_call", 2];
 
 // Commander init
 if (player isEqualTo ([] call KPLIB_fnc_getCommander)) then {
@@ -105,5 +106,3 @@ if (player isEqualTo ([] call KPLIB_fnc_getCommander)) then {
         };
     };
 };
-
-["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups; //NoAce Squad Manager Client Initialize

@@ -122,9 +122,11 @@ execVM "scripts\server\offloading\group_diag.sqf";
     };
 } forEach allUnits;
 
+//NoAce Squad Lock System
+if (isNil "global_locked_group") then { global_locked_group = [] };
+publicVariable "global_locked_group";
+
 // Server Restart Script from K4s0
 if (KP_liberation_restart > 0) then {
     execVM "scripts\server\game\server_restart.sqf";
 };
-
-["Initialize", [true]] call BIS_fnc_dynamicGroups; //NoAce Squad Manager Server Initialize
