@@ -42,7 +42,6 @@ kp_vehicle_permissions = compileFinal preprocessFileLineNumbers "scripts\client\
 execVM "scripts\client\actions\intel_manager.sqf";
 execVM "scripts\client\actions\recycle_manager.sqf";
 execVM "scripts\client\actions\unflip_manager.sqf";
-execVM "scripts\client\actions\squad_manager.sqf"; //NoAce Squad Manager
 execVM "scripts\client\ammoboxes\ammobox_action_manager.sqf";
 execVM "scripts\client\build\build_overlay.sqf";
 execVM "scripts\client\build\do_build.sqf";
@@ -107,5 +106,3 @@ if (player isEqualTo ([] call KPLIB_fnc_getCommander)) then {
         };
     };
 };
-
-//["InitializePlayer", [player, true]] call BIS_fnc_dynamicGroups; //NoAce Squad Manager Client Initialize

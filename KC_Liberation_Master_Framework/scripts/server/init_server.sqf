@@ -130,5 +130,3 @@ publicVariable "global_locked_group";
 if (KP_liberation_restart > 0) then {
     execVM "scripts\server\game\server_restart.sqf";
 };
-
-//["Initialize", [true]] call BIS_fnc_dynamicGroups; //NoAce Squad Manager Server Initialize
