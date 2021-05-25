@@ -99,7 +99,7 @@ if (isServer) then {
                 // griefing checks
                 if (name _killer in _friendlyCasualtiesPerPlayer) then {
                    private _currentKillCountForPlayer = _friendlyCasualtiesPerPlayer get name _killer;
-                   _friendlyCasualtiesPerPlayer set [name _killer, _friendlyCasualtiesPerPlayer + 1];
+                   _friendlyCasualtiesPerPlayer set [name _killer, _currentKillCountForPlayer + 1];
                 };
                 else {
                    _friendlyCasualtiesPerPlayer set [name _killer, 1];
