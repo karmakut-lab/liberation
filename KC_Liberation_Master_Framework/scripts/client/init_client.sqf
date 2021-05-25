@@ -88,10 +88,6 @@ if (!KPLIB_sway) then {
 
 execVM "scripts\client\ui\intro.sqf";
 
-((units player) - [player]) joinSilent grpNull;
-my_group = group player;
-[my_group, "add"] remoteExec ["addel_group_remote_call", 2];
-
 // Commander init
 if (player isEqualTo ([] call KPLIB_fnc_getCommander)) then {
     // Start tutorial
