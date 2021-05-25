@@ -8,7 +8,7 @@ global_new_leader = [];
 
 while { true } do {
 	if(lbCurSel 515 != -1) then {
-		_grp = grpNull;
+		_grp = objNull;
 		_grp = groups_list select (lbCurSel 515);
 		if (!(isNull _grp) && (_grp in (global_locked_group))) then {
 			ctrlSetText [516, "UnLock"];
@@ -20,7 +20,6 @@ while { true } do {
 	if ( squadaction != "" ) then {
 		_grp = grpNull;
 		switch (squadaction) do {
-
 			case "join" : {
 				if(lbCurSel 515 != -1) then { _grp = groups_list select (lbCurSel 515); };
 				if (!(isNull _grp) && (_grp != group player)) then {
@@ -33,21 +32,14 @@ while { true } do {
 					} else {hint "Sorry, your Group is not Empty."};
 				};
 			};
-
-			case "create" : {
-				_grp = createGroup [(side player), true];
-				[player] join _grp;
-				hint "New squad created";
-			};
-
-			/*case "leave" : {
+			case "leave" : {
 				if (leader group player != player) then {
 					_group = createGroup [GRLIB_side_friendly, true];
 					[_group, "add"] remoteExec ["addel_group_remote_call", 2];
 					[player] joinSilent _group;
 					hint "New Squad created";
 				};
-			};*/
+			};
 			case "lock" : {
 				if(lbCurSel 515 != -1) then { _grp = groups_list select (lbCurSel 515); };
 				if (!(isNull _grp) && (_grp == group player)) then {

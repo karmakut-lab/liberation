@@ -330,8 +330,8 @@ class GREUH_Menu {
 	};
 	class GREUH_ButtonNew : GREUH_ButtonSquad {
 		idc = 512;
-		text = $STR_GREUH_CREATE;
-		action = "squadaction = 'create';";
+		text = "Leave";
+		action = "squadaction = 'leave';";
 		y = ((BASE_Y + 0.15) * safezoneH) + safezoneY;
 	};
 	class GREUH_ButtonRename : GREUH_ButtonSquad {
