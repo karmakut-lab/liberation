@@ -676,9 +676,6 @@ private _whitelist = [
     "rhsusf_acc_harris_swivel",                                     // Harris Bipod
     "rhsusf_acc_kac_grip_saw_bipod",                                // KAC Grip & SAW Bipod
     "rhsusf_acc_kac_grip",                                          // KAC Vertical Grip
-    "rhsusf_acc_LEUPOLDMK4_2_d",                                    // Mk. 4 M5 (Desert)
-    "rhsusf_acc_LEUPOLDMK4_2_mrds",                                 // Mk. 4 M5 (MRDS)
-    "rhsusf_acc_LEUPOLDMK4_2",                                      // Mk. 4 ER/T 6.5-20x M5
     "rhsusf_acc_LEUPOLDMK4_d",                                      // Mk. 4 M3 (Desert)
     "rhsusf_acc_LEUPOLDMK4_wd",                                     // Mk. 4 M3 (Woodland)
     "rhsusf_acc_LEUPOLDMK4",                                        // Mk. 4 ER/T 3.5-10x M3
@@ -693,11 +690,6 @@ private _whitelist = [
     "rhsusf_acc_m24_silencer_d",                                    // M24 Suppressor (Desert)
     "rhsusf_acc_m24_silencer_wd",                                   // M24 Suppressor (Woodland)
     "rhsusf_acc_M2A1",                                              // M2A1 GL Sight
-    "rhsusf_acc_M8541_low_d",                                       // M8541 (low mount/Desert)
-    "rhsusf_acc_M8541_low_wd",                                      // M8541 (low mount/Woodland)
-    "rhsusf_acc_M8541_low",                                         // M8541 (low mount)
-    "rhsusf_acc_M8541_mrds",                                        // M8541 (MRDS)
-    "rhsusf_acc_M8541",                                             // M8541
     "rhsusf_acc_M952V",                                             // M952V
     "rhsusf_acc_mrds_c",                                            // MRDS Coyote
     "rhsusf_acc_mrds_fwd_c",                                        // MRDS Coyote (Forward)
