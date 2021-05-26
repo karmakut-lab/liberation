@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=140;
+		nextID=146;
 	};
 	class Camera
 	{
-		pos[]={142.95522,448.19666,-322.05899};
-		dir[]={0.16346367,-0.72459537,0.66951948};
-		up[]={0.17186226,0.68917155,0.70392132};
-		aside[]={0.97147197,-2.2788299e-007,-0.23718406};
+		pos[]={152.29576,465.69907,-343.61133};
+		dir[]={-0.04288362,-0.71124715,0.70164436};
+		up[]={-0.043390341,0.70293868,0.70992559};
+		aside[]={0.99814516,-1.9354047e-007,0.06100674};
 	};
 };
 binarizationWanted=0;
@@ -82387,9 +82387,9 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CAPTAIN";
-						init="call{group this setgroupid [""Assassin 6""];}";
+						init="call{group this setgroupid [""Assassin 6-6""];}";
 						name="commandant";
-						description="Assassin 6 Company Commander@Assassin 6 (Leadership)";
+						description="Assassin 6 Company Commander@Assassin 6-6 (Leadership)";
 						isPlayable=1;
 					};
 					id=3950;
@@ -82585,8 +82585,8 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="LIEUTENANT";
-						init="call{group this setgroupid [""Assassin 6""];}";
-						description="Assassin 7 Company Executive Officer@Assassin 6 (Leadership)";
+						init="call{group this setgroupid [""Assassin 6-6""];}";
+						description="Assassin 7 Company Executive Officer@Assassin 6-6 (Leadership)";
 						isPlayable=1;
 					};
 					id=3951;
@@ -82782,8 +82782,8 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 6""];}";
-						description="Assassin 8 Company FAC@Assassin 6";
+						init="call{group this setgroupid [""Assassin 6-6""];}";
+						description="Assassin 8 Company FAC@Assassin 6-6";
 						isPlayable=1;
 					};
 					id=3952;
@@ -82978,8 +82978,8 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 6""];}";
-						description="Assassin 9 Company Senior Medic@Assassin 6";
+						init="call{group this setgroupid [""Assassin 6-6""];}";
+						description="Assassin 9 Company Senior Medic@Assassin 6-6";
 						isPlayable=1;
 					};
 					id=3953;
@@ -83250,8 +83250,8 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="LIEUTENANT";
-						init="call{group this setgroupid [""Assassin 1""];}";
-						description="Assassin 1-6 Platoon Leader@Assassin 1 (Leadership)";
+						init="call{group this setgroupid [""Assassin 1-6""];}";
+						description="Assassin 1-6 Platoon Leader@Assassin 1-6 (Leadership)";
 						isPlayable=1;
 					};
 					id=3863;
@@ -83437,8 +83437,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={124.52429,141.8029,121.97754};
-						angles[]={6.2801952,4.7084441,6.2721853};
+						position[]={124.524,141.80246,121.978};
+						angles[]={6.280201,4.7084441,6.2721896};
 					};
 					side="West";
 					flags=4;
@@ -83446,13 +83446,13 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 1""];}";
-						description="Assassin 1-7 Platoon Sergeant@Assassin 1";
+						init="call{group this setgroupid [""Assassin 1-6""];}";
+						description="Assassin 1-7 Platoon Sergeant@Assassin 1-6";
 						isPlayable=1;
 					};
 					id=3864;
 					type="rhsusf_army_ocp_rifleman_101st";
-					atlOffset=0.035461426;
+					atlOffset=0.035003662;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -83634,8 +83634,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={125.60046,141.8213,121.90918};
-						angles[]={6.2801952,4.7084441,6.2721853};
+						position[]={125.6,141.8214,121.909};
+						angles[]={6.280201,4.7084441,6.2721896};
 					};
 					side="West";
 					flags=4;
@@ -83643,13 +83643,13 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{group this setgroupid [""Assassin 1""];}";
-						description="Assassin 1-9 Platoon Medic@Assassin 1";
+						init="call{group this setgroupid [""Assassin 1-6""];}";
+						description="Assassin 1-9 Platoon Medic@Assassin 1-6";
 						isPlayable=1;
 					};
 					id=3865;
 					type="rhsusf_army_ocp_medic";
-					atlOffset=0.065887451;
+					atlOffset=0.065994263;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -83840,8 +83840,8 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 1""];}";
-						description="Assassin 1-8 Platoon JFO@Assassin 1";
+						init="call{group this setgroupid [""Assassin 1-6""];}";
+						description="Assassin 1-8 Platoon JFO@Assassin 1-6";
 						isPlayable=1;
 					};
 					id=3866;
@@ -92263,8 +92263,8 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="LIEUTENANT";
-						init="call{group this setgroupid [""Assassin 2""];}";
-						description="Assassin 2-6 Platoon Leader@Assassin 2 (Leadership)";
+						init="call{group this setgroupid [""Assassin 2-6""];}";
+						description="Assassin 2-6 Platoon Leader@Assassin 2-6 (Leadership)";
 						isPlayable=1;
 					};
 					id=3912;
@@ -92450,8 +92450,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={139.30945,141.64346,105.02051};
-						angles[]={6.2741885,4.6936092,6.2671909};
+						position[]={139.30901,141.64323,105.021};
+						angles[]={6.2741795,4.6936092,6.2671981};
 					};
 					side="West";
 					flags=4;
@@ -92459,13 +92459,13 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 2""];}";
-						description="Assassin 2-7 Platoon Sergeant@Assassin 2";
+						init="call{group this setgroupid [""Assassin 2-6""];}";
+						description="Assassin 2-7 Platoon Sergeant@Assassin 2-6";
 						isPlayable=1;
 					};
 					id=3913;
 					type="rhsusf_army_ocp_rifleman_101st";
-					atlOffset=0.10624695;
+					atlOffset=0.10600281;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -92647,8 +92647,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={140.41443,141.72459,104.94727};
-						angles[]={6.2741885,4.6936092,6.2711902};
+						position[]={140.414,141.72453,104.94701};
+						angles[]={6.2741795,4.6936092,6.2711945};
 					};
 					side="West";
 					flags=4;
@@ -92656,13 +92656,13 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{group this setgroupid [""Assassin 2""];}";
-						description="Assassin 2-9 Platoon Medic@Assassin 2";
+						init="call{group this setgroupid [""Assassin 2-6""];}";
+						description="Assassin 2-9 Platoon Medic@Assassin 2-6";
 						isPlayable=1;
 					};
 					id=3914;
 					type="rhsusf_army_ocp_medic";
-					atlOffset=0.20405579;
+					atlOffset=0.20399475;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -92852,8 +92852,8 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 2""];}";
-						description="Assassin 2-8 Platoon JFO@Assassin 2";
+						init="call{group this setgroupid [""Assassin 2-6""];}";
+						description="Assassin 2-8 Platoon JFO@Assassin 2-6";
 						isPlayable=1;
 					};
 					id=3915;
@@ -101273,8 +101273,8 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="LIEUTENANT";
-						init="call{group this setgroupid [""Assassin 3""];}";
-						description="Assassin 3-6 Platoon Leader@Assassin 3 (Leadership)";
+						init="call{group this setgroupid [""Assassin 3-6""];}";
+						description="Assassin 3-6 Platoon Leader@Assassin 3-6 (Leadership)";
 						isPlayable=1;
 					};
 					id=4347;
@@ -101461,7 +101461,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={104.60179,141.93382,116.74725};
+						position[]={104.602,141.93381,116.747};
 						angles[]={0,4.6936092,6.2771816};
 					};
 					side="West";
@@ -101470,12 +101470,13 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 3""];}";
-						description="Assassin 3-7 Platoon Sergeant@Assassin 3";
+						init="call{group this setgroupid [""Assassin 3-6""];}";
+						description="Assassin 3-7 Platoon Sergeant@Assassin 3-6";
 						isPlayable=1;
 					};
 					id=4348;
 					type="rhsusf_army_ocp_rifleman_101st";
+					atlOffset=-1.5258789e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -101657,7 +101658,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={105.7058,141.9272,116.67326};
+						position[]={105.706,141.92719,116.673};
 						angles[]={0,4.6936092,6.2771816};
 					};
 					side="West";
@@ -101666,12 +101667,13 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{group this setgroupid [""Assassin 3""];}";
-						description="Assassin 3-9 Platoon Medic@Assassin 3";
+						init="call{group this setgroupid [""Assassin 3-6""];}";
+						description="Assassin 3-9 Platoon Medic@Assassin 3-6";
 						isPlayable=1;
 					};
 					id=4349;
 					type="rhsusf_army_ocp_medic";
+					atlOffset=-1.5258789e-005;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -101853,7 +101855,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={106.83479,141.92043,116.59825};
+						position[]={106.835,141.92041,116.598};
 						angles[]={0,4.6936092,6.2771816};
 					};
 					side="West";
@@ -101862,12 +101864,13 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 3""];}";
-						description="Assassin 3-8 Platoon JFO@Assassin 3";
+						init="call{group this setgroupid [""Assassin 3-6""];}";
+						description="Assassin 3-8 Platoon JFO@Assassin 3-6";
 						isPlayable=1;
 					};
 					id=4350;
 					type="rhsusf_army_ocp_rifleman_101st";
+					atlOffset=-1.5258789e-005;
 					class CustomAttributes
 					{
 						class Attribute0
