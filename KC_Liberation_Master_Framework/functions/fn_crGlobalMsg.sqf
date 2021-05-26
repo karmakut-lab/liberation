@@ -30,6 +30,9 @@ switch (_msgType) do {
     case 3: {systemChat (format [localize "STR_CR_RESISTANCE_KILLMSG", (_data select 0)]);};
     case 4: {systemChat (format [localize "STR_CR_HEALMSG", (_data select 0)]);};
     case 5: {["lib_asymm_guerilla_incoming", _data] call BIS_fnc_showNotification;};
+    case 6: {systemChat (format ["%1 teammates killed by %2 (CHECK GRIEFING)", (_data select 0), (_data select 1)])};
+    case 7: {systemChat (format ["%1 friendly resistance members killed by %2 (CHECK GRIEFING)", (_data select 0), (_data select 1)])};
+    case 8: {systemChat (format ["%1 civilians by %2 (CHECK GRIEFING)", (_data select 0), (_data select 1)])};
     default {[format ["globalMsg without valid msgType - %1", _msgType], "CIVREP"] remoteExecCall ["KPLIB_fnc_log", 2];};
 };
 
