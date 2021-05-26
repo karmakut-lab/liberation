@@ -68,4 +68,4 @@ if (isServer) then {
 
 // ZBE Caching, ask Zudren
 
-if (isServer) then {[1000,20,true,1500,3000,1000]execvm "zbe_cache\main.sqf"};
+if (isServer) then {[2000,20,true,2500,3000,1000]execvm "zbe_cache\main.sqf"};

@@ -676,9 +676,6 @@ private _whitelist = [
     "rhsusf_acc_harris_swivel",                                     // Harris Bipod
     "rhsusf_acc_kac_grip_saw_bipod",                                // KAC Grip & SAW Bipod
     "rhsusf_acc_kac_grip",                                          // KAC Vertical Grip
-    "rhsusf_acc_LEUPOLDMK4_d",                                      // Mk. 4 M3 (Desert)
-    "rhsusf_acc_LEUPOLDMK4_wd",                                     // Mk. 4 M3 (Woodland)
-    "rhsusf_acc_LEUPOLDMK4",                                        // Mk. 4 ER/T 3.5-10x M3
     "rhsusf_acc_M2010S_d",                                          // TiTan (Desert)
     "rhsusf_acc_M2010S_sa",                                         // TiTan (Semi-Arid)
     "rhsusf_acc_M2010S_wd",                                         // TiTan (Woodland)
@@ -698,9 +695,6 @@ private _whitelist = [
     "rhsusf_acc_nt4_black",                                         // NT4 QDSS (Black)
     "rhsusf_acc_nt4_tan",                                           // NT4 QDSS (Tan)
     "rhsusf_acc_omega9k",                                           // SILENCERCO OMEGA 9K
-    "rhsusf_acc_premier_low",                                       // M8541A (low mount)
-    "rhsusf_acc_premier_mrds",                                      // M8541A SSDS (MRDS)
-    "rhsusf_acc_premier",                                           // M8541A SSDS
     "rhsusf_acc_RM05_fwd",                                          // RM05 RMR LT726 (Forward)
     "rhsusf_acc_RM05",                                              // RM05 RMR LT726
     "rhsusf_acc_rotex_mp7_aor1",                                    // Rotex-II (AOR1)
