@@ -152,13 +152,13 @@ if (isServer) then {
                         [7, [(ResistanceKillers get (name _killer)), (name _killer)]] remoteExec ["KPLIB_fnc_crGlobalMsg"];
                     };
                     // save resistance kill data
-                    private _hashMap = ProfileNamespace getVariable "civilian_kills_per_player";
+                    private _hashMap = ProfileNamespace getVariable "resistance_kills_per_player";
                     if (name _killer in _hashMap) then {
                         _hashMap set [name _killer, (_hashMap get (name _killer)) + 1];
                     } else {
                         _hashMap set [name _killer, 1];
                     };
-                    ProfileNamespace setVariable ["civilian_kills_per_player", _hashmap];
+                    ProfileNamespace setVariable ["resistance_kills_per_player", _hashmap];
                 };
 
                 // Killed by a player
@@ -188,14 +188,14 @@ if (isServer) then {
                     [8, [(CivilianKillers get (name _killer)), (name _killer)]] remoteExec ["KPLIB_fnc_crGlobalMsg"];
                 };
 
-                // save resistance kill data
-                private _hashMap = ProfileNamespace getVariable "resistance_kills_per_player";
+                // save civilian kill data
+                private _hashMap = ProfileNamespace getVariable "civilian_kills_per_player";
                 if (name _killer in _hashMap) then {
                      _hashMap set [name _killer, (_hashMap get (name _killer)) + 1];
                 } else {
                      _hashMap set [name _killer, 1];
                 };
-                ProfileNamespace setVariable ["resistance_kills_per_player", _hashmap];
+                ProfileNamespace setVariable ["civilian_kills_per_player", _hashmap];
             };
 
             // Killed by a player
