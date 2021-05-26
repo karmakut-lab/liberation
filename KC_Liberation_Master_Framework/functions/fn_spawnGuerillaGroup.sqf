@@ -34,7 +34,49 @@ private _headgear = missionNamespace getVariable ("KP_liberation_guerilla_headge
 private _grp = createGroup [GRLIB_side_resistance, true];
 private _unit = objNull;
 private _weapon = [];
-for "_i" from 1 to _amount do {
+
+// Suicide Vest Leader
+
+for "_i" from 1 to 1 do {
+    // Create unit
+    _unit = [selectRandom KP_liberation_guerilla_units, _pos, _grp, "PRIVATE", 5] call KPLIB_fnc_createManagedUnit;
+
+    // Clear inventory
+    removeAllWeapons _unit;
+    removeAllItems _unit;
+    removeAllAssignedItems _unit;
+    removeUniform _unit;
+    removeVest _unit;
+    removeBackpack _unit;
+    removeHeadgear _unit;
+    removeGoggles _unit;
+
+    // Add uniform etc.
+    _unit forceAddUniform (selectRandom _uniforms);
+    _unit addItemToUniform "FirstAidKit";
+    _unit addItemToUniform "MiniGrenade";
+    _unit addVest "sfp_suicidebelt";
+    _unit addHeadgear (selectRandom _headgear);
+    if (_tier > 1) then {_unit addGoggles (selectRandom KP_liberation_guerilla_facegear);};
+
+    // Add standard items
+    _unit linkItem "ItemMap";
+    _unit linkItem "ItemCompass";
+    _unit linkItem "ItemWatch";
+    _unit linkItem "ItemRadio";
+
+    // Add weapon
+    _weapon = selectRandom _weapons;
+    _unit addWeapon (_weapon select 0);
+    for "_i" from 1 to (_weapon select 2) do {_unit addItemToVest (_weapon select 1);};
+    _unit addPrimaryWeaponItem (_weapon select 3);
+    _unit addPrimaryWeaponItem (_weapon select 4);
+
+    };
+    
+//Rest Of Group
+    
+for "_i" from 2 to _amount do {
     // Create unit
     _unit = [selectRandom KP_liberation_guerilla_units, _pos, _grp, "PRIVATE", 5] call KPLIB_fnc_createManagedUnit;
 
