@@ -229,6 +229,12 @@ KPLIB_o_squadInf    = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opf
 KPLIB_o_squadTank   = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opfor_rpg, opfor_rpg, opfor_at, opfor_at, opfor_at];
 KPLIB_o_squadAir    = [opfor_squad_leader, opfor_medic, opfor_machinegunner, opfor_rpg, opfor_rpg, opfor_aa, opfor_aa, opfor_aa];
 
+
+// Add nvgs
+
+foreach opfor_squad_leader;
+    addHeadgear "NVGoggles_OPFOR";
+    
 /*
     Liberation specific collections
 */
