@@ -112,7 +112,7 @@ air_vehicles = [
 	["USAF_C130J",1000,0,1000],
     ["USAF_C17",2000,0,2000],                                             // C-17 Globemaster III
     ["USAF_A10",1500,1500,750],                                     	 // A-10C Thunderbolt II
-    ["USAF_F35A_LIGHT",1500,1500,1000]
+    ["USAF_F35A_STEALTH",1500,1500,1000]
 ];
 
 static_vehicles = [
@@ -277,7 +277,7 @@ blufor_squad_para = [
 elite_vehicles = [
     "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "rhsusf_m1a1aimd_usarmy",                                                 // M1A1 Aim
-    "USAF_F35A_LIGHT",
+    "USAF_F35A_STEALTH",
     "rhsusf_m1a2sep1d_usarmy",                                          // M1A2 SEP v1
     "rhsusf_m109d_usarmy",                                              // M109A6
     "UK3CB_CW_US_B_LATE_AH64",                                                        // AH-64D (Multi-Role)

@@ -145,12 +145,12 @@ KPLIB_objectInits = [
     ],
 
     [
-        ["USAF_F35A_LIGHT"],
+        ["USAF_F35A_STEALTH"],
         {[_this] execVM "scripts\pylons\f35pylons.sqf";}
     ],
 
     [
-        ["USAF_M9Q"],
+        ["USAF_MQ9"],
         {[_this] execVM "scripts\pylons\reaperpylons.sqf";}
     ],
 
