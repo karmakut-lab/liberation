@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=4356;
+		nextID=4358;
 	};
 	class LayerIndexProvider
 	{
-		nextID=146;
+		nextID=152;
 	};
 	class Camera
 	{
-		pos[]={152.29576,465.69907,-343.61133};
-		dir[]={-0.04288362,-0.71124715,0.70164436};
-		up[]={-0.043390341,0.70293868,0.70992559};
-		aside[]={0.99814516,-1.9354047e-007,0.06100674};
+		pos[]={4081.5288,436.05109,796.81183};
+		dir[]={-0.23773375,-0.58070391,0.77865618};
+		up[]={-0.16957135,0.81410807,0.55540222};
+		aside[]={0.95643336,-5.8737351e-007,0.29201475};
 	};
 };
 binarizationWanted=0;
@@ -122,13 +122,14 @@ addons[]=
 	"rhsusf_c_troops",
 	"A3_Modules_F_StrategicMap",
 	"A3_Modules_F_Curator_Curator",
-	"Desert"
+	"Desert",
+	"A3_Missions_F_Oldman"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=55;
+		items=56;
 		class Item0
 		{
 			className="Jbad_afghan_houses_old";
@@ -474,6 +475,13 @@ class AddonsMetaData
 		{
 			className="Desert";
 			name="Desert";
+		};
+		class Item55
+		{
+			className="A3_Missions_F_Oldman";
+			name="Arma 3 Old Man - Playable Content";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
 		};
 	};
 };
@@ -51401,7 +51409,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2080;
+		items=2081;
 		class Item0
 		{
 			dataType="Object";
@@ -125302,6 +125310,21 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item2080
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4198.3535,359.95078,826.65552};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=4357;
+			type="VirtualReammoBox_camonet_F";
 		};
 	};
 	class Connections

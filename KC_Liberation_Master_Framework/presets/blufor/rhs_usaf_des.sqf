@@ -108,9 +108,11 @@ air_vehicles = [
     ["RHS_UH60M_d",300,150,300],                                          // UH-60M
     ["RHS_UH60M_MEV2",300,0,300],                                        // UH-60M MEV2
     ["RHS_CH_47F",400,100,400],                                     	 // CH-47F Chinook
+    ["USAF_MQ9",500,500,500],
 	["USAF_C130J",1000,0,1000],
     ["USAF_C17",2000,0,2000],                                             // C-17 Globemaster III
-    ["USAF_A10",1500,1500,750]                                     	 // A-10C Thunderbolt II
+    ["USAF_A10",1500,1500,750],                                     	 // A-10C Thunderbolt II
+    ["USAF_F35A_LIGHT",1500,1500,1000]
 ];
 
 static_vehicles = [
