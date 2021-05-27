@@ -261,15 +261,27 @@ KP_liberation_battlegroup_clearance = [
 The Steam UIDs entered in this array will allow corresponding players to access the commander actions (rights, production, etc.),
 even if they are not in the commander slot. */
 KP_liberation_commander_actions = [
-    "76561198009578451",
-    "76561198029603889",
-    "76561198128972595",
-    "76561198035901368",
-    "76561198010961319",
-    "76561198243945960",
-    "76561197966129199",
-    "76561198066834077",
-    "76561198372265841"
+    "76561198009578451",//karma
+    "76561197999232291",//Prowlaz
+    "76561198372265841",//M. Morgan
+    "76561198029603889",//ArkashaLethal
+    "76561198308236259",//DashBee
+    "76561198024729279",//LtDanUSAFX3
+    "76561197966129199",//Dedone
+    "76561198010961319",//RyanBerry
+    "76561198128972595",//AcidPANTALONES
+    "76561198025193393",//captainchuck1
+    "76561198035901368",//[SFW]Meridian.Sun
+    "76561198146698036",//Wayne 
+    "76561198218326732",//Zudren
+    "76561198043834889",//Gman
+    "76561197970792840",//Merrick362
+    "76561198062335506",//The.Lord.Chanka
+    "76561198060416563",//maksattak
+    "76561198066834077",//Haruko
+    "76561198870892912",//mooooo
+    "76561198202157540",//Paladinn
+    "76561197960548388" //GimliTron
 ];
 
 /* Whitelist for BI support framework access.
