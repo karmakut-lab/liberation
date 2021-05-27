@@ -214,7 +214,7 @@ GRLIB_sector_size = 1500;                                               // Range
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.6;                                  // Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
-GRLIB_vulnerability_timer = 600;                                        // Time in seconds how long a captured sector is vulnerable to enemy troops.
+GRLIB_vulnerability_timer = 900;                                        // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
 GRLIB_surrender_chance = 30;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
 
