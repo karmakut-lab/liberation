@@ -277,6 +277,7 @@ blufor_squad_para = [
 elite_vehicles = [
     "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "rhsusf_m1a1aimd_usarmy",                                                 // M1A1 Aim
+    "USAF_F35A_LIGHT",
     "rhsusf_m1a2sep1d_usarmy",                                          // M1A2 SEP v1
     "rhsusf_m109d_usarmy",                                              // M109A6
     "UK3CB_CW_US_B_LATE_AH64",                                                        // AH-64D (Multi-Role)

@@ -452,6 +452,13 @@ blacklisted_from_arsenal = [
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
 KP_liberation_allowed_items_extension = [
+    "rhs_weap_M136",
+    "rhs_fgm148_magazine_AT",
+    "rhs_weap_fgm148",
+    "MRAWS_HEAT_F",
+    "launch_MRAWS_green_F",
+    "rhs_fim92_mag",
+    "rhs_weap_fim92",
     "ItemWatch",
     "ItemCompass",
     "ItemMap",
