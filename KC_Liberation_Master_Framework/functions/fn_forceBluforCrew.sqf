@@ -46,4 +46,4 @@ if ((side _grp) != GRLIB_side_friendly) then {
  //Set the crew to safe behaviour
 _grp setBehaviour "SAFE";
 
-true
+true;
