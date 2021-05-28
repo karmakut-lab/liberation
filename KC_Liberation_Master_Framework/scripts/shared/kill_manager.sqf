@@ -1,7 +1,4 @@
 params ["_unit", "_killer"];
-TeamKillers = createHashMap;
-ResistanceKillers = createHashMap;
-CivilianKillers = createHashMap;
 if (isNil {profileNamespace getVariable "civilian_kills_per_player"}) then { // if profilenamespace doesn't find variable it creates as 0
 	profileNamespace setVariable ["civilian_kills_per_player", createHashMap];
 };
@@ -11,7 +8,6 @@ if (isNil {profileNamespace getVariable "resistance_kills_per_player"}) then {
 if (isNil {profileNamespace getVariable "teamkills_per_player"}) then {
 	profileNamespace setVariable ["teamkills_per_player", createHashMap];
 };
-
 
 if (isServer) then {
 
