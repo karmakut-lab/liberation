@@ -22,7 +22,7 @@ params [
 
 if (isNull _veh) exitWith {["Null object given"] call BIS_fnc_error; false};
 
- Create regular config crew
+Create regular config crew;
 private _grp = createVehicleCrew _veh;
 
  If the config crew isn't the correct side, replace it with the crew classnames from the preset
