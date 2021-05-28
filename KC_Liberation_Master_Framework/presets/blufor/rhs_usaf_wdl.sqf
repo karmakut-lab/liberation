@@ -101,6 +101,8 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
+    ["rhusf_m1152_sicps_usarmy_wd",100,0,100],
+    ["B_UAV_01_F",150,0,150],
     ["RHS_MELB_MH6M",250,0,250],                                         // MH-6M Little Bird
     ["RHS_MELB_AH6M",250,300,250],                                       // AH-6M Pawnee
     ["UK3CB_CW_US_B_LATE_AH64",750,750,300],                                        // AH-64D (Multi-Role)
