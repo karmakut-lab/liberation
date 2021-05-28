@@ -53,6 +53,11 @@ if ( GRLIB_endgame == 0 ) then {
         reset_battlegroups_ai = true;
         [] spawn KPLIB_fnc_doSave;
         stats_sectors_lost = stats_sectors_lost + 1;
+        if (_sector in sectors_tower) then {
+            _sector setVariable ["adv_var_isRelay",false,true];
+            [_sector] call TFAR_antennas_fnc_deleteRadioTower;
+            systemChat "Radio repeater deactivated.";
+        };
         {
             if (_sector in _x) exitWith {
                 if ((count (_x select 3)) == 3) then {

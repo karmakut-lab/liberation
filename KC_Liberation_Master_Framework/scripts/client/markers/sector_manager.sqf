@@ -26,7 +26,13 @@ while {true} do {
     };
 
     {_x setMarkerColorLocal GRLIB_color_enemy;} forEach (sectors_allSectors - blufor_sectors);
-    {_x setMarkerColorLocal GRLIB_color_friendly;} forEach blufor_sectors;
+    {_x setMarkerColorLocal GRLIB_color_friendly;
+     if (_x in sectors_tower) then {
+        _liberated_sector setVariable ["adv_var_isRelay",true,true];
+        [_liberated_sector, 7000] call TFAR_antennas_fnc_initRadioTower;
+        systemChat "Radio repeater activated.";
+     };
+     } forEach blufor_sectors;
 
     {
         _x params ["_marker", "_base"];
