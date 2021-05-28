@@ -229,7 +229,6 @@ support_vehicles = [
     ["Box_NATO_Ammo_F",0,5,0],
     ["ACE_medicalSupplyCrate_advanced",5,0,0],
     ["VirtualReammoBox_camonet_F",0,500,0],
-    ["B_Radar_System_01_F",500,0,200],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
     ["B_APC_Tracked_01_CRV_F",500,100,300],                             // CRV-6e Bobcat
