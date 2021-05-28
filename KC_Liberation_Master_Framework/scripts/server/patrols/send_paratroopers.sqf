@@ -87,7 +87,7 @@ _pilot_group setCurrentWaypoint [_para_group, 1];
 _newvehicle flyInHeight 100;
 
 waitUntil {sleep 1;
-    !(alive _newvehicle) || (damage _newvehicle > 0.2 ) || (_newvehicle distance _targetpos < 400)
+    !(alive _newvehicle) || (damage _newvehicle > 0.2 ) || (_newvehicle distance _targetpos < 800)
 };
 
 _newvehicle flyInHeight 100;

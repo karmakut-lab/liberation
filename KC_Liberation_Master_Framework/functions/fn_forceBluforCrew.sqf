@@ -16,34 +16,34 @@
         Function reached the end [BOOL]
 */
 
-//params [
-//    ["_veh", objNull, [objNull]]
-//];
-//
-//if (isNull _veh) exitWith {["Null object given"] call BIS_fnc_error; false};
-//
-// Create regular config crew
-//private _grp = createVehicleCrew _veh;
+params [
+    ["_veh", objNull, [objNull]]
+];
 
-// If the config crew isn't the correct side, replace it with the crew classnames from the preset
-//if ((side _grp) != GRLIB_side_friendly) then {
-//    {deleteVehicle _x} forEach (units _grp);
-//
-//    _grp = createGroup [GRLIB_side_friendly, true];
-//    while {count units _grp < 3} do {
-//        [crewman_classname, getPos _veh, _grp] call KPLIB_fnc_createManagedUnit;
-//    };
-//    ((units _grp) select 0) moveInDriver _veh;
-//    ((units _grp) select 1) moveInGunner _veh;
-//    ((units _grp) select 2) moveInCommander _veh;
+if (isNull _veh) exitWith {["Null object given"] call BIS_fnc_error; false};
+
+ Create regular config crew
+private _grp = createVehicleCrew _veh;
+
+ If the config crew isn't the correct side, replace it with the crew classnames from the preset
+if ((side _grp) != GRLIB_side_friendly) then {
+    {deleteVehicle _x} forEach (units _grp);
+
+    _grp = createGroup [GRLIB_side_friendly, true];
+    while {count units _grp < 3} do {
+        [crewman_classname, getPos _veh, _grp] call KPLIB_fnc_createManagedUnit;
+    };
+    ((units _grp) select 0) moveInDriver _veh;
+    ((units _grp) select 1) moveInGunner _veh;
+    ((units _grp) select 2) moveInCommander _veh;
 
     // Delete crew which isn't in the vehicle due to e.g. no commander seat
-//    {
-//        if (isNull objectParent _x) then {deleteVehicle _x};
-//    } forEach (units _grp);
-//};
+    {
+        if (isNull objectParent _x) then {deleteVehicle _x};
+    } forEach (units _grp);
+};
 
-// Set the crew to safe behaviour
-//_grp setBehaviour "SAFE";
+ Set the crew to safe behaviour
+_grp setBehaviour "SAFE";
 
-//true
+true

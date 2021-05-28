@@ -4,7 +4,7 @@ author="Haruko";
 category="EdSubcat_Tools";
 requiredAddons[]=
 {
-	"A3_Modules_F_Curator_Curator",
 	"A3_Modules_F_StrategicMap",
+	"A3_Modules_F_Curator_Curator",
 	"Desert"
 };

@@ -144,6 +144,20 @@ KPLIB_objectInits = [
         {[_this] execVM "scripts\pylons\a10pylons.sqf";}
     ],
 
+    [
+        ["USAF_F35A_STEALTH"],
+        {[_this] execVM "scripts\pylons\f35pylons.sqf";}
+    ],
+
+    [
+        ["USAF_MQ9"],
+        {[_this] execVM "scripts\pylons\reaperpylons.sqf";}
+    ],
+
+    [
+        ["B_Radar_System_01_F"],
+        {[_this] execVM "scripts\crew\radarcrew.sqf";}
+    ],
 
     [
         ["VirtualReammoBox_camonet_F"],

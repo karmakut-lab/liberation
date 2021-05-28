@@ -101,6 +101,8 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
+    ["rhsusf_m1152_sicps_usarmy_d",100,0,100],
+    ["B_UAV_01_F",150,0,150],
     ["RHS_MELB_MH6M",250,0,250],                                         // MH-6M Little Bird
     ["RHS_MELB_AH6M",250,300,250],                                       // AH-6M Pawnee
     ["UK3CB_CW_US_B_LATE_AH64",750,750,300],                                        // AH-64D (No Radar)
@@ -108,9 +110,11 @@ air_vehicles = [
     ["RHS_UH60M_d",300,150,300],                                          // UH-60M
     ["RHS_UH60M_MEV2",300,0,300],                                        // UH-60M MEV2
     ["RHS_CH_47F",400,100,400],                                     	 // CH-47F Chinook
+    ["USAF_MQ9",500,500,500],
 	["USAF_C130J",1000,0,1000],
     ["USAF_C17",2000,0,2000],                                             // C-17 Globemaster III
-    ["USAF_A10",1500,1500,750]                                     	 // A-10C Thunderbolt II
+    ["USAF_A10",1500,1500,750],                                     	 // A-10C Thunderbolt II
+    ["USAF_F35A_STEALTH",1500,1500,1000]
 ];
 
 static_vehicles = [
@@ -219,11 +223,11 @@ support_vehicles = [
     [KP_liberation_air_vehicle_building,1000,0,0],
     [KP_liberation_heli_slot_building,250,0,0],
     [KP_liberation_plane_slot_building,500,0,0],
-    ["ACE_medicalSupplyCrate_advanced",5,0,0],
     ["ACE_Box_82mm_Mo_HE",0,50,0],
     ["ACE_Box_82mm_Mo_Smoke",0,25,0],
     ["ACE_Box_82mm_Mo_Illum",0,25,0],
     ["Box_NATO_Ammo_F",0,5,0],
+    ["ACE_medicalSupplyCrate_advanced",5,0,0],
     ["VirtualReammoBox_camonet_F",0,500,0],
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
@@ -275,6 +279,7 @@ blufor_squad_para = [
 elite_vehicles = [
     "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "rhsusf_m1a1aimd_usarmy",                                                 // M1A1 Aim
+    "USAF_F35A_STEALTH",
     "rhsusf_m1a2sep1d_usarmy",                                          // M1A2 SEP v1
     "rhsusf_m109d_usarmy",                                              // M109A6
     "UK3CB_CW_US_B_LATE_AH64",                                                        // AH-64D (Multi-Role)

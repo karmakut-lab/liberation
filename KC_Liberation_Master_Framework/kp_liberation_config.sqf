@@ -210,10 +210,10 @@ GRLIB_secondary_objective_impact = 0.6;                                 // The p
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 60;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 1000;                                               // Range to activate a sector.
+GRLIB_sector_size = 1500;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.6;                                  // Multiplier for defenders in buildings.
-GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
+GRLIB_battlegroup_size = 5;                                             // Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 900;                                        // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
 GRLIB_surrender_chance = 30;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
@@ -226,11 +226,11 @@ GRLIB_sector_cap = 180;                                                 // Cap f
 GRLIB_battlegroup_cap = 150;                                            // Cap for enemy battlegroups.
 GRLIB_patrol_cap = 150;                                                 // Cap for enemy patrols.
 
-KP_liberation_cr_kill_penalty = 25;                                      // Civil Reputation penalty for killing a civilian.
+KP_liberation_cr_kill_penalty = 10;                                      // Civil Reputation penalty for killing a civilian.
 KP_liberation_cr_building_penalty = 25;                                  // Civil Reputation penalty for destroying/damaging a building.
 KP_liberation_cr_vehicle_penalty = 5;                                   // Civil Reputation penalty for stealing a civilian vehicle.
 KP_liberation_cr_resistance_penalty = 5;                                // Civil Reputation penalty for killing a friendly resistance soldier.
-KP_liberation_cr_sector_gain = 10;                                       // Civil Reputation gain for liberate a sector.
+KP_liberation_cr_sector_gain = 5;                                       // Civil Reputation gain for liberate a sector.
 KP_liberation_cr_wounded_chance = 20;                                   // Chance (0-100) that there are wounded civilians right after capturing a sector.
 KP_liberation_cr_wounded_gain = 5;                                      // Civil Reputation gain for providing medical assistance for wounded civilians.
 
@@ -261,15 +261,29 @@ KP_liberation_battlegroup_clearance = [
 The Steam UIDs entered in this array will allow corresponding players to access the commander actions (rights, production, etc.),
 even if they are not in the commander slot. */
 KP_liberation_commander_actions = [
-    "76561198009578451",
-    "76561198029603889",
-    "76561198128972595",
-    "76561198035901368",
-    "76561198010961319",
-    "76561198243945960",
-    "76561197966129199",
-    "76561198066834077",
-    "76561198372265841"
+    "76561198009578451",//karma
+    "76561197999232291",//Prowlaz
+    "76561198372265841",//M. Morgan
+    "76561198029603889",//ArkashaLethal
+    "76561198308236259",//DashBee
+    "76561198024729279",//LtDanUSAFX3
+    "76561197966129199",//Dedone
+    "76561198010961319",//RyanBerry
+    "76561198128972595",//AcidPANTALONES
+    "76561198025193393",//captainchuck1
+    "76561198035901368",//[SFW]Meridian.Sun
+    "76561198146698036",//Wayne 
+    "76561198218326732",//Zudren
+    "76561198043834889",//Gman
+    "76561197970792840",//Merrick362
+    "76561198062335506",//The.Lord.Chanka
+    "76561198060416563",//maksattak
+    "76561198066834077",//Haruko
+    "76561198870892912",//mooooo
+    "76561198202157540",//Paladinn
+    "76561197960548388",//GimliTron
+    "76561198040185781",//omaha
+    "76561198048029351" //fu
 ];
 
 /* Whitelist for BI support framework access.
@@ -440,6 +454,13 @@ blacklisted_from_arsenal = [
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
 KP_liberation_allowed_items_extension = [
+    "rhs_weap_M136",
+    "rhs_fgm148_magazine_AT",
+    "rhs_weap_fgm148",
+    "MRAWS_HEAT_F",
+    "launch_MRAWS_green_F",
+    "rhs_fim92_mag",
+    "rhs_weap_fim92",
     "ItemWatch",
     "ItemCompass",
     "ItemMap",
