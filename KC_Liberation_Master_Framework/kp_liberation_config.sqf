@@ -210,10 +210,10 @@ GRLIB_secondary_objective_impact = 0.6;                                 // The p
 GRLIB_recycling_percentage = 0.5;                                       // Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 60;                                 // Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 1500;                                               // Range to activate a sector.
+GRLIB_sector_size = 1000;                                               // Range to activate a sector.
 GRLIB_capture_size = 175;                                               // Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.6;                                  // Multiplier for defenders in buildings.
-GRLIB_battlegroup_size = 5;                                             // Size of enemy battlegroups.
+GRLIB_battlegroup_size = 6;                                             // Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 900;                                        // Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 2500;                                           // Radio Tower scanning range.
 GRLIB_surrender_chance = 30;                                            // Chance that enemy infantry will surrender after heavy losses are encountered.
@@ -272,7 +272,7 @@ KP_liberation_commander_actions = [
     "76561198128972595",//AcidPANTALONES
     "76561198025193393",//captainchuck1
     "76561198035901368",//[SFW]Meridian.Sun
-    "76561198146698036",//Wayne 
+    "76561198146698036",//Wayne
     "76561198218326732",//Zudren
     "76561198043834889",//Gman
     "76561197970792840",//Merrick362
@@ -281,9 +281,7 @@ KP_liberation_commander_actions = [
     "76561198066834077",//Haruko
     "76561198870892912",//mooooo
     "76561198202157540",//Paladinn
-    "76561197960548388",//GimliTron
-    "76561198040185781",//omaha
-    "76561198048029351" //fu
+    "76561197960548388" //GimliTron
 ];
 
 /* Whitelist for BI support framework access.
