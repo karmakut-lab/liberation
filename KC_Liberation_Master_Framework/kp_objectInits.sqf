@@ -150,6 +150,11 @@ KPLIB_objectInits = [
     ],
 
     [
+        ["UK3CB_TKA_O_L39_PYLON"],
+        {[_this] execVM "scripts\pylons\l39pylons.sqf";}
+    ],
+
+    [
         ["USAF_MQ9"],
         {[_this] execVM "scripts\pylons\reaperpylons.sqf";}
     ],
@@ -157,6 +162,11 @@ KPLIB_objectInits = [
     [
         ["B_Radar_System_01_F"],
         {[_this] execVM "scripts\crew\radarcrew.sqf";}
+    ],
+
+    [
+        ["B_AAA_System_01_F"],
+        {[_this] execVM "scripts\crew\praetoriancrew.sqf";}
     ],
 
     [
