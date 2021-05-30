@@ -12,18 +12,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=183;
+		nextID=190;
 	};
 	class Camera
 	{
-		pos[]={61.582336,299.36417,52.307507};
-		dir[]={0.23219688,-0.96580535,0.11537436};
-		up[]={0.86491913,0.25927198,0.42976201};
-		aside[]={0.44497952,9.3132257e-008,-0.89554572};
+		pos[]={-11.408613,209.84079,76.424713};
+		dir[]={0.57757962,-0.61617619,0.53548819};
+		up[]={0.45186612,0.78759974,0.41893595};
+		aside[]={0.67988944,1.6996637e-007,-0.73333037};
 	};
 };
 binarizationWanted=0;
-sourceName="kclythium";
+sourceName="kc_liberation";
 addons[]=
 {
 	"Jbad_afghan_houses_old",
@@ -101281,7 +101281,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="LIEUTENANT";
-						init="call{group this setgroupid [""Assassin 3-6""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{group this setgroupid [""Assassin 3-6""];" \n "}";
 						description="Assassin 3-6 Platoon Leader@Assassin 3-6 (Leadership)";
 						isPlayable=1;
 					};
@@ -101478,7 +101478,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 3-6""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{group this setgroupid [""Assassin 3-6""];" \n "}";
 						description="Assassin 3-7 Platoon Sergeant@Assassin 3-6";
 						isPlayable=1;
 					};
@@ -101675,7 +101675,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{group this setgroupid [""Assassin 3-6""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{group this setgroupid [""Assassin 3-6""];" \n "}";
 						description="Assassin 3-9 Platoon Medic@Assassin 3-6";
 						isPlayable=1;
 					};
@@ -101872,7 +101872,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 3-6""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{group this setgroupid [""Assassin 3-6""];" \n "}";
 						description="Assassin 3-8 Platoon JFO@Assassin 3-6";
 						isPlayable=1;
 					};
@@ -102144,7 +102144,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1 Squad Leader@Assassin 3-1 (QRF)";
 						isPlayable=1;
 					};
@@ -102340,7 +102340,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1 Squad Medic@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -102537,7 +102537,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1-A Fireteam Leader@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -102732,7 +102732,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1-A Rifleman@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -102927,7 +102927,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1-A Automatic Rifleman@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -103122,7 +103122,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1-A Grenadier@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -103318,7 +103318,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1-B Fireteam Leader@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -103513,7 +103513,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1-B Rifleman@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -103708,7 +103708,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1-B Automatic Rifleman@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -103903,7 +103903,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "_num = playersNumber west; " \n "if (_num < 80) then " \n "{ " \n "hintC ""Unlocked at 80 Players"";      " \n "sleep 15;" \n """end2"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-1""];" \n "}";
 						description="Assassin 3-1-B Grenadier@Assassin 3-1";
 						isPlayable=1;
 					};
@@ -104173,7 +104173,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2 Squad Leader@Assassin 3-2 (QRF)";
 						isPlayable=1;
 					};
@@ -104369,7 +104369,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2 Squad Medic@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -104566,7 +104566,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2-A Fireteam Leader@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -104761,7 +104761,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2-A Rifleman@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -104956,7 +104956,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2-A Automatic Rifleman@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -105151,7 +105151,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2-A Grenadier@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -105347,7 +105347,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2-B Fireteam Leader@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -105542,7 +105542,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2-B Rifleman@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -105737,7 +105737,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2-B Automatic Rifleman@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -105932,7 +105932,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "_num = playersNumber west; " \n "if (_num < 90) then " \n "{ " \n "hintC ""Unlocked at 90 Players"";      " \n "sleep 15;" \n """end3"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-2""];" \n "}";
 						description="Assassin 3-2-B Grenadier@Assassin 3-2";
 						isPlayable=1;
 					};
@@ -106202,7 +106202,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3 Squad Leader@Assassin 3-3 (QRF)";
 						isPlayable=1;
 					};
@@ -106398,7 +106398,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3 Squad Medic@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -106595,7 +106595,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3-A Fireteam Leader@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -106790,7 +106790,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3-A Rifleman@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -106985,7 +106985,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3-A Automatic Rifleman@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -107180,7 +107180,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3-A Grenadier@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -107377,7 +107377,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="CORPORAL";
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3-B Fireteam Leader@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -107572,7 +107572,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3-B Rifleman@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -107767,7 +107767,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3-B Automatic Rifleman@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -107962,7 +107962,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.60000008;
-						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "_num = playersNumber west; " \n "if (_num < 100) then " \n "{ " \n "hintC ""Unlocked at 100 Players"";      " \n "sleep 15;" \n """end4"" call BIS_fnc_endMission; " \n "}" \n "else {};}";
+						init="call{this disableai ""move""; group this setgroupid [""Assassin 3-3""];" \n "}";
 						description="Assassin 3-3-B Grenadier@Assassin 3-3";
 						isPlayable=1;
 					};
@@ -112984,7 +112984,7 @@ class Mission
 			dataType="Layer";
 			name="Zeus";
 			id=4209;
-			atlOffset=0.38194275;
+			atlOffset=-140.66;
 		};
 		class Item2065
 		{
