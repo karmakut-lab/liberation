@@ -1,2 +1,2 @@
-params ["_vehicle"];
-createVehicleCrew _vehicle;
+//params ["_vehicle"];
+//createVehicleCrew _vehicle;
