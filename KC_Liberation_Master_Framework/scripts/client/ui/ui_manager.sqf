@@ -16,6 +16,7 @@ KP_liberation_ammo = 0;
 KP_liberation_fuel = 0;
 KP_liberation_air_vehicle_building_near = false;
 KP_liberation_recycle_building_near = false;
+KP_liberation_overlay_visible = false;
 
 waitUntil { !isNil "synchro_done" };
 waitUntil { synchro_done };
@@ -33,7 +34,6 @@ private _bar = controlNull;
 private _barwidth = 0;
 
 private _overlay = displayNull;
-private _overlayVisible = false;
 private _showHud = false;
 private _showResources = false;
 private _currentFob = "";
@@ -43,16 +43,16 @@ while {true} do {
     _showHud = alive player && {!dialog && {isNull curatorCamera && {!cinematic_camera_started && !halojumping}}};
     _visibleMap = visibleMap;
 
-    if (_showHud && {!_overlayVisible}) then {
+    if (_showHud && {!KP_liberation_overlay_visible}) then {
         "KPLIB_ui" cutRsc ["KPLIB_overlay", "PLAIN", 1];
         _uiticks = 0;
     };
-    if (!_showHud && {_overlayVisible}) then {
+    if (!_showHud && {KP_liberation_overlay_visible}) then {
         "KPLIB_ui" cutText ["", "PLAIN"];
     };
 
     _overlay = uiNamespace getVariable ["KPLIB_overlay", displayNull];
-    _overlayVisible = !isNull _overlay;
+    KP_liberation_overlay_visible = !isNull _overlay;
 
     // Player is at FOB
     if (_currentFob != "" || {_visibleMap}) then {
@@ -85,7 +85,7 @@ while {true} do {
         KP_liberation_recycle_building_near = false;
     };
 
-    if (_overlayVisible) then {
+    if (KP_liberation_overlay_visible) then {
 
         (_overlay displayCtrl (266)) ctrlSetText format [ "%1", GRLIB_ui_notif ];
         (_overlay displayCtrl (267)) ctrlSetText format [ "%1", GRLIB_ui_notif ];
@@ -169,7 +169,9 @@ while {true} do {
                 "zone_capture" setmarkerposlocal markers_reset;
             };
         };
+
     };
+
 
     _uiticks = _uiticks + 1;
     if (_uiticks > 1000) then {_uiticks = 0;};
