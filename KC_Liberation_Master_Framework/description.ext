@@ -111,13 +111,13 @@ respawnOnStart = 0;
 corpseManagerMode = 1;
 
 // Corpse limit before which (<=) corpseRemovalMaxTime applies and after which (>) corpseRemovalMinTime applies.
-corpseLimit = 50;
+corpseLimit = 20;
 
 // Remove all bodies that have been dead longer than corpseRemovalMinTime when corpseLimit is reached.
-corpseRemovalMinTime = 180;
+corpseRemovalMinTime = 100;
 
 // Maximum time a corpse can remain on the ground if total number of corpses is equal or under corpseLimit.
-corpseRemovalMaxTime = 600;
+corpseRemovalMaxTime = 300;
 
 // Sets the mode for wreck removal manager.
 // 0 = None                 - None of the vehicles are managed by the manager
@@ -127,13 +127,13 @@ corpseRemovalMaxTime = 600;
 wreckManagerMode = 1;
 
 // Vehicle wreck limit before which (<=) wreckRemovalMaxTime applies and after which (>) wreckRemovalMinTime applies.
-wreckLimit = 20;
+wreckLimit = 15;
 
 // Remove all wrecks that have existed longer than wreckRemovalMinTime when wreckLimit is breached.
-wreckRemovalMinTime = 600;
+wreckRemovalMinTime = 300;
 
 // Maximum time a wreck can remain on the ground if total number of wrecks is equal or under wreckLimit.
-wreckRemovalMaxTime = 1200;
+wreckRemovalMaxTime = 600;
 
 // The minimum distance between corpse or wreck and nearest player before the corpse or wreck is allowed to be removed by the garbage collector.
 minPlayerDistance = 50;
@@ -248,7 +248,7 @@ class CfgTaskDescriptions {
 #include "KP\KPGUI\KPGUI_defines.hpp"
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
 
-//ORBAT start HERE 
+//ORBAT start HERE
 class CfgORBAT
 {
     class KarmaHQ
@@ -279,7 +279,7 @@ class CfgORBAT
     		text = "Company Command";
     		textShort = "Assassin 6";
     		description = "Karma Company HQ Element";
-    	
+
             class 1stPlat
             {
                 id = 1;
@@ -348,7 +348,7 @@ class CfgORBAT
             };
 
             class 2ndPlat
-            {   
+            {
                 id = 2;
                 idType = 0;
                 side = "West";
@@ -480,7 +480,7 @@ class CfgORBAT
     		text = "JTAC";
     		textShort = "Joint Terminal Attack Controller";
     		description = "Company JTAC";
-            
+
             class Stalker
             {
                 id = 0;
