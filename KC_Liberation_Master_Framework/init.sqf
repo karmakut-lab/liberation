@@ -69,3 +69,7 @@ if (isServer) then {
 // ZBE Caching, ask Zudren
 
 if (isServer) then {[2000,20,true,2500,3000,1000]execvm "zbe_cache\main.sqf"};
+
+  //Exec Vcom AI function
+  [] execVM "Vcom\VcomInit.sqf";
+  //End of Vcom commands
