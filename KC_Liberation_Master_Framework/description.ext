@@ -211,6 +211,7 @@ taskManagement_drawDist = 5000;
 /*
     ----- Config Includes -----
 */
+#include "infiSTAR_AdminMenu.hpp" //add support for infistar
 
 class CfgDebriefing {
     #include "KPLIB_debriefs.hpp"
