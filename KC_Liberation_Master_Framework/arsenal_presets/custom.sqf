@@ -865,6 +865,16 @@ private _whitelist = [
     "rhsusf_falconii_mc",                                           // Falcon-II MC
     "rhsusf_falconii",                                              // Falcon-II RGR
 
+    // ILBE Bags
+
+    "tfw_ilbe_whip_mc",
+    "tfw_ilbe_whip_coy",
+    "tfw_ilbe_whip_gr",
+    "tfw_ilbe_whip_wd2",
+    "tfw_ilbe_whip_ocp",
+    "tfw_ilbe_whip_d",
+    "tfw_ilbe_whip_wd",
+
     // Standard Vanilla Backpacks
     "B_Carryall_cbr",                                               // Carryall Backpack (Coyote)
     "B_Carryall_khk",                                               // Carryall Backpack (Khaki)
