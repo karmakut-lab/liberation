@@ -12,14 +12,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=190;
+		nextID=218;
 	};
 	class Camera
 	{
-		pos[]={-11.408613,209.84079,76.424713};
-		dir[]={0.57757962,-0.61617619,0.53548819};
-		up[]={0.45186612,0.78759974,0.41893595};
-		aside[]={0.67988944,1.6996637e-007,-0.73333037};
+		pos[]={65.902039,169.65742,165.93259};
+		dir[]={0.63834524,-0.59248918,-0.49142233};
+		up[]={0.46949703,0.80556887,-0.36143613};
+		aside[]={-0.610021,2.2631139e-007,-0.79240346};
 	};
 };
 binarizationWanted=0;
@@ -1788,7 +1788,7 @@ class CustomAttributes
 																			"STRING"
 																		};
 																	};
-																	value="TFAR_rt1523g_rhs";
+																	value="tfw_ilbe_whip_mc";
 																};
 															};
 															class Item1
@@ -82458,7 +82458,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -82655,7 +82655,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -82790,7 +82790,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 6-6""];}";
+						init="call{group this setgroupid [""Assassin 6-6""];" \n "this setVariable [""karma_canDeployRadioExtender"", true];}";
 						description="Assassin 8 Company FAC@Assassin 6-6";
 						isPlayable=1;
 					};
@@ -82851,7 +82851,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -83048,7 +83048,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -83230,7 +83230,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="033.000";
 						};
 					};
 				};
@@ -83319,7 +83319,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -83516,7 +83516,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -83713,7 +83713,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -83848,7 +83848,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 1-6""];}";
+						init="call{group this setgroupid [""Assassin 1-6""];" \n "this setVariable [""karma_canDeployRadioExtender"", true];}";
 						description="Assassin 1-8 Platoon JFO@Assassin 1-6";
 						isPlayable=1;
 					};
@@ -83910,7 +83910,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -84091,7 +84091,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="031.000";
 						};
 					};
 				};
@@ -84180,7 +84180,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -84377,7 +84377,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -84573,7 +84573,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -84769,7 +84769,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -84965,7 +84965,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -85161,7 +85161,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -85358,7 +85358,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -85554,7 +85554,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -85750,7 +85750,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -85946,7 +85946,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -86127,7 +86127,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="031.000";
 						};
 					};
 				};
@@ -86216,7 +86216,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -86413,7 +86413,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -86610,7 +86610,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -86806,7 +86806,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -87002,7 +87002,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -87198,7 +87198,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -87395,7 +87395,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -87591,7 +87591,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -87787,7 +87787,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -87983,7 +87983,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -88164,7 +88164,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="031.000";
 						};
 					};
 				};
@@ -88253,7 +88253,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -88469,7 +88469,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -88665,7 +88665,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -88860,7 +88860,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -89056,7 +89056,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -89251,7 +89251,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -89447,7 +89447,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -89642,7 +89642,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -89838,7 +89838,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -90033,7 +90033,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -90214,7 +90214,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="031.000";
 						};
 					};
 				};
@@ -90303,7 +90303,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -90500,7 +90500,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -90696,7 +90696,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -90891,7 +90891,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -91086,7 +91086,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -91281,7 +91281,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -91477,7 +91477,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -91672,7 +91672,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -91867,7 +91867,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -92062,7 +92062,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="031.000";
 								};
 							};
 						};
@@ -92243,7 +92243,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="031.000";
 						};
 					};
 				};
@@ -92332,7 +92332,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -92529,7 +92529,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -92726,7 +92726,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -92860,7 +92860,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 2-6""];}";
+						init="call{group this setgroupid [""Assassin 2-6""];" \n "this setVariable [""karma_canDeployRadioExtender"", true];}";
 						description="Assassin 2-8 Platoon JFO@Assassin 2-6";
 						isPlayable=1;
 					};
@@ -92922,7 +92922,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -93103,7 +93103,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="032.000";
 						};
 					};
 				};
@@ -93192,7 +93192,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -93389,7 +93389,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -93585,7 +93585,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -93780,7 +93780,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -93975,7 +93975,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -94170,7 +94170,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -94366,7 +94366,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -94561,7 +94561,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -94756,7 +94756,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -94951,7 +94951,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -95132,7 +95132,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="032.000";
 						};
 					};
 				};
@@ -95222,7 +95222,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -95419,7 +95419,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -95615,7 +95615,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -95810,7 +95810,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -96005,7 +96005,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -96200,7 +96200,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -96397,7 +96397,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -96592,7 +96592,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -96787,7 +96787,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -96982,7 +96982,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -97164,7 +97164,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="032.000";
 						};
 					};
 				};
@@ -97253,7 +97253,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -97449,7 +97449,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -97645,7 +97645,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -97840,7 +97840,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -98035,7 +98035,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -98231,7 +98231,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -98427,7 +98427,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -98622,7 +98622,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -98817,7 +98817,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -99012,7 +99012,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -99193,7 +99193,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="032.000";
 						};
 					};
 				};
@@ -99283,7 +99283,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -99499,7 +99499,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -99696,7 +99696,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -99892,7 +99892,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -100089,7 +100089,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -100285,7 +100285,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -100482,7 +100482,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -100678,7 +100678,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -100875,7 +100875,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -101071,7 +101071,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="032.000";
 								};
 							};
 						};
@@ -101253,7 +101253,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="032.000";
 						};
 					};
 				};
@@ -101343,7 +101343,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -101540,7 +101540,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -101737,7 +101737,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -101872,7 +101872,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{group this setgroupid [""Assassin 3-6""];" \n "}";
+						init="call{group this setgroupid [""Assassin 3-6""];" \n "this setVariable [""karma_canDeployRadioExtender"", true];}";
 						description="Assassin 3-8 Platoon JFO@Assassin 3-6";
 						isPlayable=1;
 					};
@@ -101934,7 +101934,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -102116,7 +102116,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="033.000";
 						};
 					};
 				};
@@ -102205,7 +102205,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -102402,7 +102402,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -102598,7 +102598,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -102793,7 +102793,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -102988,7 +102988,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -103183,7 +103183,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -103379,7 +103379,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -103574,7 +103574,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -103769,7 +103769,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -103964,7 +103964,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -104145,7 +104145,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="033.000";
 						};
 					};
 				};
@@ -104234,7 +104234,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -104431,7 +104431,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -104627,7 +104627,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -104822,7 +104822,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -105017,7 +105017,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -105212,7 +105212,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -105408,7 +105408,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -105603,7 +105603,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -105798,7 +105798,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -105993,7 +105993,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -106174,7 +106174,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="033.000";
 						};
 					};
 				};
@@ -106263,7 +106263,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -106460,7 +106460,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -106656,7 +106656,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -106851,7 +106851,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -107046,7 +107046,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -107242,7 +107242,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -107438,7 +107438,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -107633,7 +107633,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -107828,7 +107828,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -108023,7 +108023,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="030.000";
+									value="033.000";
 								};
 							};
 						};
@@ -108204,7 +108204,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="030.000";
+							value="033.000";
 						};
 					};
 				};
@@ -108448,7 +108448,7 @@ class Mission
 					{
 						skill=0.60000008;
 						rank="SERGEANT";
-						init="call{this disableai ""move""; group this setgroupid [""Phantom 1""];}";
+						init="call{this disableai ""move""; group this setgroupid [""Phantom 1""];" \n "this setVariable [""karma_canDeployRadioExtender"", true];}";
 						description="Phantom JFO@Phantom 1";
 						isPlayable=1;
 					};
