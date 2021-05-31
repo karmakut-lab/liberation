@@ -49,18 +49,12 @@ militia_squad = [
     "rhs_msv_emr_LAT",                                                  // Rifleman (AT)
     "rhs_msv_emr_arifleman",                                            // Autorifleman
     "rhs_msv_emr_marksman",                                             // Marksman
-    "rhs_msv_emr_aa",
     "rhs_msv_emr_medic",                                                // Medic
     "rhs_msv_emr_engineer"                                              // Engineer
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
-    "rhs_btr80_msv",
-    "rhsgref_BRDM2_msv",
-    "rhs_btr80_msv",             
-    "rhs_btr80_msv",       
-    "rhs_btr80a_msv",    
     "rhs_tigr_sts_msv"                                                  // GAZ-233014 (Armed)
 ];
 
@@ -69,22 +63,11 @@ opfor_vehicles = [
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-	"rhsgref_BRDM2_msv",
-	"rhsgref_BRDM2_msv",
-    "rhs_btr80_msv",   
-    "rhs_btr80_msv",             
-    "rhs_btr80_msv",           
-    "rhs_btr80_msv",   
-    "rhs_btr80_msv",             
-    "rhs_btr80_msv",       
-    "rhs_btr80a_msv",                 
-    "rhs_btr80a_msv",          
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_brm1k_msv",                                                    // BRM-1K
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
-    "UK3CB_O_2S6M_Tunguska_VPV",
+    "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "rhs_t80",                                                          // T80
     "rhs_t80",                                                          // T80
     "rhs_t90a_tv",                                                      // T90A
@@ -95,77 +78,42 @@ opfor_vehicles = [
 opfor_vehicles_low_intensity = [
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
     "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
-    "rhsgref_BRDM2_msv",
-	"rhsgref_BRDM2_msv",
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv"                                                    // BTR-80A
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80a_msv",                                                   // BTR-80A
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80a_msv",                                                   // BTR-80A
-    "rhs_bmp2d_msv",                                                    // BMP-2D
-    "rhs_bmp2k_msv",                                                    // BMP-2K
-    "rhs_bmp2d_msv",                                                    // BMP-2D
-    "rhs_bmp2k_msv",                                                    // BMP-2K
-    "rhs_brm1k_msv",                                                    // BRM-1K
-    "rhs_bmp2d_msv",                                                    // BMP-2D
-    "rhs_bmp2k_msv",                                                    // BMP-2K
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
+    "RHS_Ural_MSV_01",                                                  // Ural-4320 Transport (Covered)
     "rhs_bmp2d_msv",                                                    // BMP-2D
     "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_brm1k_msv",                                                    // BRM-1K
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
-    "UK3CB_O_2S6M_Tunguska_VPV",
-    "UK3CB_O_2S6M_Tunguska_VPV",
     "rhs_t80",                                                          // T80
     "rhs_t80",                                                          // T80
-    "rhs_t90a_tv",                                                      // T90A
-    "rhs_t90a_tv",                                                      // T90A
-    "rhs_t90a_tv",                                                      // T90A
-    "rhs_t90a_tv",                                                      // T90A
-    "rhs_t80",                                                          // T80
-    "rhs_t80",                                                          // T80
-    "rhs_t90a_tv",                                                      // T90A
     "rhs_t90a_tv",                                                      // T90A
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
-    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
-    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
-    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Ka52_vvsc"                                                     // Ka-52
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-    "rhsgref_BRDM2_msv",
-	"rhsgref_BRDM2_msv",
-    "rhs_btr80a_msv",                                                   // BTR-80A
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80_msv",                                                    // BTR-80
+    "rhs_tigr_msv",                                                     // GAZ-233011
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "rhs_tigr_sts_msv",                                                 // GAZ-233014 (Armed)
+    "RHS_Ural_Open_MSV_01",                                             // Ural-4320 Transport
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80a_msv",                                                   // BTR-80A
-    "rhs_btr80_msv",                                                    // BTR-80
-    "rhs_btr80a_msv",                                                   // BTR-80A
-    "rhs_bmp2d_msv",                                                    // BMP-2D
-    "rhs_bmp2k_msv",                                                    // BMP-2K
     "rhs_zsu234_aa",                                                    // ZSU-23-4V
-    "rhs_bmp2d_msv",                                                    // BMP-2D
-    "rhs_bmp2k_msv",                                                    // BMP-2K
-    "rhs_zsu234_aa",                                                    // ZSU-23-4V
+    "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc",                                                // Mi-24V (AT)
-    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
-    "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi8mt_Cargo_vvsc"                                              // Mi-8MT (Cargo)
 ];
 
@@ -177,9 +125,6 @@ opfor_troup_transports = [
     "rhs_btr80_msv",                                                    // BTR-80
     "rhs_btr80a_msv",                                                   // BTR-80A
     "rhs_bmp2d_msv",                                                    // BMP-2D
-    "rhs_bmp2k_msv",                                                    // BMP-2K
-    "rhs_bmp2d_msv",                                                    // BMP-2D
-    "rhs_bmp2k_msv",                                                    // BMP-2K
     "RHS_Mi8mt_Cargo_vvsc",                                             // Mi-8MT (Cargo)
     "RHS_Mi24P_AT_vvsc",                                                // Mi-24P (AT)
     "RHS_Mi24V_AT_vvsc"                                                 // Mi-24V (AT)

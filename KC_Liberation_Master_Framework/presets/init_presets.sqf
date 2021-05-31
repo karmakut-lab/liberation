@@ -91,12 +91,12 @@ switch (KP_liberation_preset_civilians) do {
 
 // Prices for the blufor infantry squads (supplies, ammo, fuel)
 KPLIB_b_allSquads = [
-    [blufor_squad_inf_light,0,0,0],
-    [blufor_squad_inf,0,0,0],
-    [blufor_squad_at,0,0,0],
-    [blufor_squad_aa,0,0,0],
-    [blufor_squad_recon,0,0,0],
-    [blufor_squad_para,0,0,0]
+    [blufor_squad_inf_light,200,0,0],
+    [blufor_squad_inf,300,0,0],
+    [blufor_squad_at,200,250,0],
+    [blufor_squad_aa,200,250,0],
+    [blufor_squad_recon,250,0,0],
+    [blufor_squad_para,200,0,0]
 ];
 
 // Squad names for build menu

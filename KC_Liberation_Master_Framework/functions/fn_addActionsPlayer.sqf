@@ -99,26 +99,26 @@ _player addAction [
 ];
 
 // Arsenal
-//_player addAction [
-//    ["<t color='#FFFF00'>", localize "STR_ARSENAL_ACTION", "</t><img size='2' image='res\ui_arsenal.paa'/>"] joinString "",
-//    "scripts\client\actions\open_arsenal.sqf",
-//    nil,
-//    -740,
-//    false,
-//    true,
-//    "",
-//    "
-//        isNull (objectParent _originalTarget)
-//        && {alive _originalTarget}
-//        && {
-//            _originalTarget getVariable ['KPLIB_fobDist', 99999] < 20
-//            || {_originalTarget getVariable ['KPLIB_isNearArsenal', false]}
-//            || {_originalTarget getVariable ['KPLIB_isNearMobRespawn', false]}
-//            || {_originalTarget getVariable ['KPLIB_isNearStart', false]}
-//        }
-//        && {build_confirmed isEqualTo 0}
-//    "
-//];
+_player addAction [
+    ["<t color='#FFFF00'>", localize "STR_ARSENAL_ACTION", "</t><img size='2' image='res\ui_arsenal.paa'/>"] joinString "",
+    "scripts\client\actions\open_arsenal.sqf",
+    nil,
+    -740,
+    false,
+    true,
+    "",
+    "
+        isNull (objectParent _originalTarget)
+        && {alive _originalTarget}
+        && {
+            _originalTarget getVariable ['KPLIB_fobDist', 99999] < 20
+            || {_originalTarget getVariable ['KPLIB_isNearArsenal', false]}
+            || {_originalTarget getVariable ['KPLIB_isNearMobRespawn', false]}
+            || {_originalTarget getVariable ['KPLIB_isNearStart', false]}
+        }
+        && {build_confirmed isEqualTo 0}
+    "
+];
 
 // Build
 _player addAction [
@@ -142,31 +142,28 @@ _player addAction [
 ];
 
 // Secondary missions
-if (player isEqualTo ([] call KPLIB_fnc_getCommander) || (getPlayerUID player) in GRLIB_whitelisted_steamids) then {
-
-    _player addAction [
-        ["<t color='#FFFF00'>", localize "STR_SECONDARY_OBJECTIVES", "</t>"] joinString "",
-        "scripts\client\ui\secondary_ui.sqf",
-        nil,
-        -760,
-        false,
-        true,
-        "",
-        "
-            isNull (objectParent _originalTarget)
-            && {alive _originalTarget}
-            && {
-                _originalTarget getVariable ['KPLIB_fobDist', 99999] < 20
-              || {_originalTarget getVariable ['KPLIB_isNearStart', false]}
-            }
-            && {
-             _originalTarget getVariable ['KPLIB_hasDirectAccess', false]
-             || {[5] call KPLIB_fnc_hasPermission}
-            }
-            && {build_confirmed isEqualTo 0}
-        "
-    ];
-};
+_player addAction [
+    ["<t color='#FFFF00'>", localize "STR_SECONDARY_OBJECTIVES", "</t>"] joinString "",
+    "scripts\client\ui\secondary_ui.sqf",
+    nil,
+    -760,
+    false,
+    true,
+    "",
+    "
+        isNull (objectParent _originalTarget)
+        && {alive _originalTarget}
+        && {
+            _originalTarget getVariable ['KPLIB_fobDist', 99999] < 20
+            || {_originalTarget getVariable ['KPLIB_isNearStart', false]}
+        }
+        && {
+            _originalTarget getVariable ['KPLIB_hasDirectAccess', false]
+            || {[5] call KPLIB_fnc_hasPermission}
+        }
+        && {build_confirmed isEqualTo 0}
+    "
+];
 
 // Build sector storage
 _player addAction [

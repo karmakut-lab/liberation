@@ -46,7 +46,7 @@
 <Project name="Liberation">
     <Package name="Liberation">
         <Key ID="STR_MISSION_TITLE">
-            <Original>Karmakut 100 KP Liberation v0.96.7a</Original>
+            <Original>CTI 34 KP Liberation v0.96.7a</Original>
         </Key>
         <Key ID="STR_MISSION_VERSION">
             <Original>v0.96.7a</Original>
@@ -624,7 +624,7 @@
             <Czech>Postavit (Mužstvo)</Czech>
         </Key>
         <Key ID="STR_LIGHT_RIFLE_SQUAD">
-            <Original>EMPTY</Original>
+            <Original>Light Rifle Squad</Original>
             <French>Escouade Fusiliers Légère</French>
             <German>Leichter Waffentrupp</German>
             <Spanish>Escuadra de fusileros ligeros</Spanish>
@@ -638,7 +638,7 @@
             <Czech>Lehké útočné družstvo</Czech>
         </Key>
         <Key ID="STR_RIFLE_SQUAD">
-            <Original>EMPTY</Original>
+            <Original>Heavy Rifle Squad</Original>
             <French>Escouade Fusiliers Lourde</French>
             <German>Schwerer Waffentrupp</German>
             <Spanish>Escuadra de fusileros pesados</Spanish>
@@ -652,7 +652,7 @@
             <Czech>Těžké útočné družstvo</Czech>
         </Key>
         <Key ID="STR_AT_SQUAD">
-            <Original>EMPTY</Original>
+            <Original>AT Squad</Original>
             <French>Escouade AT</French>
             <German>Panzerbekämpfungstrupp</German>
             <Spanish>Escuadra Antitanque</Spanish>
@@ -666,7 +666,7 @@
             <Czech>Proti-tankové družstvo</Czech>
         </Key>
         <Key ID="STR_AA_SQUAD">
-            <Original>EMPTY</Original>
+            <Original>AA Squad</Original>
             <French>Escouade AA</French>
             <German>Luftabwehrtrupp</German>
             <Spanish>Escuadra Antiaérea</Spanish>
@@ -680,7 +680,7 @@
             <Czech>Proti-letadlové družstvo</Czech>
         </Key>
         <Key ID="STR_RECON_SQUAD">
-            <Original>EMPTY</Original>
+            <Original>Recon Squad</Original>
             <French>Escouade Recon</French>
             <German>Aufklärungstrupp</German>
             <Spanish>Escuadra de reconocimiento</Spanish>
@@ -694,7 +694,7 @@
             <Czech>Průzkumné družstvo</Czech>
         </Key>
         <Key ID="STR_PARA_SQUAD">
-            <Original>EMPTY</Original>
+            <Original>Paratroopers Squad</Original>
             <French>Escouade Parachutistes</French>
             <German>Fallschirmjägertrupp</German>
             <Spanish>Escuadra de paracaidistas</Spanish>
@@ -7316,45 +7316,6 @@
             <German>KP Spielermenü v1.0.2\nvon Wyqer</German>
             <Spanish>Menú de Jugador KP v1.0.2\npor Wyqer</Spanish>
             <Czech>KP Player Menu v1.0.2\nby Wyqer</Czech>
-        </Key>
-    </Package>
-
-    <Package name="Karma">
-        <Key ID="STR_KARMA_DEPLOY_FIELD_HOSPITAL">
-            <English>Deploy Field Hospital</English>
-            <German>Bereitstellen des Feldkrankenhauses</German>
-            <Spanish>Implementar Hospital de campo</Spanish>
-            <Czech>Nasadit polní nemocnici</Czech>
-        </Key>
-        <Key ID="STR_KARMA_REPACK_FIELD_HOSPITAL">
-            <English>Repack Field Hospital</English>
-            <German>Feldkrankenhaus neu verpacken</German>
-            <Spanish>Reembalaje del hospital de campaña</Spanish>
-            <Czech>Přebalte polní nemocnici</Czech>
-        </Key>
-        <Key ID="STR_KARMA_FIELD_HOSPITAL_DEPLOYED">
-            <English>Field Hospital Deployed</English>
-            <German>Feldkrankenhaus im Einsatz</German>
-            <Spanish>Hospital de campaña desplegado</Spanish>
-            <Czech>Polní nemocnice nasazena</Czech>
-        </Key>
-        <Key ID="STR_KARMA_FIELD_HOSPITAL_ALREADY_DEPLOYED">
-            <English>Please repack your current field hospital before deploying a new one.</English>
-            <German>Bitte packen Sie Ihr aktuelles Feldkrankenhaus neu, bevor Sie ein neues einsetzen.</German>
-            <Spanish>Vuelva a embalar su hospital de campaña actual antes de instalar uno nuevo.</Spanish>
-            <Czech>Před nasazením nové polní nemocnice prosím znovu zabalte.</Czech>
-        </Key>
-        <Key ID="STR_KARMA_FIELD_HOSPITAL_REPACKED">
-            <English>Field Hospital Repacked</English>
-            <German>Feldkrankenhaus neu verpackt</German>
-            <Spanish>Hospital de campaña reembalado</Spanish>
-            <Czech>Polní nemocnice přebalena</Czech>
-        </Key>
-        <Key ID="STR_KARMA_FIELD_HOSPITAL_MUST_BE_DEPLOYED_ON_TERRAIN">
-            <English>Field hospitals can only be deployed on terrain.</English>
-            <German>Feldkrankenhäuser können nur im Gelände eingesetzt werden.</German>
-            <Spanish>Los hospitales de campaña solo se pueden desplegar en el terreno.</Spanish>
-            <Czech>Polní nemocnice lze nasadit pouze v terénu.</Czech>
         </Key>
     </Package>
 </Project>

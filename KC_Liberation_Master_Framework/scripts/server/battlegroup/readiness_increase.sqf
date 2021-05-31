@@ -1,7 +1,7 @@
 waitUntil {!isNil "save_is_loaded" && {save_is_loaded}};
 
 while {true} do {
-    if ((count blufor_sectors) >= ((count sectors_allSectors) * 0.3)) then {
+    if ((count blufor_sectors) >= ((count sectors_allSectors) * 0.9)) then {
         if (combat_readiness > 0) then {
             combat_readiness = combat_readiness - 0.25;
         };
@@ -14,6 +14,6 @@ while {true} do {
             stats_readiness_earned = stats_readiness_earned + 0.25;
         };
     };
-    if (combat_readiness > 100.0 && GRLIB_difficulty_modifier < 7) then {combat_readiness = 125.0};
+    if (combat_readiness > 100.0 && GRLIB_difficulty_modifier < 2) then {combat_readiness = 100.0};
     sleep (180 + random (180));
 };

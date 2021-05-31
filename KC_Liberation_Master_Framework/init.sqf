@@ -15,19 +15,17 @@ if (!isServer) then {waitUntil {!isNil "KPLIB_initServer"};};
 [] call compileFinal preprocessFileLineNumbers "presets\init_presets.sqf";
 [] call compileFinal preprocessFileLineNumbers "kp_objectInits.sqf";
 
-// Activate selected player menu. If CBA isn't loaded -> fallback to GREUH; uncomt this to unlock the extend option
-/*if (KPPLM_CBA && KP_liberation_playermenu) then {
+// Activate selected player menu. If CBA isn't loaded -> fallback to GREUH
+if (KPPLM_CBA && KP_liberation_playermenu) then {
     [] call KPPLM_fnc_postInit;
 } else {
     [] execVM "GREUH\scripts\GREUH_activate.sqf";
-};*/
+};
 
 [] call compileFinal preprocessFileLineNumbers "scripts\shared\init_shared.sqf";
-[] call compileFinal preprocessFileLineNumbers "karmakut\init_shared.sqf";
 
 if (isServer) then {
     [] call compileFinal preprocessFileLineNumbers "scripts\server\init_server.sqf";
-    [] call compileFinal preprocessFileLineNumbers "karmakut\init_server.sqf";
 };
 
 if (!isDedicated && !hasInterface && isMultiplayer) then {
@@ -48,7 +46,6 @@ if (!isDedicated && hasInterface) then {
     waitUntil {alive player};
     if (debug_source != name player) then {debug_source = name player};
     [] call compileFinal preprocessFileLineNumbers "scripts\client\init_client.sqf";
-    [] call compileFinal preprocessFileLineNumbers "karmakut\init_client.sqf";
 } else {
     setViewDistance 1600;
 };
@@ -65,7 +62,3 @@ if (isServer) then {
     KPLIB_initServer = true;
     publicVariable "KPLIB_initServer";
 };
-
-// ZBE Caching, ask Zudren
-
-if (isServer) then {[2000,20,true,2500,3000,1000]execvm "zbe_cache\main.sqf"};

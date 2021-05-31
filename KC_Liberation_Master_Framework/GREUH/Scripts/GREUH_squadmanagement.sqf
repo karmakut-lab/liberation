@@ -3,66 +3,26 @@ squadaction = "";
 squadname = "";
 if (isNil "global_group_ids") then { global_group_ids = [] };
 if (isNil "global_groups_renamed") then { global_groups_renamed = [] };
-waitUntil {sleep 1;! isNil "global_locked_group"};
+
 global_new_leader = [];
 
 while { true } do {
-	if(lbCurSel 515 != -1) then {
-		_grp = objNull;
-		_grp = groups_list select (lbCurSel 515);
-		if (!(isNull _grp) && (_grp in (global_locked_group))) then {
-			ctrlSetText [516, "UnLock"];
-		} else {
-			ctrlSetText [516, "Lock"];
-		};
-	};
 
 	if ( squadaction != "" ) then {
 		_grp = grpNull;
 		switch (squadaction) do {
-			
+			case "create" : {
+				_grp = createGroup [(side player), true];
+				[player] join _grp;
+				hint "New squad created";
+			};
 			case "join" : {
 				if(lbCurSel 515 != -1) then { _grp = groups_list select (lbCurSel 515); };
 				if (!(isNull _grp) && (_grp != group player)) then {
-					if (count units group player == 1) then {
-						if (!(_grp in (global_locked_group))) then {
-							[group player, "del"] remoteExec ["addel_group_remote_call", 2];
-							[player] join _grp;
-							hint "Squad joined";
-						} else {hint "Sorry, the Squad is Locked."};
-					} else {hint "Sorry, your Group is not Empty."};
+					[player] join _grp;
+					hint "Squad joined";
 				};
 			};
-
-			case "leave" : {
-				if (leader group player != player) then {
-					_group = createGroup [GRLIB_side_friendly, true];
-					[_group, "add"] remoteExec ["addel_group_remote_call", 2];
-					[player] joinSilent _group;
-					hint "New Squad created";
-				};
-			};
-
-			case "lock" : {
-				if(lbCurSel 515 != -1) then { _grp = groups_list select (lbCurSel 515); };
-				if ( leader group player == player ) then {
-					if (!(isNull _grp) && (_grp == group player)) then {
-
-						if (!(_grp in (global_locked_group))) then {
-							hint "Squad locked !";
-							[_grp, "add"] remoteExec ["addel_group_remote_call", 2];
-							ctrlSetText [516, "UnLock"];
-						} else {
-							hint "Squad unLocked !";
-							[_grp, "del"] remoteExec ["addel_group_remote_call", 2];
-							ctrlSetText [516, "Lock"];
-						};
-					};
-				} else {
-					hint "Sorry, only the Squad Leader can lock/unlock their squad.";
-				};
-			};
-
 			case "rename" : {
 				if ( leader group player == player ) then {
 					renaming = true;
@@ -81,10 +41,9 @@ while { true } do {
 					squadname = "";
 					renaming = false;
 				} else {
-					hint "Sorry, only the Squad Leader can rename their squad.";
+					hint "Sorry, only the squad leader can rename their squad.";
 				};
 			};
-
 			case "leader" : {
 				if ( leader group player == player ) then {
 					choosingleader = true;
@@ -99,6 +58,7 @@ while { true } do {
 
 					lbClear 567;
 					{
+
 						lbAdd [567, name _x ];
 					} foreach _player_group_filtered;
 
@@ -139,5 +99,7 @@ while { true } do {
 		};
 	};
 
-	sleep 1;
+	sleep 0.5;
+
 };
+

@@ -41,7 +41,7 @@ while {true} do {
             } else {
                 createMarkerLocal[_kp_markers_name, [_kp_markers_posx + 250, _kp_markers_posy + 250, 0]];
                 _kp_markers_name setMarkerShapeLocal "RECTANGLE";
-                _kp_markers_name setMarkerSizeLocal [0,0];
+                _kp_markers_name setMarkerSizeLocal [250,250];
                 _kp_markers_name setMarkerColorLocal _kp_markers_color;
                 _kp_markers_name setMarkerAlphaLocal (_kp_markers_start +  _kp_markers_change);
                 _kp_markers_array pushBack _kp_markers_name;

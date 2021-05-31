@@ -142,6 +142,12 @@ GRLIB_arsenal_magazines = [
     "rhs_LaserFCSMag",                                              // Designator Batteries
     "rhs_LaserMag_ai",                                              // Designator Batteries
     "rhs_LaserMag",                                                 // Designator Batteries
+    "rhs_mag_100Rnd_556x45_M855_cmag_mixed",                        // 100rnd C-Mag M855 (Mixed)
+    "rhs_mag_100Rnd_556x45_M855_cmag",                              // 100rnd C-Mag M855
+    "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed",                      // 100rnd C-Mag M855A1 (Mixed)
+    "rhs_mag_100Rnd_556x45_M855A1_cmag",                            // 100rnd C-Mag M855A1
+    "rhs_mag_100Rnd_556x45_Mk262_cmag",                             // 100rnd C-Mag Mk262 Mod 1
+    "rhs_mag_100Rnd_556x45_Mk318_cmag",                             // 100rnd C-Mag Mk262 Mod 0
     "rhs_mag_20Rnd_556x45_M193_2MAG_Stanag",                        // 20rnd STANAG (2x) M193
     "rhs_mag_20Rnd_556x45_M193_Stanag",                             // 20rnd STANAG M193
     "rhs_mag_20Rnd_556x45_M196_2MAG_Stanag_Tracer_Red",             // 20rnd STANAG (2x) M196 (Tracer)
@@ -205,6 +211,7 @@ GRLIB_arsenal_magazines = [
     "rhs_mag_m18_red",                                              // M18 Red Smoke Grenade
     "rhs_mag_m18_yellow",                                           // M18 Yellow Smoke Grenade
     "rhs_mag_M397_HET",                                             // M397 HET Grenade Round
+    "rhs_mag_m4009",                                                // GL Stun Grenade Round
     "rhs_mag_M433_HEDP",                                            // M433 HEDP Grenade Round
     "rhs_mag_M441_HE",                                              // M441 HE Grenade Round
     "rhs_mag_m576",                                                 // M576 Buckshot Round
@@ -212,13 +219,18 @@ GRLIB_arsenal_magazines = [
     "rhs_mag_m661_green",                                           // M661 Green Flare Round
     "rhs_mag_m662_red",                                             // M662 Red Flare Round
     "rhs_mag_m67",                                                  // M67 Fragmentation Grenade
+    "rhs_mag_m69",                                                  // M69 Practice Grenade
     "rhs_mag_m713_Red",                                             // M713 Red Smoke Round
     "rhs_mag_m714_White",                                           // M714 White Smoke Round
     "rhs_mag_m715_Green",                                           // M715 Green Smoke Round
     "rhs_mag_m716_yellow",                                          // M716 Yellow Smoke Round
+    "rhs_mag_M781_Practice",                                        // M781 Practice Round
+    "rhs_mag_m7a3_cs",                                              // M7A3 CS Gas Grenade
     "rhs_mag_maaws_HE",                                             // FFV441 HE
     "rhs_mag_maaws_HEAT",                                           // FFV751 HEAT
     "rhs_mag_maaws_HEDP",                                           // FFV502 HEDP
+    "rhs_mag_mk3a2",                                                // MK3A2 Concussion Grenade
+    "rhs_mag_mk84",                                                 // M84 Stun Grenade
     "rhs_mag_six12_slug",                                           // Six-12 Slug
     "rhs_mag_smaw_HEAA",                                            // Mk.6 HEAA
     "rhs_mag_smaw_HEDP",                                            // Mk.3 HEDP
@@ -242,6 +254,7 @@ GRLIB_arsenal_magazines = [
     "rhsusf_100Rnd_762x51_m61_ap",                                  // 100rnd M240 Box M61 AP
     "rhsusf_100Rnd_762x51_m62_tracer",                              // 100rnd M240 Box M62 (Tracer)
     "rhsusf_100Rnd_762x51_m80a1epr",                                // 100rnd M240 Box M80A1 EPR
+    "rhsusf_100Rnd_762x51_m82_blank",                               // 100rnd M240 Box M82 (Blank)
     "rhsusf_100Rnd_762x51",                                         // 100rnd M240 Box M80
     "rhsusf_10Rnd_762x51_m118_special_Mag",                         // 10rnd AICS M118
     "rhsusf_10Rnd_762x51_m62_Mag",                                  // 10rnd AICS M62 (Tracer)
@@ -301,6 +314,7 @@ GRLIB_arsenal_magazines = [
     "rhsusf_mag_40Rnd_46x30_FMJ",                                   // 40rnd MP7 SX FMJ
     "rhsusf_mag_40Rnd_46x30_JHP",                                   // 40rnd MP7 SX JHP
     "rhsusf_mag_6Rnd_M397_HET",                                     // 6rnd M397 HET Grenades
+    "rhsusf_mag_6Rnd_m4009",                                        // 6rnd. GL Stun Grenade Round
     "rhsusf_mag_6Rnd_M433_HEDP",                                    // 6rnd M433 HEDP Grenades
     "rhsusf_mag_6Rnd_M441_HE",                                      // 6rnd M441 HE Grenade Rounds
     "rhsusf_mag_6Rnd_M576_Buckshot",                                // 6rnd. M576 Buckshot Round
@@ -338,7 +352,8 @@ GRLIB_arsenal_magazines = [
     "IEDUrbanBig_Remote_Mag",                                       // Large IED (Urban)
     "IEDUrbanSmall_Remote_Mag",                                     // Small IED (Urban)
     "SatchelCharge_Remote_Mag",                                     // Explosive Satchel
-    "SLAMDirectionalMine_Wire_Mag"                                  // M6 SLAM Mine
+    "SLAMDirectionalMine_Wire_Mag",                                 // M6 SLAM Mine
+    "TrainingMine_Mag"                                              // Training Mine
 ];
 
 GRLIB_arsenal_items = [
@@ -377,6 +392,7 @@ GRLIB_arsenal_items = [
     "rhs_booniehat2_marpatd",                                       // Booniehat MARPAT-D
     "rhs_booniehat2_marpatwd",                                      // Booniehat MARPAT-WD
     "RHS_jetpilot_usaf",                                            // Jet Pilot Helmet
+    "rhs_xmas_antlers",                                             // Christmas Antlers
     "rhsusf_ach_bare_des_ess",                                      // ACH (Desert/ESS)
     "rhsusf_ach_bare_des_headset_ess",                              // ACH (Desert/Headset/ESS)
     "rhsusf_ach_bare_des_headset",                                  // ACH (Desert/Headset)
@@ -435,10 +451,13 @@ GRLIB_arsenal_items = [
     "rhsusf_hgu56p_mask_green_mo",                                  // HGU-56/P (Green/Mask/Mo)
     "rhsusf_hgu56p_mask_green",                                     // HGU-56/P (Green/Mask)
     "rhsusf_hgu56p_mask_mo",                                        // HGU-56/P (Olive/Mask/Mo)
+    "rhsusf_hgu56p_mask_pink",                                      // HGU-56/P (Pink/Mask)
     "rhsusf_hgu56p_mask_saf",                                       // HGU-56/P (SAF/Mask)
     "rhsusf_hgu56p_mask_skull",                                     // HGU-56/P (Olive/Mask/Skull)
+    "rhsusf_hgu56p_mask_smiley",                                    // HGU-56/P (Smiley/Mask)
     "rhsusf_hgu56p_mask_tan",                                       // HGU-56/P (Tan/Mask)
     "rhsusf_hgu56p_mask",                                           // HGU-56/P (Olive/Mask)
+    "rhsusf_hgu56p_pink",                                           // HGU-56/P (Pink)
     "rhsusf_hgu56p_saf",                                            // HGU-56/P (SAF)
     "rhsusf_hgu56p_tan",                                            // HGU-56/P (Tan)
     "rhsusf_hgu56p_usa",                                            // HGU-56/P (USA)
@@ -450,10 +469,13 @@ GRLIB_arsenal_items = [
     "rhsusf_hgu56p_visor_mask_green_mo",                            // HGU-56/P (Green/Visor/Mask/Mo)
     "rhsusf_hgu56p_visor_mask_green",                               // HGU-56/P (Green/Visor/Mask)
     "rhsusf_hgu56p_visor_mask_mo",                                  // HGU-56/P (Olive/Visor/Mask/Mo)
+    "rhsusf_hgu56p_visor_mask_pink",                                // HGU-56/P (Pink/Visor/Mask)
     "rhsusf_hgu56p_visor_mask_saf",                                 // HGU-56/P (SAF/Visor/Mask)
     "rhsusf_hgu56p_visor_mask_skull",                               // HGU-56/P (Olive/Visor/Mask/Skull)
+    "rhsusf_hgu56p_visor_mask_smiley",                              // HGU-56/P (Smiley/Visor/Mask)
     "rhsusf_hgu56p_visor_mask_tan",                                 // HGU-56/P (Tan/Visor/Mask)
     "rhsusf_hgu56p_visor_mask",                                     // HGU-56/P (Olive/Visor/Mask)
+    "rhsusf_hgu56p_visor_pink",                                     // HGU-56/P (Pink/Visor)
     "rhsusf_hgu56p_visor_saf",                                      // HGU-56/P (SAF/Visor)
     "rhsusf_hgu56p_visor_tan",                                      // HGU-56/P (Tan/Visor)
     "rhsusf_hgu56p_visor_usa",                                      // HGU-56/P (USA/Visor)
@@ -814,16 +836,14 @@ GRLIB_arsenal_items = [
     "Medikit",                                                      // Medikit
     "MineDetector",                                                 // Mine Detector
     "ToolKit",                                                      // Toolkit
+    "U_B_FullGhillie_ard",                                          // Full Ghillie (Arid) [NATO]
+    "U_B_FullGhillie_lsh",                                          // Full Ghillie (Lush) [NATO]
+    "U_B_FullGhillie_sard",                                         // Full Ghillie (Semi-Arid) [NATO]
     "U_B_HeliPilotCoveralls",                                       // Heli Pilot Coveralls [NATO]
     "U_B_PilotCoveralls",                                           // Pilot Coveralls [NATO]
+    "U_B_T_FullGhillie_tna_F",                                      // Full Ghillie (Jungle) [NATO]
     "U_B_Wetsuit",                                                  // Wetsuit [NATO]
     "V_RebreatherB",                                                // Rebreather [NATO]
-
-    // cTab Items
-    "ItemcTab",
-	"ItemAndroid",
-	"ItemcTabHCam",
-	"ItemMicroDAGR",
 
     // ACE Items
     "ACE_acc_pointer_green",                                        // Laser Pointer (green)
@@ -831,13 +851,17 @@ GRLIB_arsenal_items = [
     "ACE_Altimeter",                                                // Altimeter Watch
     "ACE_artilleryTable",                                           // Artillery Rangetable
     "ACE_ATragMX",                                                  // ATragMX
+    "ACE_Banana",                                                   // Banana
     "ACE_bloodIV_250",                                              // Blood IV (250 ml)
     "ACE_bloodIV_500",                                              // Blood IV (500 ml)
     "ACE_bloodIV",                                                  // Blood IV (1000 ml)
+    "ACE_bodyBag",                                                  // Bodybag
     "ACE_CableTie",                                                 // Cable Tie
+    "ACE_Cellphone",                                                // Cellphone
     "ACE_Chemlight_Shield",                                         // Chemlight Shield (Empty)
     "ACE_Clacker",                                                  // M57 Firing Device
     "ACE_DAGR",                                                     // DAGR
+    "ACE_DeadManSwitch",                                            // Dead Man's Switch
     "ACE_DefusalKit",                                               // Defusal Kit
     "ace_dragon_sight",                                             // SU-36/P Daysight
     "ACE_EarPlugs",                                                 // Earplugs
@@ -873,7 +897,13 @@ GRLIB_arsenal_items = [
     "ACE_plasmaIV_500",                                             // Plasma IV (500 ml)
     "ACE_plasmaIV",                                                 // Plasma IV (1000 ml)
     "ACE_quikclot",                                                 // Bandage (QuickClot)
+    "ACE_RangeCard",                                                // Range Card
     "ACE_RangeTable_82mm",                                          // 82 mm Rangetable
+    "ACE_rope12",                                                   // Rope 12.2 meters
+    "ACE_rope15",                                                   // Rope 15.2 meters
+    "ACE_rope18",                                                   // Rope 18.3 meters
+    "ACE_rope27",                                                   // Rope 27.4 meters
+    "ACE_rope36",                                                   // Rope 36.6 meters
     "ACE_salineIV_250",                                             // Saline IV (250 ml)
     "ACE_salineIV_500",                                             // Saline IV (500 ml)
     "ACE_salineIV",                                                 // Saline IV (1000 ml)
@@ -893,6 +923,7 @@ GRLIB_arsenal_items = [
     "ACE_VMH3",                                                     // VMH3
     "ACE_VMM3",                                                     // VMM3
     "ACE_wirecutter",                                               // Wirecutter
+    "ACE_Yardage450",                                               // Yardage 450
 
     // ACRE Items
     "ACRE_PRC117F",                                                 // AN/PRC-117F
@@ -921,6 +952,7 @@ GRLIB_arsenal_backpacks = [
     "rhsusf_assault_eagleaiii_coy",                                 // Eagle A-III Coyote
     "rhsusf_assault_eagleaiii_ocp",                                 // Eagle A-III OEF-CP
     "rhsusf_assault_eagleaiii_ucp",                                 // Eagle A-III UCP
+    "rhsusf_eject_Parachute_backpack",                              // Static Parachute Bag
     "rhsusf_falconii_coy",                                          // Falcon-II Coyote
     "rhsusf_falconii_mc",                                           // Falcon-II MC
     "rhsusf_falconii",                                              // Falcon-II RGR
@@ -940,6 +972,7 @@ GRLIB_arsenal_backpacks = [
     // ACE Backpacks
     "ace_gunbag_Tan",                                               // Gunbag (Tan)
     "ace_gunbag",                                                   // Gunbag
+    "ACE_NonSteerableParachute",                                    // Non-Steerable Parachute
     "ACE_TacticalLadder_Pack",                                      // Telescopic Ladder
 
     // TFAR Backpacks

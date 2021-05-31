@@ -16,7 +16,6 @@ check_victory_conditions = compileFinal preprocessFileLineNumbers "scripts\serve
 
 // Patrol
 manage_one_civilian_patrol = compileFinal preprocessFileLineNumbers "scripts\server\patrols\manage_one_civilian_patrol.sqf";
-manage_one_VBIED_patrol = compileFinal preprocessFileLineNumbers "scripts\server\patrols\manage_one_VBIED_patrol.sqf";
 manage_one_patrol = compileFinal preprocessFileLineNumbers "scripts\server\patrols\manage_one_patrol.sqf";
 reinforcements_manager = compileFinal preprocessFileLineNumbers "scripts\server\patrols\reinforcements_manager.sqf";
 send_paratroopers = compileFinal preprocessFileLineNumbers "scripts\server\patrols\send_paratroopers.sqf";
@@ -122,10 +121,6 @@ execVM "scripts\server\offloading\group_diag.sqf";
         deleteVehicle _x;
     };
 } forEach allUnits;
-
-//NoAce Squad Lock System
-if (isNil "global_locked_group") then { global_locked_group = [] };
-publicVariable "global_locked_group";
 
 // Server Restart Script from K4s0
 if (KP_liberation_restart > 0) then {

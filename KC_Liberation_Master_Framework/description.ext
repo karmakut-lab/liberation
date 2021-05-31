@@ -21,7 +21,7 @@
 class Header {
     gameType = "CTI";
     minPlayers = 1;
-    maxPlayers = 100;
+    maxPlayers = 34;
 };
 
 // Name of Mission author(s) and contributors. Obviously you can only add and not (!) remove someone.
@@ -37,10 +37,10 @@ briefingName = $STR_MISSION_TITLE;
 
 // Path to image which will be displayed when the mission is highlighted on the mission selection screen.
 // Image should be .paa format and in 2:1 aspect ratio – ideally 1024x512 (Arma 3).
-overviewPicture = "res\KarmaLoading.paa";
+overviewPicture = "res\lib.paa";
 
 // Text to be displayed below the overviewPicture on the mission selection screen
-overviewText = "karmakut.com";
+overviewText = "www.killahpotatoes.de";
 
 
 /*
@@ -53,10 +53,10 @@ onLoadName = $STR_MISSION_TITLE;
 
 // You can define a picture to be shown while the mission is loaded.
 // The path is relative to the mission folder.
-loadScreen = "res\KarmaLoading.paa";
+loadScreen = "res\lib.paa";
 
 // Displays a message while the mission is loading below the loadScreen picture.
-onLoadMission = "karmakut.com";
+onLoadMission = "www.killahpotatoes.de";
 
 
 /*
@@ -64,7 +64,7 @@ onLoadMission = "karmakut.com";
 */
 
 // Enable or disable the respawn button in the menu for INSTANT and BASE respawn types.
-respawnButton = 0;
+respawnButton = 1;
 
 // Templates are pre-defined scripts called when player dies and respawns. They are defined in an array and can be combined together.
 // List of pre-defined variants: https://community.bistudio.com/wiki/Arma_3_Respawn#Official_Templates
@@ -114,10 +114,10 @@ corpseManagerMode = 1;
 corpseLimit = 50;
 
 // Remove all bodies that have been dead longer than corpseRemovalMinTime when corpseLimit is reached.
-corpseRemovalMinTime = 180;
+corpseRemovalMinTime = 600;
 
 // Maximum time a corpse can remain on the ground if total number of corpses is equal or under corpseLimit.
-corpseRemovalMaxTime = 600;
+corpseRemovalMaxTime = 3600;
 
 // Sets the mode for wreck removal manager.
 // 0 = None                 - None of the vehicles are managed by the manager
@@ -130,13 +130,13 @@ wreckManagerMode = 1;
 wreckLimit = 20;
 
 // Remove all wrecks that have existed longer than wreckRemovalMinTime when wreckLimit is breached.
-wreckRemovalMinTime = 600;
+wreckRemovalMinTime = 1200;
 
 // Maximum time a wreck can remain on the ground if total number of wrecks is equal or under wreckLimit.
-wreckRemovalMaxTime = 1200;
+wreckRemovalMaxTime = 7200;
 
 // The minimum distance between corpse or wreck and nearest player before the corpse or wreck is allowed to be removed by the garbage collector.
-minPlayerDistance = 50;
+minPlayerDistance = 1000;
 
 
 /*
@@ -166,7 +166,7 @@ disableRandomization[] = {};
 // 0 - Default behavior, available only in editor
 // 1 - Available in SP and for hosts / logged in admins
 // 2 - Available for everyone
-enableDebugConsole[] = {"76561198009578451", "76561197999232291", "76561198372265841", "76561198029603889", "76561198308236259", "76561198024729279", "76561197966129199", "76561198010961319", "76561198128972595", "76561198025193393", "76561198035901368", "76561198146698036", "76561198218326732", "76561198043834889", "76561197970792840", "76561198062335506", "76561198060416563", "76561198066834077", "76561198870892912", "76561198202157540", "76561197960548388"};
+enableDebugConsole = 1;
 
 // Force enable or disable RotorLib flight model.
 // 0 - based on player's options
@@ -248,305 +248,3 @@ class CfgTaskDescriptions {
 #include "KP\KPGUI\KPGUI_defines.hpp"
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
 
-//ORBAT start HERE 
-class CfgORBAT
-{
-    class KarmaHQ
-    {
-	    id = 0;
-	    idType = 3;
-	    side = "West";
-        size = "Company";
-        //type = "HQ";
-	    commander = "Karmakut";
-	    commanderRank = "Colonel";
-	    text = "Karma Company";
-	    textShort = "%1 %3";
-        texture = __EVAL(getMissionPath "res\Klogobg.paa");
-        insignia = __EVAL(getMissionPath "res\KarmaLoading.paa");
-        colorInsignia[] = {1,1,1,1};
-        color[] = {1,1,1,1};
-	    description = "Karma Company Order of Battle";
-
-        class actualPlat
-	    {
-	    	id = 3;
-	    	idType = 0;
-	    	side = "West";
-    		size = "Squad";
-    		type = "Infantry";
-    		commanderRank = "Major";
-    		text = "Company Command";
-    		textShort = "Assassin 6";
-    		description = "Karma Company HQ Element";
-    	
-            class 1stPlat
-            {
-                id = 1;
-                idType = 0;
-                type = "Infantry";
-                side = "West";
-                size = "Platoon";
-                //commander = "Ray";
-                commanderRank = "Lieutenant";
-                text = "Assassin 1 Command Element";
-                textShort = "Assassin 1-6";
-                description = "1st Infantry Platoon Command Element";
-
-                class 11
-                    {
-                        id = 1;
-                        idType = 0;
-                        type = "Infantry";
-                        side = "West";
-                        size = "Squad";
-                        //commander = "Ray";
-                        commanderRank = "Sergeant";
-                        text = "Assassin 1 - 1st Infantry Squad";
-                        textShort = "Assassin 1-1";
-                        description = "Standard Infantry Squad 110SR";
-                    };
-                class 12
-                    {
-                        id = 2;
-                        idType = 0;
-                        type = "Infantry";
-                        side = "West";
-                        size = "Squad";
-                        //commander = "Ray";
-                        commanderRank = "Sergeant";
-                        text = "Assassin 1 - 2nd Infantry Squad";
-                        textShort = "Assassin 1-2";
-                        description = "Standard Infantry Squad 120SR";
-                    };
-                class 13
-                    {
-                        id = 3;
-                        idType = 0;
-                        type = "Infantry";
-                        side = "West";
-                        size = "Squad";
-                        //commander = "Ray";
-                        commanderRank = "Sergeant";
-                        text = "Assassin 1 - 3rd Infantry Squad";
-                        textShort = "Assassin 1-3";
-                        description = "Standard Infantry Squad 130SR";
-                    };
-                class 14
-                    {
-                        id = 4;
-                        idType = 0;
-                        type = "Infantry";
-                        side = "West";
-                        size = "Squad";
-                        //commander = "Ray";
-                        commanderRank = "Sergeant";
-                        text = "Assassin 1 - Weapons Squad";
-                        textShort = "Assassin 1-4";
-                        description = "Infantry Weapons Squad (AA/AT Specialists) 140SR";
-                    };
-            };
-
-            class 2ndPlat
-            {   
-                id = 2;
-                idType = 0;
-                side = "West";
-                size = "Platoon";
-                type = "Infantry";
-                //commander = "Dixon";
-                commanderRank = "Lieutenant";
-                text = "Assassin 2 Command Element";
-                textShort = "Assassin 2-6";
-                description = "2nd Platoon Infantry Command Element";
-
-                class 11
-                    {
-                        id = 1;
-                        idType = 0;
-                        type = "Infantry";
-                        side = "West";
-                        size = "Squad";
-                        //commander = "Ray";
-                        commanderRank = "Sergeant";
-                        text = "Assassin 2 - 1st Infantry Squad";
-                        textShort = "Assassin 2-1";
-                        description = "Standard Infantry Squad 210SR";
-                    };
-                class 12
-                    {
-                        id = 2;
-                        idType = 0;
-                        type = "Infantry";
-                        side = "West";
-                        size = "Squad";
-                        //commander = "Ray";
-                        commanderRank = "Sergeant";
-                        text = "Assassin 2 - 2nd Infantry Squad";
-                        textShort = "Assassin 2-2";
-                        description = "Standard Infantry Squad 220SR";
-                    };
-                class 13
-                    {
-                        id = 3;
-                        idType = 0;
-                        type = "Infantry";
-                        side = "West";
-                        size = "Squad";
-                        //commander = "Ray";
-                        commanderRank = "Sergeant";
-                        text = "Assassin 2 - Weapons Squad";
-                        textShort = "Assassin 2-3";
-                        description = "Infantry Weapons Squad (AA/AT Specialists) 230SR";
-                    };
-            };
-
-
-            class Phantom
-            {
-                id = 4;
-                idType = 0;
-                side = "West";
-                size = "Squad";
-                type = "Infantry";
-                //commander = "Nichols";
-                commanderRank = "Sergeant";
-                text = "Phantom 1 Observation Team";
-                textShort = "Phantom 1";
-                description = "Long Range Recon and Forward Observation";
-            };
-
-            class Orge
-            {
-            id = 0;
-	    	idType = 0;
-	    	side = "West";
-    		size = "Squad";
-    		type = "Cavalry";
-    		commanderRank = "Corporal";
-    		text = "Company Engineers";
-    		textShort = "Orge";
-    		description = "Ground Logistics, Transport, and EOD SR330";
-            };
-
-        };
-
-        class hha
-        {
-            id = 0;
-	    	idType = 0;
-	    	side = "West";
-    		size = "Squad";
-    		type = "Armored";
-    		commanderRank = "Captain";
-    		text = "Hellhound Command Element";
-    		textShort = "Hellhound 3-6";
-    		description = "3rd Armored Platoon Command Element";
-
-            class hh1
-            {
-                id = 1;
-	    	    idType = 0;
-                side = "West";
-                size = "Squadron";
-                type = "Armored";
-                commanderRank = "Captain";
-                text = "Hellhound 3 - 1st Squad";
-                textShort = "Hellhound 3-1";
-                description = "Armored Squad SR310";
-            };
-            class hh2
-            {
-                id = 2;
-	    	    idType = 0;
-                side = "West";
-                size = "Squadron";
-                type = "Armored";
-                commanderRank = "Captain";
-                text = "Hellhound 3 - 2nd Squad";
-                textShort = "Hellhound 3-2";
-                description = "Armored Squad SR320";
-            };
-        };
-
-        class airsup
-        {
-            id = 0;
-	    	idType = 0;
-	    	side = "West";
-    		size = "Troop";
-    		type = "Recon";
-    		commanderRank = "Captain";
-    		text = "JTAC";
-    		textShort = "Joint Terminal Attack Controller";
-    		description = "Company JTAC";
-            
-            class Stalker
-            {
-                id = 0;
-                idType = 0;
-                side = "West";
-                size = "Squadron";
-                type = "Helicopter";
-                commanderRank = "Captain";
-                text = "Rotary Transport/Logi Flight";
-                textShort = "Stalker";
-                description = "LR70";
-            };
-
-            class banshee
-            {
-                id = 0;
-                idType = 0;
-                side = "West";
-                size = "Squadron";
-                type = "Helicopter";
-                commanderRank = "Captain";
-                text = "Rotary CASEVAC Flight";
-                textShort = "Banshee";
-                description = "LR70 / EMR:80";
-            };
-
-            class Demon
-            {
-                id = 0;
-                idType = 0;
-                side = "West";
-                size = "Squadron";
-                type = "Helicopter";
-                commanderRank = "Captain";
-                text = "Rotary CAS Flight";
-                textShort = "Demon";
-                description = "LR70";
-            };
-
-            class Reaper
-            {
-                id = 0;
-                idType = 0;
-                side = "West";
-                size = "Squadron";
-                type = "Fighter";
-                commanderRank = "Lieutenant";
-                text = "Fixed Wing Flight";
-                textShort = "Reaper";
-                description = "LR70";
-            };
-
-            class Savage
-            {
-                id = 0;
-                idType = 0;
-                side = "West";
-                size = "Squadron";
-                type = "Artillery";
-                commanderRank = "Sergeant";
-                text = "Arty/Indirect fire";
-                textShort = "Savage";
-                description = "LR40";
-            };
-        };
-
-    };
-};
-//ORBAT END
