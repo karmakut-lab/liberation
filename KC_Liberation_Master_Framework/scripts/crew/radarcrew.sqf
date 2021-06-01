@@ -1,3 +1,3 @@
-params ["_vehicle"];
-createVehicleCrew _vehicle;
-_vehicle setVehicleRadar 1;
+// params ["_vehicle"];
+// createVehicleCrew _vehicle;
+// _vehicle setVehicleRadar 1;
