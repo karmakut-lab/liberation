@@ -144,9 +144,25 @@ KPLIB_objectInits = [
         {[_this] execVM "scripts\pylons\a10pylons.sqf";}
     ],
 
+    //[
+    //    ["USAF_F35A_STEALTH"],
+    //    {[_this] execVM "scripts\pylons\f35pylons.sqf";}
+    //],
+
     [
-        ["USAF_F35A_STEALTH"],
-        {[_this] execVM "scripts\pylons\f35pylons.sqf";}
+        ["JS_JC_FA18F"],
+        {[_this] execVM "scripts\pylons\f18pylons.sqf";}
+    ],
+
+    [
+        ["vtx_MH60M_DAP"],
+        {[_this] execVM "scripts\pylons\dappylons.sqf";}
+    ],
+
+
+    [
+        ["UK3CB_CW_US_B_LATE_AH64"],
+        {[_this] execVM "scripts\pylons\ah64pylons.sqf";}
     ],
 
     [

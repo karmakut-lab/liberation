@@ -95,7 +95,7 @@ heavy_vehicles = [
     ["RHS_M2A3_BUSKIII_wd",600,300,300],                                // M2A3 (Busk III)
     ["RHS_M6_wd",600,300,300],                                          // M6A2
     ["rhsusf_m1a1aimwd_usarmy",1000,1000,500],                                  // M1A1 AIM
-    ["rhsusf_m1a2sep1wd_usarmy",1250,1000,500],                           // M1A2 SEP v1 (Operations)
+    ["rhsusf_m1a2sep2wd_usarmy",1250,1250,500],                           // M1A2 SEP v1 (Operations)
 	["rhsusf_m1a2sep1tuskiiwd_usarmy",1500,1250,750],                    // TUSK
     ["rhsusf_m109_usarmy",750,2000,300]                                 // M109A6
 ];
@@ -106,15 +106,16 @@ air_vehicles = [
     ["RHS_MELB_MH6M",250,0,250],                                         // MH-6M Little Bird
     ["RHS_MELB_AH6M",250,300,250],                                       // AH-6M Pawnee
     ["UK3CB_CW_US_B_LATE_AH64",750,750,300],                                        // AH-64D (Multi-Role)
-    ["RHS_UH60M2",300,0,300],                                            // UH-60M (Unarmed)
-    ["RHS_UH60M",300,150,300],                                            // UH-60M
-    ["RHS_UH60M_MEV2",350,0,300],                                        // UH-60M MEV2
+    ["vtx_UH60M",300,150,300],                                            // UH-60M
+    ["vtx_HH60",350,0,300],                                        // UH-60M MEV2
+    ["vtx_MH60S_GAU21L",400,200,300],
 	["RHS_CH_47F",400,100,400],                                     	     // CH-47F Chinook
     ["USAF_MQ9",500,500,500],
 	["USAF_C130J",1000,0,1000],
     ["USAF_C17",2000,0,2000],                                             // C-17 Globemaster III
     ["USAF_A10",1500,1500,750],
-    ["USAF_F35A_STEALTH",1500,1500,1000]
+    ["JS_JC_FA18F",1500,1500,1000],
+    ["USAF_AC130U",3000,3000,2000]
 ];
 
 static_vehicles = [
@@ -280,13 +281,14 @@ blufor_squad_para = [
 elite_vehicles = [
     "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "rhsusf_m1a1aimwd_usarmy",                                                // M1A1 AIM
-    "rhsusf_m1a2sep1wd_usarmy",                                         // M1A2 SEP v1
-    "USAF_F35A_STEALTH",
+    "rhsusf_m1a2sep2wd_usarmy",                                         // M1A2 SEP v1
+    "JS_JC_FA18F",
     "rhsusf_m109_usarmy",                                               // M109A6
     "UK3CB_CW_US_B_LATE_AH64",                                                     // AH-64D (Multi-Role)
     "RHS_M6_wd",                                                        // M6
-    "RHS_UH60M_MEV2",                                                   // UH-60M MEV 2
+    "vtx_HH60",                                                   // UH-60M MEV 2
     "USAF_A10",                                     	                // A-10
 	"RHS_M2A3_BUSKIII_wd",
+    "USAF_AC130U",
 	"rhsusf_m1a2sep1tuskiiwd_usarmy"                                                     
 ];

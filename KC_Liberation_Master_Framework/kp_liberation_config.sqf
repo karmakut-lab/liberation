@@ -5,6 +5,7 @@
 
 // Vehicle classnames which also function as ACE medical vehicles.
 KP_liberation_medical_vehicles = [
+    "vtx_HH60",
     "B_T_Truck_01_medical_F",
     "B_Truck_01_medical_F",
     "C_Van_02_medevac_F",
