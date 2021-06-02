@@ -159,7 +159,6 @@ KPLIB_objectInits = [
         {[_this] execVM "scripts\pylons\dappylons.sqf";}
     ],
 
-
     [
         ["UK3CB_CW_US_B_LATE_AH64"],
         {[_this] execVM "scripts\pylons\ah64pylons.sqf";}

@@ -107,8 +107,7 @@ air_vehicles = [
     ["RHS_MELB_AH6M",250,300,250],                                       // AH-6M Pawnee
     ["UK3CB_CW_US_B_LATE_AH64",750,750,300],                                        // AH-64D (No Radar)
     ["vtx_UH60M",300,150,300],                                          // UH-60M
-    ["vtx_HH60",300,0,300],                                        // UH-60M MEV2
-    ["vtx_MH60S_GAU21L",400,200,300],
+    ["vtx_HH60",350,0,300],                                        // UH-60M MEV2
     ["vtx_MH60M_DAP",400,400,300],
     ["RHS_CH_47F",400,100,400],                                     	 // CH-47F Chinook
     ["USAF_MQ9",500,500,500],
