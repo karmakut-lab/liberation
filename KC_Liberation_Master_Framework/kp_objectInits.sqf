@@ -181,7 +181,7 @@ KPLIB_objectInits = [
     ],
 
     [
-        ["B_AAA_System_01_F"],
+        ["itc_land_cram_praetorian2"],
         {[_this] execVM "scripts\crew\praetoriancrew.sqf";}
     ],
 

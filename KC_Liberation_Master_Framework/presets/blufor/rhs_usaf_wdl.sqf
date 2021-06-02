@@ -97,7 +97,7 @@ heavy_vehicles = [
     ["rhsusf_m1a1aimwd_usarmy",1000,1000,500],                                  // M1A1 AIM
     ["rhsusf_m1a2sep2wd_usarmy",1250,1250,500],                           // M1A2 SEP v1 (Operations)
 	["rhsusf_m1a2sep1tuskiiwd_usarmy",1500,1250,750],                    // TUSK
-    ["rhsusf_m109_usarmy",750,2000,300]                                 // M109A6
+    ["itc_land_rhsusf_m109_usarmy",750,2000,300]                                 // M109A6
 ];
 
 air_vehicles = [
@@ -225,7 +225,7 @@ support_vehicles = [
     [KP_liberation_air_vehicle_building,1000,0,0],
     [KP_liberation_heli_slot_building,250,0,0],
     [KP_liberation_plane_slot_building,500,0,0],
-    ["B_AAA_System_01_F",3000,3000,0],
+    ["itc_land_cram_praetorian2",3000,3000,0],
     ["ACE_Box_82mm_Mo_HE",0,50,0],
     ["ACE_Box_82mm_Mo_Smoke",0,25,0],
     ["ACE_Box_82mm_Mo_Illum",0,25,0],
@@ -284,7 +284,7 @@ elite_vehicles = [
     "rhsusf_m1a1aimwd_usarmy",                                                // M1A1 AIM
     "rhsusf_m1a2sep2wd_usarmy",                                         // M1A2 SEP v1
     "JS_JC_FA18E",
-    "rhsusf_m109_usarmy",                                               // M109A6
+    "itc_land_rhsusf_m109_usarmy",                                               // M109A6
     "UK3CB_CW_US_B_LATE_AH64",                                                     // AH-64D (Multi-Role)
     "RHS_M6_wd",                                                        // M6
     "vtx_HH60",                                                   // UH-60M MEV 2
