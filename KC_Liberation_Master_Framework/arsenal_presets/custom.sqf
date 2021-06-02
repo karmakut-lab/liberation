@@ -757,6 +757,10 @@ private _whitelist = [
     "U_B_PilotCoveralls",                                           // Pilot Coveralls [NATO]
     "Binocular",
 
+    // ITC items
+    "itc_land_tablet_fdc",
+    "itc_land_tablet_rover",
+
     // cTab Items
     "ItemcTab",
 	"ItemAndroid",
