@@ -150,7 +150,7 @@ KPLIB_objectInits = [
     //],
 
     [
-        ["JS_JC_FA18F"],
+        ["JS_JC_FA18E"],
         {[_this] execVM "scripts\pylons\f18pylons.sqf";}
     ],
 
