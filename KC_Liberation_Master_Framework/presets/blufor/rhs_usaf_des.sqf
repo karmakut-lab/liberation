@@ -110,11 +110,11 @@ air_vehicles = [
     ["vtx_HH60",350,0,300],                                        // UH-60M MEV2
     ["vtx_MH60M_DAP",400,400,300],
     ["RHS_CH_47F",400,100,400],                                     	 // CH-47F Chinook
-    ["USAF_MQ9",500,500,500],
+    ["USAF_MQ9",500,300,500],
+    ["RHSGREF_A29B_HIDF",500,500,250],
 	["USAF_C130J",1000,0,1000],
     ["USAF_C17",2000,0,2000],                                             // C-17 Globemaster III
     ["USAF_A10",1500,1500,750],                                     	 // A-10C Thunderbolt II
-    ["JS_JC_FA18E",1500,1500,1000],
     ["USAF_AC130U",3000,3000,2000]
 ];
 
@@ -281,7 +281,6 @@ blufor_squad_para = [
 elite_vehicles = [
     "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "rhsusf_m1a1aimd_usarmy",                                                 // M1A1 Aim
-    "JS_JC_FA18E",
     "rhsusf_m1a2sep2d_usarmy",                                          // M1A2 SEP v1
     "itc_land_rhsusf_m109d_usarmy",                                              // M109A6
     "UK3CB_CW_US_B_LATE_AH64",                                                        // AH-64D (Multi-Role)

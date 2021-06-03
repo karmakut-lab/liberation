@@ -144,14 +144,9 @@ KPLIB_objectInits = [
         {[_this] execVM "scripts\pylons\a10pylons.sqf";}
     ],
 
-    //[
-    //    ["USAF_F35A_STEALTH"],
-    //    {[_this] execVM "scripts\pylons\f35pylons.sqf";}
-    //],
-
     [
-        ["JS_JC_FA18E"],
-        {[_this] execVM "scripts\pylons\f18pylons.sqf";}
+        ["RHSGREF_A29B_HIDF"],
+        {[_this] execVM "scripts\pylons\a29pylons.sqf";}
     ],
 
     [
@@ -189,29 +184,9 @@ KPLIB_objectInits = [
         {[_this] execVM "scripts\ammoboxes\USAFlaunchers.sqf";}
     ],
 
-    //[
-    //    ["Box_IND_WpsLaunch_F"],
-    //    {[_this] execVM "scripts\ammoboxes\USAFmaaws.sqf";}
-    //],
-
-    //[
-    //    ["Box_NATO_wpsLaunch_F"],
-    //    {[_this] execVM "scripts\ammoboxes\USAFstinger.sqf";}
-    //],
-
-    //[
-    //    ["Box_EAF_WpsLaunch_F"],
-    //    {[_this] execVM "scripts\ammoboxes\USAFjavelin.sqf";}
-    //],
-
     [
         ["Box_NATO_Ammo_F"],
         {[_this] execVM "scripts\ammoboxes\USAFammo.sqf";}
     ]
-
-    //[
-    //    ["Box_Syndicate_WpsLaunch_F"],
-    //    {[_this] execVM "scripts\ammoboxes\USAFm136.sqf";}
-    //]
 
 ];
