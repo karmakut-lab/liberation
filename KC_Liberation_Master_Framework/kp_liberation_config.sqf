@@ -284,7 +284,8 @@ KP_liberation_commander_actions = [
     "76561198202157540",//Paladinn
     "76561197960548388",//GimliTron
     "76561198040185781",//omaha
-    "76561198048029351" //fu
+    "76561198048029351",//fu
+    "76561198258070319" //zabari
 ];
 
 /* Whitelist for BI support framework access.
