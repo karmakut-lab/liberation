@@ -106,38 +106,12 @@ private _whitelist = [
     "rhsusf_weap_MP7A2_desert",                                     // MP7A2 (Desert)
     "rhsusf_weap_MP7A2_winter",                                     // MP7A2 (Winter)
     "rhsusf_weap_MP7A2",                                            // MP7A2
-    "rhs_fgm172a_magazine_AT",                                      // FGM172A SRAW
-    "rhs_fgm172b_magazine_MPV",                                     // FGM172B SRAW-MPV
     "rhs_LaserFCSMag",                                              // Designator Batteries
     "rhs_LaserMag_ai",                                              // Designator Batteries
     "rhs_LaserMag",                                                 // Designator Batteries
-    "rhs_mag_20Rnd_556x45_M193_2MAG_Stanag",                        // 20rnd STANAG (2x) M193
-    "rhs_mag_20Rnd_556x45_M193_Stanag",                             // 20rnd STANAG M193
-    "rhs_mag_20Rnd_556x45_M196_2MAG_Stanag_Tracer_Red",             // 20rnd STANAG (2x) M196 (Tracer)
-    "rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red",                  // 20rnd STANAG M196 (Tracer)
-    "rhs_mag_20Rnd_556x45_M200_Stanag",                             // 20rnd STANAG M200 (Blank)
-    "rhs_mag_20Rnd_556x45_M855_Stanag",                             // 20rnd STANAG M855
-    "rhs_mag_20Rnd_556x45_M855A1_Stanag",                           // 20rnd STANAG M855A1
-    "rhs_mag_20Rnd_556x45_Mk262_Stanag",                            // 20rnd STANAG Mk262 Mod 1
-    "rhs_mag_20Rnd_SCAR_762x51_m118_special",                       // 20rnd SCAR M118 Ball
     "rhs_mag_20Rnd_SCAR_762x51_m61_ap",                             // 20rnd SCAR M61 AP
     "rhs_mag_20Rnd_SCAR_762x51_m62_tracer",                         // 20rnd SCAR M62 (Tracer)
     "rhs_mag_20Rnd_SCAR_762x51_m80_ball",                           // 20rnd SCAR M80
-    "rhs_mag_20Rnd_SCAR_762x51_m80a1_epr",                          // 20rnd SCAR M80A1 EPR
-    "rhs_mag_20Rnd_SCAR_762x51_mk316_special",                      // 20rnd SCAR Mk316 Mod 0
-    "rhs_mag_30Rnd_556x45_M193_Stanag",                             // 30rnd STANAG M193
-    "rhs_mag_30Rnd_556x45_M196_Stanag_Tracer_Red",                  // 30rnd STANAG M196 (Tracer)
-    "rhs_mag_30Rnd_556x45_M200_Stanag",                             // 30rnd STANAG M200 (Blank)
-    "rhs_mag_30Rnd_556x45_M855_PMAG_Tan_Tracer_Red",                // 30rnd PMAG M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_PMAG_Tan",                           // 30rnd PMAG M855
-    "rhs_mag_30Rnd_556x45_M855_PMAG_Tracer_Red",                    // 30rnd PMAG M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_PMAG",                               // 30rnd PMAG M855
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Pull_Tracer_Red",             // 30rnd STANAG (Puller) M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Pull",                        // 30rnd STANAG (Puller) M855
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger_Tracer_Red",           // 30rnd STANAG (Ranger) M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Ranger",                      // 30rnd STANAG (Ranger) M855
-    "rhs_mag_30Rnd_556x45_M855_Stanag_Tracer_Red",                  // 30rnd STANAG M856 (Tracer)
-    "rhs_mag_30Rnd_556x45_M855_Stanag",                             // 30rnd STANAG M855
     "rhs_mag_30Rnd_556x45_M855A1_EPM_Pull_Tracer_Red",              // 30rnd EPM (Puller) M855A1 (Tracer)
     "rhs_mag_30Rnd_556x45_M855A1_EPM_Pull",                         // 30rnd EPM (Puller) M855A1
     "rhs_mag_30Rnd_556x45_M855A1_EPM_Ranger_Tracer_Red",            // 30rnd EPM (Ranger) M855A1 (Tracer)
@@ -154,19 +128,6 @@ private _whitelist = [
     "rhs_mag_30Rnd_556x45_M855A1_Stanag_Ranger",                    // 30rnd STANAG (Ranger) M855A1
     "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",                // 30rnd STANAG M856A1 (Tracer)
     "rhs_mag_30Rnd_556x45_M855A1_Stanag",                           // 30rnd STANAG M855A1
-    "rhs_mag_30Rnd_556x45_Mk262_PMAG_Tan",                          // 30rnd PMAG Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk262_PMAG",                              // 30rnd PMAG Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk262_Stanag_Pull",                       // 30rnd STANAG (Puller) Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk262_Stanag_Ranger",                     // 30rnd STANAG (Ranger) Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk262_Stanag",                            // 30rnd STANAG Mk262 Mod 1
-    "rhs_mag_30Rnd_556x45_Mk318_PMAG_Tan",                          // 30rnd PMAG Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_PMAG",                              // 30rnd PMAG Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR_Pull",                         // 30rnd SCAR (Puller) Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR_Ranger",                       // 30rnd SCAR (Ranger) Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_SCAR",                              // 30rnd SCAR Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag_Pull",                       // 30rnd STANAG (Puller) Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag_Ranger",                     // 30rnd STANAG (Ranger) Mk318 Mod 0
-    "rhs_mag_30Rnd_556x45_Mk318_Stanag",                            // 30rnd STANAG Mk318 Mod 0
     "rhs_mag_an_m14_th3",                                           // AN-M14 TH3 Invendenary Grenade
     "rhs_mag_an_m8hc",                                              // AN-M8HC White Smooke
     "rhs_mag_m18_green",                                            // M18 Green Smoke Grenade
@@ -196,19 +157,8 @@ private _whitelist = [
 	"SmokeShellGreen",
 	"SmokeShellWhite",
     "rhs_mag_six12_slug",                                           // Six-12 Slug
-    "rhs_mag_smaw_HEAA",                                            // Mk.6 HEAA
-    "rhs_mag_smaw_HEDP",                                            // Mk.3 HEDP
     "rhs_mag_smaw_SR",                                              // Mk.217 Spotting
     "rhs_mine_M19_mag",                                             // M19
-    "rhsusf_100Rnd_556x45_M200_soft_pouch_coyote",                  // 100rnd M249 Softpack M855
-    "rhsusf_100Rnd_556x45_M200_soft_pouch_ucp",                     // 100rnd M249 Softpack M200
-    "rhsusf_100Rnd_556x45_M200_soft_pouch",                         // 100rnd M249 Softpack M200
-    "rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_coyote",            // 100rnd M249 Softpack M855 (Mixed)
-    "rhsusf_100Rnd_556x45_M855_mixed_soft_pouch_ucp",               // 100rnd M249 Softpack M855 (Mixed)
-    "rhsusf_100Rnd_556x45_M855_mixed_soft_pouch",                   // 100rnd M249 Softpack M855 (Mixed)
-    "rhsusf_100Rnd_556x45_M855_soft_pouch_coyote",                  // 100rnd M249 Softpack M855
-    "rhsusf_100Rnd_556x45_M855_soft_pouch_ucp",                     // 100rnd M249 Softpack M855
-    "rhsusf_100Rnd_556x45_M855_soft_pouch",                         // 100rnd M249 Softpack M855
     "rhsusf_100Rnd_556x45_mixed_soft_pouch_coyote",                 // 100rnd M249 Softpack M855A1 (Mixed)
     "rhsusf_100Rnd_556x45_mixed_soft_pouch_ucp",                    // 100rnd M249 Softpack M855A1 (Mixed)
     "rhsusf_100Rnd_556x45_mixed_soft_pouch",                        // 100rnd M249 Softpack M855A1 (Mixed)
@@ -217,20 +167,8 @@ private _whitelist = [
     "rhsusf_100Rnd_556x45_soft_pouch",                              // 100rnd M249 Softpack M855A1
     "rhsusf_100Rnd_762x51_m61_ap",                                  // 100rnd M240 Box M61 AP
     "rhsusf_100Rnd_762x51_m62_tracer",                              // 100rnd M240 Box M62 (Tracer)
-    "rhsusf_100Rnd_762x51_m80a1epr",                                // 100rnd M240 Box M80A1 EPR
     "rhsusf_100Rnd_762x51",                                         // 100rnd M240 Box M80
-    "rhsusf_10Rnd_762x51_m118_special_Mag",                         // 10rnd AICS M118
-    "rhsusf_10Rnd_762x51_m62_Mag",                                  // 10rnd AICS M62 (Tracer)
-    "rhsusf_10Rnd_762x51_m993_Mag",                                 // 10rnd AICS M993 AP
     "rhsusf_200Rnd_556x45_box",                                     // 200rnd M249 Box M855A1
-    "rhsusf_200rnd_556x45_M855_box",                                // 200rnd M249 Box M855
-    "rhsusf_200rnd_556x45_M855_mixed_box",                          // 200rnd M249 Box M855 (Mixed)
-    "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_coyote",            // 200rnd M249 Softpack M855 (Mixed)
-    "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch_ucp",               // 200rnd M249 Softpack M855 (Mixed)
-    "rhsusf_200Rnd_556x45_M855_mixed_soft_pouch",                   // 200rnd M249 Softpack M855 (Mixed)
-    "rhsusf_200Rnd_556x45_M855_soft_pouch_coyote",                  // 200rnd M249 Softpack M855
-    "rhsusf_200Rnd_556x45_M855_soft_pouch_ucp",                     // 200rnd M249 Softpack M855
-    "rhsusf_200Rnd_556x45_M855_soft_pouch",                         // 200rnd M249 Softpack M855
     "rhsusf_200rnd_556x45_mixed_box",                               // 200rnd M249 Box M855A1 (Mixed)
     "rhsusf_200Rnd_556x45_mixed_soft_pouch_coyote",                 // 200rnd M249 Softpack M855A1 (Mixed)
     "rhsusf_200Rnd_556x45_mixed_soft_pouch_ucp",                    // 200rnd M249 Softpack M855A1 (Mixed)
@@ -238,27 +176,9 @@ private _whitelist = [
     "rhsusf_200Rnd_556x45_soft_pouch_coyote",                       // 200rnd M249 Softpack M855A1
     "rhsusf_200Rnd_556x45_soft_pouch_ucp",                          // 200rnd M249 Softpack M855A1
     "rhsusf_200Rnd_556x45_soft_pouch",                              // 200rnd M249 Softpack M855A1
-    "rhsusf_20Rnd_762x51_m118_special_Mag",                         // 20rnd M14 M118
-    "rhsusf_20Rnd_762x51_m62_Mag",                                  // 20rnd M14 M62 (Tracer)
-    "rhsusf_20Rnd_762x51_m993_Mag",                                 // 20rnd M14 M993AP
-    "rhsusf_20Rnd_762x51_SR25_m118_special_Mag",                    // 20rnd SR-25 M118
-    "rhsusf_20Rnd_762x51_SR25_m62_Mag",                             // 20rnd SR-25 M62 (Tracer)
-    "rhsusf_20Rnd_762x51_SR25_m993_Mag",                            // 20rnd SR-25 M993 AP
-    "rhsusf_20Rnd_762x51_SR25_mk316_special_Mag",                   // 20rnd SR-25 Mk316 Mod 0
     "rhsusf_50Rnd_762x51_m61_ap",                                   // 50rnd M240 Softpack M61 AP
     "rhsusf_50Rnd_762x51_m62_tracer",                               // 50rnd M240 Softpack M62 (Tracer)
-    "rhsusf_50Rnd_762x51_m80a1epr",                                 // 50rnd M240 Softpack M80A1 EPR
-    "rhsusf_50Rnd_762x51_m82_blank",                                // 50rnd M240 Belt M82 (Blank)
     "rhsusf_50Rnd_762x51",                                          // 50rnd M240 Softpack M80
-    "rhsusf_5Rnd_00Buck",                                           // 5Rnd .00 Buckshot
-    "rhsusf_5Rnd_300winmag_xm2010",                                 // 5Rnd .300WM Mk248 MOD 1
-    "rhsusf_5Rnd_762x51_AICS_m118_special_Mag",                     // 5Rnd AICS M118
-    "rhsusf_5Rnd_762x51_AICS_m62_Mag",                              // 5Rnd AICS M62 (Tracer)
-    "rhsusf_5Rnd_762x51_AICS_m993_Mag",                             // 5Rnd AICS M993 AP
-    "rhsusf_5Rnd_762x51_m118_special_Mag",                          // 5Rnd M118
-    "rhsusf_5Rnd_762x51_m62_Mag",                                   // 5Rnd M62 (Tracer)
-    "rhsusf_5Rnd_762x51_m993_Mag",                                  // 5Rnd M993 AP
-    "rhsusf_5Rnd_Slug",                                             // 5Rnd 12g Slug
     "rhsusf_8Rnd_00Buck",                                           // 8Rnd .00 Buckshot
     "rhsusf_8Rnd_Slug",                                             // 8Rnd 12g Slug
     "rhsusf_m112_mag",                                              // M112
@@ -268,7 +188,6 @@ private _whitelist = [
     "rhsusf_mag_17Rnd_9x19_FMJ",                                    // 17rnd Glock M882 FMJ
     "rhsusf_mag_17Rnd_9x19_JHP",                                    // 17rnd Glock Mk243 JHP
     "rhsusf_mag_40Rnd_46x30_AP",                                    // 40rnd MP7 SX AP
-    "rhsusf_mag_40Rnd_46x30_FMJ",                                   // 40rnd MP7 SX FMJ
     "rhsusf_mag_40Rnd_46x30_JHP",                                   // 40rnd MP7 SX JHP
     "rhsusf_mag_6Rnd_M397_HET",                                     // 6rnd M397 HET Grenades
     "rhsusf_mag_6Rnd_M433_HEDP",                                    // 6rnd M433 HEDP Grenades
@@ -281,12 +200,13 @@ private _whitelist = [
     "rhsusf_mag_6Rnd_M714_white",                                   // 6rnd. M714 White Smoke Round
     "rhsusf_mag_6Rnd_M715_green",                                   // 6rnd. M715 Green Smoke Round
     "rhsusf_mag_6Rnd_M716_yellow",                                  // 6rnd. M716 Yellow Smoke Round
-    "rhsusf_mag_6Rnd_M781_Practice",                                // 6rnd. M751 Practice Round
     "rhsusf_mag_7x45acp_MHP",                                       // 7rnd M1911 HP
     "rhsusf_mine_m14_mag",                                          // M14
     "rhsusf_mine_m49a1_10m_mag",                                    // M49A1 (10m)
     "rhsusf_mine_m49a1_3m_mag",                                     // M49A1 (3m)
     "rhsusf_mine_m49a1_6m_mag",                                     // M49A1 (6m)
+
+    // Tier One Weapons
 
     // Vanilla Standard Grenades & Explosives
     "APERSBoundingMine_Range_Mag",                                  // APERS Bounding Mine
