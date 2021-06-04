@@ -8,18 +8,18 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=4421;
+		nextID=4425;
 	};
 	class LayerIndexProvider
 	{
-		nextID=232;
+		nextID=246;
 	};
 	class Camera
 	{
-		pos[]={137.14534,177.03217,50.389767};
-		dir[]={0.34952489,-0.44511428,0.82447422};
-		up[]={0.17374057,0.89546984,0.40982819};
-		aside[]={0.92071086,-6.4377673e-008,-0.39032158};
+		pos[]={157.04445,176.9601,50.00494};
+		dir[]={-0.21678524,-0.53552568,0.81622082};
+		up[]={-0.13746768,0.84451896,0.51758128};
+		aside[]={0.96649206,7.4505806e-009,0.2566967};
 	};
 };
 binarizationWanted=0;
@@ -82397,7 +82397,7 @@ class Mission
 						rank="CAPTAIN";
 						init="call{group this setgroupid [""Assassin 6-6""];}";
 						name="commandant";
-						description="Assassin 6 Company Commander@Assassin 6-6 (Leadership)";
+						description="Assassin 6 Company Commander@Assassin HQ";
 						isPlayable=1;
 					};
 					id=3950;
@@ -82594,7 +82594,7 @@ class Mission
 						skill=0.60000008;
 						rank="LIEUTENANT";
 						init="call{group this setgroupid [""Assassin 6-6""];}";
-						description="Assassin 7 Company Executive Officer@Assassin 6-6 (Leadership)";
+						description="Assassin 7 Company Executive Officer@Assassin HQ";
 						isPlayable=1;
 					};
 					id=3951;
@@ -82791,7 +82791,7 @@ class Mission
 						skill=0.60000008;
 						rank="SERGEANT";
 						init="call{group this setgroupid [""Assassin 6-6""];" \n "this setVariable [""karma_canDeployRadioExtender"", true];}";
-						description="Assassin 8 Company FAC@Assassin 6-6";
+						description="Assassin 8 Company FAC@Assassin HQ";
 						isPlayable=1;
 					};
 					id=3952;
@@ -82987,7 +82987,7 @@ class Mission
 						skill=0.60000008;
 						rank="SERGEANT";
 						init="call{group this setgroupid [""Assassin 6-6""];}";
-						description="Assassin 9 Company Senior Medic@Assassin 6-6";
+						description="Assassin 9 Company Senior Medic@Assassin HQ";
 						isPlayable=1;
 					};
 					id=3953;
@@ -83211,7 +83211,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="Assassin 6-6";
+							value="Assassin HQ";
 						};
 					};
 				};
@@ -119671,7 +119671,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=2;
 				class Item0
 				{
 					dataType="Object";
@@ -119691,6 +119691,183 @@ class Mission
 						isPlayable=1;
 					};
 					id=3981;
+					type="rhsusf_army_ocp_engineer";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isEngineer";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TFAR_freq_lr";
+							expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="070.000";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TFAR_freq_sr";
+							expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="071.000";
+								};
+							};
+						};
+						nAttributes=8;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={132.517,141.66872,126.279};
+						angles[]={0,4.7247982,6.2702003};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000008;
+						rank="CAPTAIN";
+						init="call{group this setgroupid [""Reaper 1""];}";
+						description="Reaper 1 WSO@Reaper 1 (Fixed-Wing CAS)";
+						isPlayable=1;
+					};
+					id=4424;
 					type="rhsusf_army_ocp_engineer";
 					class CustomAttributes
 					{
@@ -119922,7 +120099,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=1;
+				items=2;
 				class Item0
 				{
 					dataType="Object";
@@ -119938,10 +120115,187 @@ class Mission
 						skill=0.60000008;
 						rank="CAPTAIN";
 						init="call{group this setgroupid [""Reaper 2""];}";
-						description="Reaper 2 Pilot@Reaper 2 (Fixed-Wing CAP)";
+						description="Reaper 2 Pilot@Reaper 2 (Fixed-Wing CAS)";
 						isPlayable=1;
 					};
 					id=4253;
+					type="rhsusf_army_ocp_engineer";
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="ace_isEngineer";
+							expression="if !(_value == ([0, 1] select (_this getUnitTrait 'engineer')) || {_value == -1}) then {_this setVariable ['ace_isEngineer', _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="TFAR_freq_lr";
+							expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; } else { _value = [str _value,9,87,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_lr',_value,true]; }";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="070.000";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="ace_isHandcuffed";
+							expression="if (_value) then {[objNull, [_this], true] call ace_captives_fnc_moduleHandcuffed}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute4
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						class Attribute5
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male12ENG";
+								};
+							};
+						};
+						class Attribute6
+						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute7
+						{
+							property="TFAR_freq_sr";
+							expression="if (_value isEqualTo '' || _value isEqualTo []) exitWith {}; if (_value isEqualType '') then { _value = [_value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; } else { _value = [str _value,8,512,30,10] call tfar_fnc_parseFrequenciesInput; _this setVariable ['TFAR_freq_sr',_value,true]; }";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="071.000";
+								};
+							};
+						};
+						nAttributes=8;
+					};
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={83.417999,141.87924,113.138};
+						angles[]={6.2711945,4.7247982,0.0089884456};
+					};
+					side="West";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000008;
+						rank="CAPTAIN";
+						init="call{group this setgroupid [""Reaper 2""];}";
+						description="Reaper 2 WSO@Reaper 2 (Fixed-Wing CAS)";
+						isPlayable=1;
+					};
+					id=4422;
 					type="rhsusf_army_ocp_engineer";
 					class CustomAttributes
 					{
