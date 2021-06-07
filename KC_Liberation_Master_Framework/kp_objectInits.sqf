@@ -170,16 +170,6 @@ KPLIB_objectInits = [
     ],
 
     [
-        ["B_Radar_System_01_F"],
-        {[_this] execVM "scripts\crew\radarcrew.sqf";}
-    ],
-
-    [
-        ["itc_land_cram_praetorian2"],
-        {[_this] execVM "scripts\crew\praetoriancrew.sqf";}
-    ],
-
-    [
         ["VirtualReammoBox_camonet_F"],
         {[_this] execVM "scripts\ammoboxes\USAFlaunchers.sqf";}
     ],

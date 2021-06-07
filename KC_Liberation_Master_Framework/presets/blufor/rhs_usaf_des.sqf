@@ -224,7 +224,6 @@ support_vehicles = [
     [KP_liberation_air_vehicle_building,1000,0,0],
     [KP_liberation_heli_slot_building,250,0,0],
     [KP_liberation_plane_slot_building,500,0,0],
-    ["itc_land_cram_praetorian2",3000,3000,0],
     ["ACE_Box_82mm_Mo_HE",0,50,0],
     ["ACE_Box_82mm_Mo_Smoke",0,25,0],
     ["ACE_Box_82mm_Mo_Illum",0,25,0],
