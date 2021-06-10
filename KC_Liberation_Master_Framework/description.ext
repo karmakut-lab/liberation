@@ -211,7 +211,7 @@ taskManagement_drawDist = 5000;
 /*
     ----- Config Includes -----
 */
-#include "infiSTAR_AdminMenu.hpp" //add support for infistar
+
 
 class CfgDebriefing {
     #include "KPLIB_debriefs.hpp"
@@ -231,6 +231,7 @@ class CfgDiscordRichPresence {
 class CfgFunctions {
     #include "CfgFunctions.hpp"
     #include "KP\KPPLM\KPPLM_functions.hpp"
+    
 };
 
 class CfgRespawnTemplates {
@@ -244,7 +245,7 @@ class CfgTaskDescriptions {
 #include "ui\liberation_interface.hpp"
 #include "ui\liberation_notifications.hpp"
 #include "ui\mission_params.hpp"
-
+#include "infiSTAR_AdminMenu.hpp"
 #include "GREUH\UI\GREUH_interface.hpp"
 #include "KP\KPGUI\KPGUI_defines.hpp"
 #include "KP\KPPLM\ui\KPPLM_dialog.hpp"
