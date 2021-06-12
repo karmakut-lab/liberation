@@ -65,6 +65,7 @@ addons[]=
 	"A3_Modules_F_Multiplayer",
 	"rhsusf_c_troops",
 	"A3_Modules_F_Curator_Curator",
+	"Desert",
 	"vtx_mh60s"
 };
 class AddonsMetaData
@@ -190,6 +191,11 @@ class AddonsMetaData
 			url="https://www.arma3.com";
 		};
 		class Item17
+		{
+			className="Desert";
+			name="Desert";
+		};
+		class Item18
 		{
 			className="vtx_mh60s";
 			name="vtx - MH60S";
