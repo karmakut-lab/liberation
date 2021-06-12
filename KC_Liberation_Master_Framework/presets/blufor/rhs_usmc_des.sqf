@@ -268,7 +268,7 @@ elite_vehicles = [
     "rhsusf_mkvsoc",                                                    // Mk.V SOCOM
     "rhsusf_m1a1aimd_usarmy",                                                 // M1A1 Aim
     "rhsusf_m1a2sep1d_usarmy",                                          // M1A2 SEP v1
-	"rhsusf_CH53E_USMC_GAU21_D"                                         // CH53E GAU21
+	"rhsusf_CH53E_USMC_GAU21_D",                                         // CH53E GAU21
     "RHS_AH1Z",                                                        // AH1Z Viper
     "USAF_A10",                                     	                // A-10
 	"USAF_AC130U",

@@ -1474,7 +1474,7 @@ private _whitelist = [
     "ACE_wirecutter",                                               // Wirecutter
 
     //food
-    "ACE_Canteen",                                                  // Canteen
+    "ACE_Canteen",
     "ACE_WaterBottle",                                                  
     "ACE_MRE_BeefStew",
     "ACE_MRE_ChickenTikkaMasala",

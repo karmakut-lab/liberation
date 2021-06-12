@@ -106,7 +106,7 @@ air_vehicles = [
     ["RHS_MELB_MH6M",250,0,250],                                         // MH-6M Little Bird
     ["RHS_MELB_AH6M",250,300,250],                                       // AH-6M Pawnee
     ["UK3CB_CW_US_B_LATE_AH64",750,750,300],                                        // AH-64D (No Radar)
-    ["vtx_UH60M",300,150,300],                                          // UH-60M
+    ["vtx_UH60M",300,150,300],                                           // UH-60M
     ["vtx_HH60",350,0,300],                                        // UH-60M MEV2
     ["vtx_MH60M_DAP",400,400,300],
     ["RHS_CH_47F",400,100,400],                                     	 // CH-47F Chinook
@@ -230,6 +230,7 @@ support_vehicles = [
     ["ACE_Box_82mm_Mo_Smoke",0,25,0],
     ["ACE_Box_82mm_Mo_Illum",0,25,0],
     ["Box_NATO_Ammo_F",0,5,0],
+    ["C_IDAP_supplyCrate_F",0,0,0], 
     ["ACE_medicalSupplyCrate_advanced",5,0,0],
     ["VirtualReammoBox_camonet_F",0,500,0],
     ["ACE_Wheel",10,0,0],
