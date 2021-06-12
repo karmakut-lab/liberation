@@ -91,7 +91,6 @@ zbe_centerPOS = [zbe_mapside, zbe_mapside, 0];
 
 [] spawn {
 	if (zbe_debug) then {
-			while {true} do {
 				uiSleep 15;
 				zbe_cachedUnits = (count allUnits - ({simulationEnabled _x} count allUnits));
 				zbe_cachedVehicles = (count zbe_allVehicles - ({simulationEnabled _x} count zbe_allVehicles));
@@ -111,7 +110,8 @@ zbe_centerPOS = [zbe_mapside, zbe_mapside, 0];
 				zbe_log_stats = format ["Groups: %1 # All/Cached Units: %2/%3 # All/Cached Vehicles: %4/%5 # FPS: %6 # ObjectDrawDistance: %7", count allGroups, count allUnits, zbe_cachedUnits, zbe_allVehiclesCount, zbe_cachedVehicles, (round diag_fps), zbe_objectView];
 				diag_log format ["%1 ZBE_Cache (%2) ---  %3", (round time), name player, zbe_log_stats];
 			};
-		};
+			sleep 15;
+			hintSilent "";
 };
 // Experimental, disabled for now
 // if (!isDedicated) then {execFSM "zbe_cache\zbe_clientObjectDrawAuto.fsm";};
