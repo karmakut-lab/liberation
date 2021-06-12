@@ -206,7 +206,14 @@ taskManagement_propagate = 1;
 // 3D marker maximum draw distance in meters.
 // Within this range, unassigned tasks are drawn on screen.
 taskManagement_drawDist = 5000;
-
+//CHANNEL id, text, voice
+disableChannels[] = {
+    { 0, true, true },
+    { 1, false, true },
+    { 2, true, true },
+    { 3, false, true },
+    { 4, false, true }
+};
 
 /*
     ----- Config Includes -----
