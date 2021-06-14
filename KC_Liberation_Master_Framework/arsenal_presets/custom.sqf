@@ -1473,6 +1473,19 @@ private _whitelist = [
     "ACE_VMM3",                                                     // VMM3
     "ACE_wirecutter",                                               // Wirecutter
 
+    //food
+    "ACE_Canteen",
+    "ACE_WaterBottle",                                                  
+    "ACE_MRE_BeefStew",
+    "ACE_MRE_ChickenTikkaMasala",
+    "ACE_MRE_ChickenHerbDumplings",
+    "ACE_MRE_CreamChickenSoup",
+    "ACE_MRE_CreamTomatoSoup",
+    "ACE_MRE_LambCurry",
+    "ACE_MRE_MeatballsPasta",
+    "ACE_MRE_SteakVegetables",
+    "ACE_Humanitarian_Ration",
+
     // ACRE Items
     "ACRE_PRC117F",                                                 // AN/PRC-117F
     "ACRE_PRC148",                                                  // AN/PRC-148
