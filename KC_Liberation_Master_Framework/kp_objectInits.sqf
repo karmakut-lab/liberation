@@ -175,11 +175,6 @@ KPLIB_objectInits = [
     ],
 
     [
-        ["C_IDAP_supplyCrate_F"],
-        {[_this] execVM "scripts\ammoboxes\MRE.sqf";}
-    ],
-
-    [
         ["Box_NATO_Ammo_F"],
         {[_this] execVM "scripts\ammoboxes\USAFammo.sqf";}
     ]
