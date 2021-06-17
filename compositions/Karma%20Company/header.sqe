@@ -1,8 +1,0 @@
-version=54;
-name="Karma Company";
-author="Karmakut";
-category="EdSubcat_Default";
-requiredAddons[]=
-{
-	"rhsusf_c_troops"
-};
