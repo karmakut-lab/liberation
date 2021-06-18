@@ -7356,5 +7356,23 @@
             <Spanish>Los hospitales de campaña solo se pueden desplegar en el terreno.</Spanish>
             <Czech>Polní nemocnice lze nasadit pouze v terénu.</Czech>
         </Key>
+        <Key ID="STR_KARMA_DEPLOY_RADIO_EXTENDER">
+            <English>Deploy Radio Extender</English>
+        </Key>
+        <Key ID="STR_KARMA_REPACK_RADIO_EXTENDER">
+            <English>Repack Radio Extender</English>
+        </Key>
+        <Key ID="STR_KARMA_RADIO_EXTENDER_DEPLOYED">
+            <English>Radio Extender Deployed</English>
+        </Key>
+        <Key ID="STR_KARMA_RADIO_EXTENDER_ALREADY_DEPLOYED">
+            <English>Please repack your current radio extender before deploying a new one.</English>
+        </Key>
+        <Key ID="STR_KARMA_RADIO_EXTENDER_REPACKED">
+            <English>Radio Extender Repacked</English>
+        </Key>
+        <Key ID="STR_KARMA_RADIO_EXTENDER_MUST_BE_DEPLOYED_ON_TERRAIN">
+            <English>Radio extenders can only be deployed on terrain.</English>
+        </Key>
     </Package>
 </Project>
