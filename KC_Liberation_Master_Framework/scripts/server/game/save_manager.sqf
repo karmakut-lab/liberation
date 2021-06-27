@@ -99,6 +99,11 @@ KPLIB_sectorsUnderAttack = [];
 resources_intel = 0;
 // State if the save is fully loaded
 save_is_loaded = false;
+//session based stats
+TeamKillers = createHashMap;
+ResistanceKillers = createHashMap;
+CivilianKillers = createHashMap;
+
 
 // Add all buildings for saving and kill manager ignore
 _noKillHandler append KPLIB_b_buildings_classes;

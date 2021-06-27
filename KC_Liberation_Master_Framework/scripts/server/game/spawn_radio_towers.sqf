@@ -18,4 +18,10 @@ private _tower = objNull;
     _tower setPos (markerpos _x);
     _tower setVectorUp [0, 0, 1];
     _tower addEventHandler ["HandleDamage", {0}];
+     if (_x in blufor_sectors) then {
+        _liberated_sector setVariable ["adv_var_isRelay",true,true];
+        [_liberated_sector, 7000] call TFAR_antennas_fnc_initRadioTower;
+        systemChat "Radio repeater activated.";
+     };
+
 } forEach sectors_tower;

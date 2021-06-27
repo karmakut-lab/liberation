@@ -41,6 +41,12 @@ if (_liberated_sector in sectors_factory) then {
     ];
 };
 
+if (_liberated_sector in sectors_tower) then {
+    _liberated_sector setVariable ["adv_var_isRelay",true,true];
+    [_liberated_sector, 7000] call TFAR_antennas_fnc_initRadioTower;
+    systemChat "Radio repeater activated.";
+};
+
 [_liberated_sector] spawn F_cr_liberatedSector;
 
 if ((random 100) <= KP_liberation_cr_wounded_chance || (count blufor_sectors) == 1) then {
