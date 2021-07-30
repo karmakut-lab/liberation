@@ -48,6 +48,14 @@ while { GRLIB_endgame == 0 } do {
             ((units _grp) select 0) disableAI "FSM";
             ((units _grp) select 0) disableAI "AUTOCOMBAT";
             _grpspeed = "LIMITED";
+            ((units _grp) select 0) addEventHandler ["Suppressed", {
+                    	params ["_unit", "_distance", "_shooter", "_instigator", "_ammoObject", "_ammoClassName", "_ammoConfig"];
+                      if (_distance <= 20) then {
+                          ((units _grp) select 0) disableAI "MOVE";
+                          sleep 60;
+                          ((units _grp) select 0) enableAI "MOVE";
+                      };
+            }];
 
         };
 
@@ -99,11 +107,11 @@ while { GRLIB_endgame == 0 } do {
 
         waitUntil {
             sleep (30 + (random 30));
-            ((({alive _x} count (units _grp)) == 0) || (count ([getpos leader _grp, 4000] call KPLIB_fnc_getNearbyPlayers) == 0))
+            ((({alive _x} count (units _grp)) == 0) || (count ([getpos leader _grp, 1500] call KPLIB_fnc_getNearbyPlayers) == 0))
         };
 
         if ( count (units _grp) > 0 ) then {
-            if (count ([getpos leader _grp, 4000] call KPLIB_fnc_getNearbyPlayers) == 0) then {
+            if (count ([getpos leader _grp, 1500] call KPLIB_fnc_getNearbyPlayers) == 0) then {
 
                 if ( !(isNull _civveh) ) then {
                      if ( { ( alive _x ) && (side group _x == GRLIB_side_friendly ) } count (crew _civveh) == 0 ) then {
