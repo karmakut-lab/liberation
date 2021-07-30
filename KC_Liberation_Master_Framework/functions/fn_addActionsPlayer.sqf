@@ -373,4 +373,23 @@ _player addAction [
     "
 ];
 
+// Toggle liberation UI visibility
+_player addAction [
+    "Toggle Liberation UI",
+    {
+    if (KP_liberation_overlay_visible == true) then {
+        KP_liberation_overlay_visible = false;
+    } else {
+        KP_liberation_overlay_visible = true;
+    };},
+    nil,
+    -860,
+    false,
+    true,
+    "",
+    "
+        alive _originalTarget
+    "
+];
+
 true
